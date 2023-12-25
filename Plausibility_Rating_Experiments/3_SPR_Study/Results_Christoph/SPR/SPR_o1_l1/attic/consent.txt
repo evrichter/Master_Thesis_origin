@@ -1,0 +1,42 @@
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636988997535,CAPsurvey,NULL
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,PennController,1,_Header_,Start,1636988997535,CAPsurvey,NULL
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,PennController,1,_Header_,End,1636988997536,CAPsurvey,NULL
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,Html,consent2,prolific_id,5fe47517b11116199233a54a,1636989013105,CAPsurvey,text input
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636989013105,CAPsurvey,checkbox
+1636991086,1e4c681271954f5bbd2a50ef64019f6c,2,0,consent2,NULL,PennController,1,_Trial_,End,1636989013105,CAPsurvey,NULL
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636989003696,CAPsurvey,NULL
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,PennController,1,_Header_,Start,1636989003696,CAPsurvey,NULL
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,PennController,1,_Header_,End,1636989003696,CAPsurvey,NULL
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,Html,consent2,prolific_id,610038f434bfc30dd06483be,1636989014268,CAPsurvey,text input
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636989014268,CAPsurvey,checkbox
+1636991235,7464ce10b49059a43117192fa73a62f6,2,0,consent2,NULL,PennController,1,_Trial_,End,1636989014269,CAPsurvey,NULL
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636988990117,CAPsurvey,NULL
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,PennController,1,_Header_,Start,1636988990117,CAPsurvey,NULL
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,PennController,1,_Header_,End,1636988990118,CAPsurvey,NULL
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,Html,consent2,prolific_id,60fd3d33d9e5eea835eba429,1636988995922,CAPsurvey,text input
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636988995923,CAPsurvey,checkbox
+1636991550,efb2d433ef6e1d0654da29e726aa1495,2,0,consent2,NULL,PennController,1,_Trial_,End,1636988995926,CAPsurvey,NULL
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636989436845,CAPsurvey,NULL
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,PennController,1,_Header_,Start,1636989436845,CAPsurvey,NULL
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,PennController,1,_Header_,End,1636989436846,CAPsurvey,NULL
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,Html,consent2,prolific_id,6106ac34408681f3b0d07396,1636989451908,CAPsurvey,text input
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636989451908,CAPsurvey,checkbox
+1636991936,ec9f10ce724941e66694214bf77a8120,2,0,consent2,NULL,PennController,1,_Trial_,End,1636989451909,CAPsurvey,NULL
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636989137102,CAPsurvey,NULL
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,PennController,1,_Header_,Start,1636989137102,CAPsurvey,NULL
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,PennController,1,_Header_,End,1636989137102,CAPsurvey,NULL
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,Html,consent2,prolific_id,60f2c01eda767e48b6c2830a,1636989157672,CAPsurvey,text input
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636989157672,CAPsurvey,checkbox
+1636992025,85f447c311c07c15d5178be87b3b9fc0,2,0,consent2,NULL,PennController,1,_Trial_,End,1636989157672,CAPsurvey,NULL
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636988971249,CAPsurvey,NULL
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,PennController,1,_Header_,Start,1636988971249,CAPsurvey,NULL
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,PennController,1,_Header_,End,1636988971249,CAPsurvey,NULL
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,Html,consent2,prolific_id,60fd517713f9f42dfcbd8d10,1636988988863,CAPsurvey,text input
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636988988863,CAPsurvey,checkbox
+1636992092,94795cde134ae06b054c72eb83a4d3dc,2,0,consent2,NULL,PennController,1,_Trial_,End,1636988988864,CAPsurvey,NULL
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,PennController,1,_Trial_,Start,1636988918827,CAPsurvey,NULL
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,PennController,1,_Header_,Start,1636988918827,CAPsurvey,NULL
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,PennController,1,_Header_,End,1636988918829,CAPsurvey,NULL
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,Html,consent2,prolific_id,5ff5b79027696804bc79d938,1636988952540,CAPsurvey,text input
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1636988952540,CAPsurvey,checkbox
+1636992169,3f9dc946504de8872cee22e89111a1f4,2,0,consent2,NULL,PennController,1,_Trial_,End,1636988952541,CAPsurvey,NULL
