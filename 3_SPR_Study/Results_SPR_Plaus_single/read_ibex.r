@@ -8,7 +8,7 @@ library(data.table)
 library(gridExtra)
 library(dplyr)
 
-setwd("~/Downloads/Master_Thesis/Plausibility_Rating_Experiments/3_SPR_Study/Results_SPR_Plaus_single/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
 source("ibex_fns.r")
 
 
@@ -254,7 +254,7 @@ cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 # Data Viz for avg Plausratings from SPR Study
 library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/Plausibility_Rating_Experiments/3_SPR_Study/Results_SPR_Plaus_single/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
 dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
 
 

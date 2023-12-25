@@ -9,7 +9,7 @@ library(gridExtra)
 library(dplyr)
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/not_log_transformed/")
-source("ibex_fns_not_log_transformed.r")
+source("ibex_fns.r")
 
 
 #### DATA FORMATTING
@@ -189,7 +189,7 @@ averages <- averages %>%
   filter(Region != "Pre-critical_2")
 print(averages)
 
-# Create a line plot with average log-transformed reading times
+# Create a line plot with average raw reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                      y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (250, 310)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
@@ -239,15 +239,15 @@ cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 # #### DATA VISUALISATION
 # Data Viz for avg Plausratings from SPR Study
-library(ggplot2)
+#library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/SPR_single_not_log_transformed/")
-dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
+#setwd("~/Downloads/Master_Thesis/3_SPR_Study/not_log_transformed/")
+#dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
 
 
-means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
-means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
-dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
+#means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
+#means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
+#dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
 
 # density plot plausibility SPR 
 #p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)

@@ -5,8 +5,8 @@ library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/Plausibility_Rating_Experiments/3_SPR_Study/Results_SPR_Plaus_single/")
-GP6 <- read.csv("GP6_filtered.csv")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
+GP6 <- read.csv("GP6SPR_processed.csv")
 
 residuals <- data.frame(
   Region = character(0),
@@ -106,17 +106,13 @@ for (region in regions)
     
     # calculate residuals
     Residual_region_per_condition <- mean(region_per_condition$logRT_per_region) - mean(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)
-    Residual_region_per_condition
+    
     # observed RT for condition A precritical
     region_per_condition_logRT_observed <- mean(region_per_condition$logRT_per_region)
-   # if (condition == "C") 
-   #  {
-   #  print(region_per_condition_logRT_observed)
-   # }
+
     # estimated RT for condition A precritical
     region_per_condition_logRT_estimated <- mean(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)
-    region_per_condition_logRT_estimated
-    
+
     # calculate standard error for residuals
     SE_residuals_region_per_condition <- sqrt(sd(region_per_condition$logRT, na.rm = TRUE)^2/length(region_per_condition$logRT) + sd(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)^2/length(region_per_condition$region_per_condition_Predicted))
     
@@ -124,7 +120,6 @@ for (region in regions)
     residuals <- rbind(residuals, new_row_residuals)
     
     # calculate standard error for logRT estimated
-    ##
     SE_estimated_region_per_condition <- sd(region_per_condition$region_per_condition_Predicted, na.rm = TRUE) / sqrt(length(region_per_condition$region_per_condition_Predicted)) 
     
     new_row_logRT_estimated <- data.frame(Region = region, Condition = condition, Estimated_logRT = region_per_condition_logRT_estimated, SE_Estimated = SE_estimated_region_per_condition)
@@ -155,6 +150,7 @@ p <- p + labs(x="Region", y="logRT", title = "Estimated RTs")
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
 ggsave("Estimated_RTs_Plot.pdf", p, width=4, height=4)
+
 
 # plot intercept and coefficients added to intercept
 p <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 

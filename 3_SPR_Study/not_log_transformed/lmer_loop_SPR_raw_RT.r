@@ -1,7 +1,7 @@
 ### LMER ###
 # load lme4 package
 library(lme4)
-#library(lmerTest)
+library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
@@ -55,7 +55,7 @@ for (region in regions)
   
   
   # define and run the linear mixed-effects regression model for the precritical region 
-  model_per_region <- lmer(RT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + 
+  model_per_region <- lmerTest::lmer(RT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + 
                               (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Subject) + 
                               (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Item), data = region_subset)
   
@@ -65,11 +65,11 @@ for (region in regions)
   print(summary_per_region)
   
   # calculate p-values
-  #p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
-  #new_row_p_value <- data.frame(Region = region, 
-  #                             p_value_plausibility_target = p_values_per_region[2], 
-  #                            p_value_surprisal_distractor = p_values_per_region[3])
-  #p_values <- rbind(p_values, new_row_p_value)
+  p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
+  new_row_p_value <- data.frame(Region = region, 
+                               p_value_plausibility_target = p_values_per_region[2], 
+                               p_value_surprisal_distractor = p_values_per_region[3])
+  p_values <- rbind(p_values, new_row_p_value)
   
   # extract intercept and coefficients added to intercept
   coefficients_per_region <- summary_per_region$coefficients
@@ -107,14 +107,13 @@ for (region in regions)
     
     # calculate residuals
     Residual_region_per_condition <- mean(region_per_condition$RT_per_region) - mean(region_per_condition$region_per_condition_Predicted)
-    Residual_region_per_condition
+
     # observed RT for condition A precritical
     region_per_condition_RT_observed <- mean(region_per_condition$RT_per_region)
  
     # estimated RT for condition A precritical
     region_per_condition_RT_estimated <- mean(region_per_condition$region_per_condition_Predicted)
-    region_per_condition_RT_estimated
-    
+
     # calculate standard error for residuals
     SE_residuals_region_per_condition <- sqrt(sd(region_per_condition$RT_per_region, na.rm = TRUE)^2/length(region_per_condition$RT_per_region) + sd(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)^2/length(region_per_condition$region_per_condition_Predicted))
     
@@ -122,7 +121,6 @@ for (region in regions)
     residuals <- rbind(residuals, new_row_residuals)
     
     # calculate standard error for RT estimated
-    ##
     SE_estimated_region_per_condition <- sd(region_per_condition$region_per_condition_Predicted, na.rm = TRUE) / sqrt(length(region_per_condition$region_per_condition_Predicted)) 
     
     new_row_RT_estimated <- data.frame(Region = region, Condition = condition, Estimated_RT = region_per_condition_RT_estimated, SE_Estimated = SE_estimated_region_per_condition)

@@ -1,4 +1,4 @@
-setwd("~/Downloads/Master_Thesis/Plausibility_Rating_Experiments/3_SPR_Study/Results_SPR_Plaus_single/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
 
 # exclude participants with low accuracy on comprehension questions
 excluded_participants <- c("ffdd30f484d223ac5999ce51deb40e33",
