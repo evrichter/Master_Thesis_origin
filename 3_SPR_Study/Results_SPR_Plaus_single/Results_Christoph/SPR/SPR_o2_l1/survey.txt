@@ -1,0 +1,55 @@
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637240953509,CAPsurvey,NULL
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637240953509,CAPsurvey,NULL
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637240953509,CAPsurvey,NULL
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Einfach gelesen und beantwortet,1637240984840,CAPsurvey,text input
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Aufmerksamkeitsspanne,1637240984840,CAPsurvey,text input
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1637240984840,CAPsurvey,radio button
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637240984840,CAPsurvey,radio button
+1637240986,736871851da98847fb43a1adb4de5e65,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637240984840,CAPsurvey,NULL
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637250275026,CAPsurvey,NULL
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637250275026,CAPsurvey,NULL
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637250275026,CAPsurvey,NULL
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,,1637250314239,CAPsurvey,text input
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Lesegenauigkeit in Verbindung mit Geschwindigkeit? Es waren einige inhaltliche Fehler in den Texten enthalten...,1637250314239,CAPsurvey,text input
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1637250314239,CAPsurvey,radio button
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637250314239,CAPsurvey,radio button
+1637250315,6f252f1cf3b35a5c8af17ca84d5f2437,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637250314240,CAPsurvey,NULL
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637250629441,CAPsurvey,NULL
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637250629441,CAPsurvey,NULL
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637250629442,CAPsurvey,NULL
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,lesen und im Kopf behalten,1637251257517,CAPsurvey,text input
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1637251257517,CAPsurvey,text input
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1637251257517,CAPsurvey,radio button
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637251257517,CAPsurvey,radio button
+1637251258,9e354dc1b0d8e248b344c88628ceb711,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637251257517,CAPsurvey,NULL
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637251389850,CAPsurvey,NULL
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637251389850,CAPsurvey,NULL
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637251389853,CAPsurvey,NULL
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich habe einfach nur gelesen. Auch wenn die unlogischen Sätze mittendrin gerade am Anfang super verwirrend waren. ,1637251485075,CAPsurvey,text input
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,ob man sich Sachen anders merkt%2C wenn man sie als ganzen Block liest oder Wort für Wort oder ob die Geschwindigkeit%2C mit der man die Wörter durchklickt%2C etwas am Ergebnis ändern.,1637251485075,CAPsurvey,text input
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637251485075,CAPsurvey,radio button
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637251485075,CAPsurvey,radio button
+1637251486,8eff66fe98ef72017afa3815a19f81e2,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637251485076,CAPsurvey,NULL
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637251932881,CAPsurvey,NULL
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637251932881,CAPsurvey,NULL
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637251932881,CAPsurvey,NULL
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,ich hatte keine strategie. ich habe einfach die tasten getippt wenn uch fertig gelesen hatte und dann die fragen beantwortet,1637252005844,CAPsurvey,text input
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,lesegewschwindigkeit,1637252005844,CAPsurvey,text input
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637252005844,CAPsurvey,radio button
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637252005844,CAPsurvey,radio button
+1637252007,9fa0c589dccbc7536014ed66a06215b2,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637252005846,CAPsurvey,NULL
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637252282764,CAPsurvey,NULL
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637252282764,CAPsurvey,NULL
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637252282764,CAPsurvey,NULL
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Nein%2C habe nur versucht so schnell wie möglich zu lesen.,1637252318816,CAPsurvey,text input
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Geschwindigkeit des Lesens,1637252318816,CAPsurvey,text input
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637252318817,CAPsurvey,radio button
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637252318817,CAPsurvey,radio button
+1637252321,720df221984e7b93ec6012fd44a6c005,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637252318817,CAPsurvey,NULL
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637254246223,CAPsurvey,NULL
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637254246223,CAPsurvey,NULL
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637254246223,CAPsurvey,NULL
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich habe versucht die Texte so aufmerksam wie möglich zu lesen und mich von nicht passenden Wörtern nicht beirren zu lassen. Außerdem habe ich die zweite Pause etwas länger gemacht%2C weil ich im zweiten Block mitbekommen habe%2C dass meine Aufmerksamkeit nicht mehr ausreichend war um aufmerksam zu lesen.,1637254352178,CAPsurvey,text input
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1637254352178,CAPsurvey,text input
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1637254352178,CAPsurvey,radio button
+1637254355,ddfa681cbfc4f25859628d03f903a2ec,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637254352178,CAPsurvey,radio button

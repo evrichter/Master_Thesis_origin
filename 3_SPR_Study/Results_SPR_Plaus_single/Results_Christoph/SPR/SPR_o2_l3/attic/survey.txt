@@ -1,0 +1,55 @@
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637156232188,CAPsurvey,NULL
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637156232188,CAPsurvey,NULL
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637156232188,CAPsurvey,NULL
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,,1637156243858,CAPsurvey,text input
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1637156243858,CAPsurvey,text input
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1637156243858,CAPsurvey,radio button
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637156243858,CAPsurvey,radio button
+1637156242,0aecff7f4a3bf881d9c6e16cdc57c1cc,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637156243859,CAPsurvey,NULL
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637156586868,CAPsurvey,NULL
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637156586868,CAPsurvey,NULL
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637156586868,CAPsurvey,NULL
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich habe jeden Satz sorgfältig gelesen.,1637156613670,CAPsurvey,text input
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1637156613670,CAPsurvey,text input
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637156613670,CAPsurvey,radio button
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637156613670,CAPsurvey,radio button
+1637156626,851549786876fc070726b50e3628b127,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637156613671,CAPsurvey,NULL
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637158171242,CAPsurvey,NULL
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637158171242,CAPsurvey,NULL
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637158171243,CAPsurvey,NULL
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Alles aufmerksam lesen%2C besonders%2C wenn Merkwürdigkeiten vorkamen,1637158197480,CAPsurvey,text input
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1637158197480,CAPsurvey,text input
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637158197480,CAPsurvey,radio button
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637158197480,CAPsurvey,radio button
+1637158200,ad963f3b95a3b0af070261cadf2eeeac,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637158197481,CAPsurvey,NULL
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637158817446,CAPsurvey,NULL
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637158817446,CAPsurvey,NULL
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637158817446,CAPsurvey,NULL
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,hatte keine Strategie,1637158857214,CAPsurvey,text input
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,nein,1637158857214,CAPsurvey,text input
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637158857215,CAPsurvey,radio button
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637158857215,CAPsurvey,radio button
+1637158858,f700641f06169fe453f3b92b67d8a494,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637158857215,CAPsurvey,NULL
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637159643582,CAPsurvey,NULL
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637159643582,CAPsurvey,NULL
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637159643583,CAPsurvey,NULL
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,aufmerksam lesen und nicht zu schnell durch die Wörter klicken.,1637159710932,CAPsurvey,text input
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,irgendetwas mit verwirrenden Texten? Teilweise machten die Sätze bzw. die Reihenfolge keinen Sinn,1637159710932,CAPsurvey,text input
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637159710933,CAPsurvey,radio button
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637159710933,CAPsurvey,radio button
+1637159713,b27a8d48ef51d7210e59e19942616c0a,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637159710934,CAPsurvey,NULL
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637161168718,CAPsurvey,NULL
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637161168718,CAPsurvey,NULL
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637161168718,CAPsurvey,NULL
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich habe alles gut durchgelesen. ,1637161215566,CAPsurvey,text input
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Geduld%2C Gedächtnis%2C Verstand,1637161215566,CAPsurvey,text input
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637161215566,CAPsurvey,radio button
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1637161215566,CAPsurvey,radio button
+1637161217,b18ed1d540ca92e4b29e6e48fa7ee244,5,0,postexp_survey,NULL,PennController,4,_Trial_,End,1637161215569,CAPsurvey,NULL
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,PennController,4,_Trial_,Start,1637162848744,CAPsurvey,NULL
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,PennController,4,_Header_,Start,1637162848744,CAPsurvey,NULL
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,PennController,4,_Header_,End,1637162848744,CAPsurvey,NULL
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Erst alles durchgelesen%2C mit der Zeit den Text eher überflogen%2C um Zeit zu sparen.,1637162882461,CAPsurvey,text input
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1637162882461,CAPsurvey,text input
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1637162882462,CAPsurvey,radio button
+1637162884,62b8309a753b2da936c06a87db9e38f7,5,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1637162882462,CAPsurvey,radio button
