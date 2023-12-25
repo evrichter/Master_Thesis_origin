@@ -38,7 +38,7 @@ SPR_coefficients <- data.frame(
 
 
 regions <- c("Pre-critical", "Critical", "Spillover", "Post-spillover") 
-conditions <- c("A", "B", "C") 
+conditions <- c("A", "B", "C")
 
 for (region in regions) 
 {
