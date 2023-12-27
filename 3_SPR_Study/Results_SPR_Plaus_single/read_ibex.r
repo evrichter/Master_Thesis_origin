@@ -86,18 +86,6 @@ fwrite(df, "GP6SPR_processed.csv")
 GP6 <- df
 
 
-condition_A <- GP6$Condition == "A" & (GP6$SPR_Plaus_Rating == 6 | GP6$SPR_Plaus_Rating == 7)
-condition_B <- GP6$Condition == "B" & (GP6$SPR_Plaus_Rating == 3 | GP6$SPR_Plaus_Rating == 4 | GP6$SPR_Plaus_Rating == 5)
-condition_C <- GP6$Condition == "C" & (GP6$SPR_Plaus_Rating == 1 | GP6$SPR_Plaus_Rating == 2)
-
-
-# should only remove ratings for values in SPR_Plaus_Rating column for some participants and not
-# the values of other columns for the same rows as well 
-GP6$SPR_Plaus_Rating[!(condition_A | condition_B | condition_C)] <- NA
-
-fwrite(GP6, "GP6_filtered.csv")
-
-
 # Check mean accuracies / mean reaction times PER PARTICIPANT
 ###calculate mean Reaction Time and Accuracy per subject ### just for info, is not included in thesis
 # removed rows where reaction time was NA, because otherwise the lapply method includes them in the mean calculation which makes the mean lower

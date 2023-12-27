@@ -129,6 +129,15 @@ for (region in regions)
   }
 }
 
+# density plot
+p <- ggplot(GP6, aes(x=SPR_Plaus_Rating, color= as.factor(Ntile_Group), fill=as.factor(Ntile_Group))) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1) + scale_x_continuous(breaks=seq(1,7))
+#p <- p + geom_vline(data=GP6, aes(xintercept=SPR_Plaus_Rating, color=as.factor(Ntile_Group)), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+p <- p + scale_color_manual(labels=c("1", "2", "3"), values=c("blue", "red", "black"))
+p <- p + scale_fill_manual(labels=c("1", "2", "3"), values=c("blue", "red", "black"))
+p <- p + labs(title = "ntile_group", y="Density", x="Plausibility" )
+#ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
+p
+
 # plot residuals
 # Create a line plot 
 p <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 

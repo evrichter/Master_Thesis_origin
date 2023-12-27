@@ -1,0 +1,95 @@
+<head>
+<style>
+table#languages, table#languages th, table#languages td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+</style>
+</head>
+<div style="width: 40em;">
+  <p><b>Abschließend benötigen wir noch einige Angaben zu Ihrer Person.</b></p>
+     
+<table>
+<tr>
+      <td colspan="2">
+  <label class="error" for="consent"></label>
+      </td>
+    </tr>
+    
+    <tr>
+      <td colspan="2" style="width: 30em; padding-bottom: 1em;">
+      </td>
+    </tr>
+<tr>
+      <td>Alter:</td><td><input name="age" type="text" size="30" class="obligatory" /></td>
+    </tr>
+    
+    <tr>
+      <td colspan="2"><label class="error" for="age"></label></td>
+    </tr>
+<tr>
+  <td>Geschlecht:</td>
+  <td><input name="sex" type="radio" value="male" class="obligatory" id="csexmale" /><label for="csexmale"> Männlich </label>
+    <input name="sex" type="radio" value="female" id="csexfemale"/><label for="csexfemale"> Weiblich</label>
+    <input name="sex" type="radio" value="other" id="csexother"/><label for="csexother"> Anderes</label>
+</tr>
+
+    
+    <tr>
+      <td colspan="2"><label class="error" for="sex"></label></td>
+</tr>
+<tr>
+      <td>Ist Deutsch Ihre Muttersprache?</td><td><input name="lang" type="radio" value="Yes" class="obligatory" id="csexyes" /><label for="csexyes"> Ja </label>
+  <input name="lang" type="radio" value="No" id="csexno"/><label for="csexno"> Nein</label>
+    </tr>
+</table>
+<br>
+
+<b>Welche anderen Sprachen sprechen Sie?<b>
+<br>
+<br>
+<table id="languages">
+  <tr>
+    <th>Sprache</th>
+    <th>Weitere Muttersprache</th>
+    <th>Flüssig</th>
+    <th>Sehr gut</th>
+    <th>Mittelmäßig</th>
+    <th>Anfänger</th>
+  </tr>
+
+<tr>
+      <td><input name="lang1" type="text" size="30"/></td>
+      <td><input name="prof1" type="radio" value="native"><label for="prof1"></label></td>
+      <td><input name="prof1" type="radio" value="fluent"><label for="prof1"></label></td>
+      <td><input name="prof1" type="radio" value="verygood"><label for="prof1"></label></td>
+      <td><input name="prof1" type="radio" value="intermediate"><label for="prof1"></label></td>
+      <td><input name="prof1" type="radio" value="beginner"><label for="prof1"></label></td>
+    </tr>
+    <tr>
+      
+      <td><input name="lang2" type="text" size="30"/></td>
+      <td><input name="prof2" type="radio" value="native"><label for="prof2"></label></td>
+      <td><input name="prof2" type="radio" value="fluent"><label for="prof2"></label></td>
+      <td><input name="prof2" type="radio" value="verygood"><label for="prof2"></label></td>
+      <td><input name="prof2" type="radio" value="intermediate"><label for="prof2"></label></td>
+      <td><input name="prof2" type="radio" value="beginner"><label for="prof2"></label></td>
+    </tr>
+    <tr>
+      
+      <td><input name="lang3" type="text" size="30"/></td>
+      <td><input name="prof3" type="radio" value="native"><label for="prof3"></label></td>
+      <td><input name="prof3" type="radio" value="fluent"><label for="prof3"></label></td>
+      <td><input name="prof3" type="radio" value="verygood"><label for="prof3"></label></td>
+      <td><input name="prof3" type="radio" value="intermediate"><label for="prof3"></label></td>
+      <td><input name="prof3" type="radio" value="beginner"><label for="prof3"></label></td>
+    </tr>
+  </table>
+
+</div>
