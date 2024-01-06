@@ -40,7 +40,8 @@ regions <- c("Pre-critical", "Critical", "Spillover", "Post-spillover")
 conditions <- c("A", "B", "C")
 ntile_groups <- c(1, 2, 3)
 
-GP6$Ntile_Group <- ntile(GP6$SPR_Plaus_Rating, 3)
+GP6$Ntile_Group <- ntile(GP6$Plaus_target_avg, 3)
+df<- GP6[, c("Condition", "Plaus_target_avg", "Ntile_Group")]
 
 for (region in regions) 
 {
@@ -48,7 +49,7 @@ for (region in regions)
   region_subset <- subset(GP6, Region == region)
   
   # standardise predictors
-  region_subset$scaled_Plaus_per_region <- scale(region_subset$SPR_Plaus_Rating)
+  region_subset$scaled_Plaus_per_region <- scale(region_subset$Plaus_target_avg)
   region_subset$scaled_Surprisaldist_per_region <- scale(region_subset$Surprisal_distractor)
   # invert predictor plausibility
   region_subset$inverted_scaled_Plaus_per_region <- (region_subset$scaled_Plaus_per_region) * (-1)
@@ -129,22 +130,14 @@ for (region in regions)
   }
 }
 
-# density plot
-p <- ggplot(GP6, aes(x=SPR_Plaus_Rating, color= as.factor(Ntile_Group), fill=as.factor(Ntile_Group))) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1) + scale_x_continuous(breaks=seq(1,7))
-#p <- p + geom_vline(data=GP6, aes(xintercept=SPR_Plaus_Rating, color=as.factor(Ntile_Group)), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
-p <- p + scale_color_manual(labels=c("1", "2", "3"), values=c("blue", "red", "black"))
-p <- p + scale_fill_manual(labels=c("1", "2", "3"), values=c("blue", "red", "black"))
-p <- p + labs(title = "ntile_group", y="Density", x="Plausibility" )
-#ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
-p
 
 # plot residuals
 # Create a line plot 
 p <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                            y = Residual, color = as.factor(Ntile_Group), group = Ntile_Group)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Residual-SE_Residual, ymax=Residual+SE_Residual), width=.1, size=0.3) 
-p <- p + scale_color_manual(name="Ntile_Group", labels=c("1: Implausible", "2: Medium Plausible", "3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
-p <- p + labs(x="Region", y="logRT", title = "Residuals: Plausibility Target + Surprisal Distractor") 
+p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1: Implausible", "Group 2: Medium plausible", "Group 3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
+p <- p + labs(x="Region", y="logRT", title = "Residuals") 
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
 
@@ -156,7 +149,7 @@ ggsave("Residuals_Plot.pdf", p, width=4, height=4)
 p <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                                  y = Estimated_logRT, color = as.factor(Ntile_Group), group = Ntile_Group)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
-p <- p + scale_color_manual(name="Ntile_Group", labels=c("1: Implausible", "2: Medium Plausible", "3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
+p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1: Implausible", "Group 2: Medium plausible", "Group 3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
 p <- p + labs(x="Region", y="logRT", title = "Estimated RTs") 
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 

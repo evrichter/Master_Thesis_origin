@@ -1,0 +1,55 @@
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691049462195,CAPsurvey,NULL
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691049462195,CAPsurvey,NULL
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691049462195,CAPsurvey,NULL
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Nein,1691049474459,CAPsurvey,text input
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1691049474459,CAPsurvey,text input
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691049474459,CAPsurvey,radio button
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691049474459,CAPsurvey,radio button
+1691049475,70ce5d19cafafe815bce9dfc9f5c3f24,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691049474459,CAPsurvey,NULL
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691053125443,CAPsurvey,NULL
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691053125443,CAPsurvey,NULL
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691053125443,CAPsurvey,NULL
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Nein%2C ich habe die Texte nur normal gelesen und versucht mir möglichst viel zu merken.,1691053150618,CAPsurvey,text input
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein%2C ich habe wirklich keine Ahnung.,1691053150618,CAPsurvey,text input
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691053150618,CAPsurvey,radio button
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691053150618,CAPsurvey,radio button
+1691053152,1aea249eabcdcc254575eb555c70adcf,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691053150618,CAPsurvey,NULL
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691053309379,CAPsurvey,NULL
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691053309379,CAPsurvey,NULL
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691053309379,CAPsurvey,NULL
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich finde nicht%2C dass man für diese Art von Aufgabe eine Strategie benötigt%2C die über das befolgen der Anweisungen hinaus geht.,1691053370676,CAPsurvey,text input
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1691053370676,CAPsurvey,text input
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691053370676,CAPsurvey,radio button
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691053370676,CAPsurvey,radio button
+1691053371,57e63345db5604096fab7360944b8281,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691053370676,CAPsurvey,NULL
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691053650270,CAPsurvey,NULL
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691053650270,CAPsurvey,NULL
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691053650270,CAPsurvey,NULL
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,die Situation visuell vorstellen,1691053679846,CAPsurvey,text input
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1691053679846,CAPsurvey,text input
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691053679846,CAPsurvey,radio button
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691053679846,CAPsurvey,radio button
+1691053682,c1287daeed0636b1e80d9f3f7b690278,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691053679847,CAPsurvey,NULL
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691054429445,CAPsurvey,NULL
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691054429445,CAPsurvey,NULL
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691054429445,CAPsurvey,NULL
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,keine Strategie,1691054449275,CAPsurvey,text input
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,nein,1691054449275,CAPsurvey,text input
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691054449276,CAPsurvey,radio button
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691054449276,CAPsurvey,radio button
+1691054452,047b6072d4dc1f88cf0f6f2b0de367cf,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691054449276,CAPsurvey,NULL
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691055511274,CAPsurvey,NULL
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691055511274,CAPsurvey,NULL
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691055511274,CAPsurvey,NULL
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Nein,1691055526631,CAPsurvey,text input
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Konzentration,1691055526631,CAPsurvey,text input
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691055526631,CAPsurvey,radio button
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691055526631,CAPsurvey,radio button
+1691055527,913540f7b54ffd534532a4b0bcecc777,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691055526632,CAPsurvey,NULL
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691060808923,CAPsurvey,NULL
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691060808923,CAPsurvey,NULL
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691060808923,CAPsurvey,NULL
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,ne,1691060819193,CAPsurvey,text input
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,ne,1691060819193,CAPsurvey,text input
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691060819193,CAPsurvey,radio button
+1691060821,70047bd5e751615d5f695f6c0687dcfc,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691060819193,CAPsurvey,radio button

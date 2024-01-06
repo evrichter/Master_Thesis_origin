@@ -251,11 +251,12 @@ means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
 dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
 
 # density plot
-p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)
+p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1)
 p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
 p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
+p <- p + theme(legend.position = "bottom")
 ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
 p
 
