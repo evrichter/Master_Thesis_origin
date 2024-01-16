@@ -98,6 +98,7 @@ for (region in regions)
                                     Z_value = coefficients_per_region["scaled_Surprisaldist_per_region", 1] / coefficients_per_region["scaled_Surprisaldist_per_region", 2])
   SPR_coefficients <- rbind(SPR_coefficients, new_row_coefficient)
   
+  
   for (condition in conditions)
   {
     #####predict condition A, precritical#####
@@ -143,6 +144,8 @@ for (region in regions)
   }
 }
 
+
+
 # plot residuals
 # Create a line plot 
 p <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
@@ -152,7 +155,6 @@ p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Mediu
 p <- p + labs(x="Region", y="logRT", title = "Residuals") 
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
-
 ggsave("Residuals_Plot.pdf", p, width=4, height=4)
 
 

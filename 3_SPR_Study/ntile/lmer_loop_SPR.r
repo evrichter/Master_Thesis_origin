@@ -41,7 +41,28 @@ conditions <- c("A", "B", "C")
 ntile_groups <- c(1, 2, 3)
 
 GP6$Ntile_Group <- ntile(GP6$Plaus_target_avg, 3)
-df<- GP6[, c("Condition", "Plaus_target_avg", "Ntile_Group")]
+#df<- GP6[, c("Condition", "Plaus_target_avg", "Ntile_Group")]
+
+GP6$logRT <- log(GP6$ReadingTime)
+
+averages <- GP6 %>%
+  group_by(Region, Ntile_Group) %>%
+  summarise(
+    MeanReadingTime = mean(logRT, na.rm = TRUE), 
+    SE = sd(logRT, na.rm = TRUE) / sqrt(n()))
+
+averages <- averages %>% 
+  filter(Region != "Pre-critical_2")
+print(averages)
+
+# Create a line plot with average log-transformed reading times
+p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
+                          y = MeanReadingTime, color = as.factor(Ntile_Group), group = Ntile_Group)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
+p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1", "Group 2", "Group 3"), values=c("#0000FF", "#FF0000", "#000000"))
+p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
+p <- p + labs(x="Region", y="logRT", title = "Observed RTs") 
+p 
 
 for (region in regions) 
 {
@@ -59,8 +80,8 @@ for (region in regions)
   
   # define and run the linear mixed-effects regression model for the precritical region 
   model_per_region <- lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + 
-                              (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Subject) + 
-                              (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Item), data = region_subset)
+                                       (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Subject) + 
+                                       (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Item), data = region_subset)
   
   # print the summary of the model
   summary_per_region <- summary(model_per_region)
@@ -112,10 +133,10 @@ for (region in regions)
     
     # observed RT for condition A precritical
     region_per_condition_logRT_observed <- mean(region_per_condition$logRT_per_region)
-
+    
     # estimated RT for condition A precritical
     region_per_condition_logRT_estimated <- mean(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)
-
+    
     # calculate standard error for residuals
     SE_residuals_region_per_condition <- sqrt(sd(region_per_condition$logRT, na.rm = TRUE)^2/length(region_per_condition$logRT) + sd(region_per_condition$region_per_condition_Predicted, na.rm = TRUE)^2/length(region_per_condition$region_per_condition_Predicted))
     
@@ -136,7 +157,7 @@ for (region in regions)
 p <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                            y = Residual, color = as.factor(Ntile_Group), group = Ntile_Group)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Residual-SE_Residual, ymax=Residual+SE_Residual), width=.1, size=0.3) 
-p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1: Implausible", "Group 2: Medium plausible", "Group 3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
+p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1", "Group 2", "Group 3"), values=c("#0000FF", "#FF0000", "#000000"))
 p <- p + labs(x="Region", y="logRT", title = "Residuals") 
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
@@ -149,7 +170,7 @@ ggsave("Residuals_Plot.pdf", p, width=4, height=4)
 p <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                                  y = Estimated_logRT, color = as.factor(Ntile_Group), group = Ntile_Group)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
-p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1: Implausible", "Group 2: Medium plausible", "Group 3: Plausible"), values=c("#0000FF", "#FF0000", "#000000"))
+p <- p + scale_color_manual(name="Ntile_Group", labels=c("Group 1", "Group 2", "Group 3"), values=c("#0000FF", "#FF0000", "#000000"))
 p <- p + labs(x="Region", y="logRT", title = "Estimated RTs") 
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
@@ -158,7 +179,7 @@ ggsave("Estimated_RTs_Plot.pdf", p, width=4, height=4)
 
 # plot intercept and coefficients added to intercept
 p <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p <- p + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p <- p + labs(x="Region", y="SPR Coefficients", title = "Coefficients") 
@@ -171,7 +192,7 @@ ggsave("Intercept_Coefficients_Plot.pdf", p, width=4, height=4)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                  y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p <- p + geom_hline(yintercept=0, linetype=2)
 p <- p + theme_minimal()
 p <- p + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -179,4 +200,3 @@ p <- p + labs(x="Region", y="Z-values", title = "Inferential Statistics")
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p 
 ggsave("Z_values_Plot.pdf", p, width=4, height=4)
-

@@ -167,13 +167,6 @@ plaus_range_by_condition
 GP6$logRT <- log(GP6$ReadingTime)
 ### Calculate average reading times per region and per condition ###
 
-avg_logRT_by_regions_and_conditions <- data.frame(
-  Region = character(0),
-  Condition = character(0),
-  MeanReadingTime = numeric(0),
-  SE_MeanReadingTime = numeric(0)
-)
-
 regions <- c("Pre-critical", "Critical", "Spillover", "Post-spillover") 
 conditions <- c("A", "B", "C") 
 
