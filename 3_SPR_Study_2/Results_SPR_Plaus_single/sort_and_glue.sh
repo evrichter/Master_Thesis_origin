@@ -1,4 +1,4 @@
-dir_array=(SPR_o1_l1/ SPR_o1_l2/ SPR_o1_l3/ SPR_o2_l1/ SPR_o2_l2/)
+dir_array=(SPR_o1_l1/ SPR_o1_l2/ SPR_o1_l3/ SPR_o2_l1/ SPR_o2_l2/ SPR_o2_l3/)
 files_array=(demog.txt consent.txt survey.txt reading.txt task.txt)
 
 for direc in "${dir_array[@]}"; do  # loop through the array

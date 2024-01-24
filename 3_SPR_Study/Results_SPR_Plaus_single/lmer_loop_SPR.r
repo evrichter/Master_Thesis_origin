@@ -48,7 +48,7 @@ conditions <- c("A", "B", "C")
 ### loop through each of the 4 regions ###
 for (region in regions) 
 {
-  # Precritical region
+  # take subset for each region (precritical, critical, spillover, postspillover)
   region_subset <- subset(GP6, Region == region)
 
   # standardise predictors (target plausibility (per-trial) and distractor surprisal (pre-test))
