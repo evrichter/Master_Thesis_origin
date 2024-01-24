@@ -39,6 +39,7 @@ rd <- get_reads("reading.txt")
 df <- merge(rd, rc[,c("ReactionTime", "Accuracy", "IPhash", "Item")], by=c("IPhash", "Item"), all=TRUE)
 # df <- merge(df, pr[,c("IPhash", "Item", "Condition", "SPR_Plaus_Rating", "SPR_Plaus_avg")], by=c("IPhash", "Item", "Condition"), all=TRUE)
 
+
 # Change IPhashes to subject numbers
 colnames(df)[1] <- "Subject"
 df[, Subject := .GRP, by = .(Subject)]
@@ -76,7 +77,7 @@ fwrite(df, "GP6SPR.csv")
 
 ### REMOVING OUTLIERS IN READING TIME AND REACTION TIME DATA
 # Remove too high or low reading times and reaction times
-# df <- remove_outliers(df)
+df <- remove_outliers(df)
 
 fwrite(df, "GP6SPR_processed.csv")
 
@@ -84,8 +85,6 @@ fwrite(df, "GP6SPR_processed.csv")
 # saved df into GP6 csv file because when reading GP6 from the scratch it cannot be processed by the following functions 
 # GP6 <- read.csv("GP6SPR_processed.csv")
 GP6 <- df
-
-# GP6 <- GP6[(Subject %in% c(7)),] #remove rows
 
 
 # Check mean accuracies / mean reaction times PER PARTICIPANT
@@ -187,7 +186,7 @@ print(averages)
 
 # Create a line plot with average log-transformed reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.2, 5.7)
+                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.4, 5.9)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
@@ -201,14 +200,6 @@ GP6 <- read.csv("GP6SPR.csv")  #use unprocessed file bc in prestudies no outlier
 correlation_matrix <- cor(GP6[, c("Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor")])
 correlation_matrix
 
-# correlation svg Plaus per item and condition & surprisal from SPR study
-# no plausibility distractor column, bc no distractor values were calculated for plausibility in the SPR study
-correlation_matrix <- cor(GP6[, c("SPR_Plaus_Rating", "Surprisal_target", "Surprisal_distractor")])
-correlation_matrix
-
-# calculate correlation coefficient between SPR_Plaus_avg (avg Plausratings from SPR study) and Plaus_target_avg (avg Plausratings from Plaus study)
-correlation <- cor(GP6$SPR_Plaus_avg, GP6$Plaus_target_avg)
-cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 
 ########## READ PROCESSED DATA

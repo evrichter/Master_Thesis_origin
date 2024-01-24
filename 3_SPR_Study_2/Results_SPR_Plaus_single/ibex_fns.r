@@ -1,9 +1,17 @@
 setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR_Plaus_single/")
 
 # exclude participants with low accuracy on comprehension questions
-excluded_participants <- c("3941ddebbb752bc5987290829ff08ef1",
-                           "ec66d23ff6dddfa9f3640492e69bb7f3",
-                           "7d0398318324bcb6ecf76e25dd0fe1bc")
+excluded_participants <- c("3941ddebbb752bc5987290829ff08ef1",  #list3  o1_l3 (acc.)   Subj. 7 ~0.73 #FIND NEW PERSON (but better than 0.78) (27 min)
+                            "ec66d23ff6dddfa9f3640492e69bb7f3",  #list1  o1_l1 (acc. 0.4)  #FIND NEW PERSON
+                            "7d0398318324bcb6ecf76e25dd0fe1bc",  #list1  o1_l1 (acc. )  Subj. 17 ~0.78 #FIND NEW PERSON   (41 min)
+                            "b94b605732b7bae08017c7d6283c4189",  #list4  o2_l1 (acc. )  Subj. 25 ~0.77  #better than 0.78, can leave this one in (44 min)
+                            "57d66efe06ab60cc9a570c0030b909bbb", #list1  o1_l1 (double from list 2, changed IP hash to avoid excluding data twice)
+                            "910230cc6461d3425afbdf1639edca52") # list 5 o2_l2 (acc. 0.76), better to exclude (shifts a lot)
+# need for sure at least 1 new person: accuracy 0.4 
+# also exclude person with accuracy 0.78, because changes RTs a lot, with 0.73 and especially 0.77 are fine
+# Problem: both ~ 0.4 and 0.78 are from list one :( high prob. to get same participants), 0.73 list 3
+
+#excluded_participants <- c()
 
 #### FUNCTIONS
 get_reacts <- function(
@@ -183,25 +191,32 @@ remove_outliers <- function(
     reading_time_outliers <- df[ReadingTime < 50 | ReadingTime > 2500]
     reaction_time_outliers <- df[ReactionTime < 50 | ReactionTime > 10000]
     
-    for(i in 1:nrow(reading_time_outliers)) {
-      trial_row <- reading_time_outliers[i, ]
-      
-      trial_item <- trial_row$Item
-      trial_condition <- trial_row$Condition
-      trial_subject <- trial_row$Subject
-      
-      df <- df[!(Item == trial_item & Condition == trial_condition & Subject == trial_subject)]
+    if (nrow(reading_time_outliers) != 0)
+    {
+      for(i in 1:nrow(reading_time_outliers)) {
+        trial_row <- reading_time_outliers[i, ]
+        
+        trial_item <- trial_row$Item
+        trial_condition <- trial_row$Condition
+        trial_subject <- trial_row$Subject
+        
+        df <- df[!(Item == trial_item & Condition == trial_condition & Subject == trial_subject)]
+      } 
     }
     
-    for(i in 1:nrow(reaction_time_outliers)) {
-      trial_row <- reaction_time_outliers[i, ]
-      
-      trial_item <- trial_row$Item
-      trial_condition <- trial_row$Condition
-      trial_subject <- trial_row$Subject
-      
-      df <- df[!(Item == trial_item & Condition == trial_condition & Subject == trial_subject)]
+    if (nrow(reaction_time_outliers) != 0)
+    {
+      for(i in 1:nrow(reaction_time_outliers)) {
+        trial_row <- reaction_time_outliers[i, ]
+        
+        trial_item <- trial_row$Item
+        trial_condition <- trial_row$Condition
+        trial_subject <- trial_row$Subject
+        
+        df <- df[!(Item == trial_item & Condition == trial_condition & Subject == trial_subject)]
+      }
     }
+    
     n_after_exclusion <- as.numeric(nrow(df) / 5)
     
     percent_excluded <- (n_total - n_after_exclusion) / n_total * 100

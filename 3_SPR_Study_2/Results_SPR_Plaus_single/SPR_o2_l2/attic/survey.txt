@@ -1,0 +1,55 @@
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1705946079750,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1705946079750,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1705946079751,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Den Text langsam und vorsichtig zu lesen.,1705946133030,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Wie schnell man einen Text unvollständig begreifen kann?,1705946133030,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1705946133030,CAPsurvey,radio button
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1705946133030,CAPsurvey,radio button
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1705946133043,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706006189508,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706006189508,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706006189508,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Genau lesen,1706006206636,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Genauigkeit beim schnellen Lesen,1706006206637,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1706006206637,CAPsurvey,radio button
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1706006206637,CAPsurvey,radio button
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706006206638,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706008951543,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706008951543,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706008951543,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Konzentriert lesen,1706008971599,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1706008971599,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1706008971599,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1706008971599,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706008971599,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706014830378,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706014830378,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706014830378,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Text lesen und Hauptpunkte merken,1706014858584,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1706014858584,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1706014858584,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1706014858584,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706014858584,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706018007505,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706018007505,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706018007508,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Keine Strategie%2C einfach nur aufmerksam lesen. Meist war aber die Frage bezogen auf den letzten Satz%2C den man mit der Leertaste nach und nach freigeschaltet hat,1706018085379,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein. Allerdings ist mir aufgefallen%2C dass die Texte manchmal keinen Sinn ergeben haben,1706018085379,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1706018085380,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1706018085380,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706018085381,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706022038177,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706022038177,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706022038177,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,keine Strategie,1706022126744,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,nicht wirklich. Allerdings ist mir aufgefallen%2C dass die Geschichten teilweise in sich nicht schlüssig waren%2C da das wahrscheinlich intendiert war%2C wird es wohl etwas damit zu tun haben.,1706022126744,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1706022126745,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1706022126745,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706022126745,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706023336803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706023336803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706023336803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Texte überfliegen%2C um nicht so lange zu brauchen; manche Texte ungenauer lesen%2C wenn ich vermutet habe%2C dass dazu keine Frage gestellt wird.,1706023451474,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,ob man unterschiedlich bei irritirenden Satzkonstellationen reagiert?,1706023451474,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1706023451475,CAPsurvey,radio button
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1706023451475,CAPsurvey,radio button

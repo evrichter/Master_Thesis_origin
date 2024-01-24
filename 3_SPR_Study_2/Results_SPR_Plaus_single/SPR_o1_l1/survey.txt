@@ -53,3 +53,11 @@
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,nein,1705489407617,CAPsurvey,text input
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1705489407617,CAPsurvey,radio button
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1705489407617,CAPsurvey,radio button
+1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1705489407618,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1705949332621,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1705949332621,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1705949332621,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich hatte keine Strategie. Ich wollte mir lediglich die gelesenen Informationen so gut wie möglich merken.,1705949366105,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein%2C leider keine Vermutung.,1705949366105,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1705949366105,CAPsurvey,radio button
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1705949366105,CAPsurvey,radio button

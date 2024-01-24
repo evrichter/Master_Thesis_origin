@@ -112,6 +112,22 @@
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705486066474,CAPsurvey,radio button
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705486066474,CAPsurvey,radio button
 1705489408,3e128d8eeb751bdd6be8e4a1294e87b8,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705486066474,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705945298989,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705945298989,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705945298989,CAPsurvey,NULL
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L1_age,10,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L2,Japanisch,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L2_age,22,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,Age,29,1705945357323,CAPsurvey,text input
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705945357323,CAPsurvey,radio button
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1705945357323,CAPsurvey,radio button
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705945357323,CAPsurvey,radio button
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705945357323,CAPsurvey,radio button
+1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705945357324,CAPsurvey,NULL
 1705499938,cc64472421a7dc4717091c420fcfd773,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705494885889,CAPsurvey,NULL
 1705499938,cc64472421a7dc4717091c420fcfd773,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705494885889,CAPsurvey,NULL
 1705499938,cc64472421a7dc4717091c420fcfd773,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705494885889,CAPsurvey,NULL
@@ -224,3 +240,339 @@
 1705516167,57d66efe06ab60cc9a570c0030b909bb,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705509913066,CAPsurvey,radio button
 1705516167,57d66efe06ab60cc9a570c0030b909bb,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705509913066,CAPsurvey,radio button
 1705516167,57d66efe06ab60cc9a570c0030b909bb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705509913066,CAPsurvey,NULL
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705540129739,CAPsurvey,NULL
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705540129739,CAPsurvey,NULL
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705540129739,CAPsurvey,NULL
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch%2C Kroatisch,1705540185439,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L1,Kroatisch,1705540185439,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L1_age,0,1705540185439,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L2,Deutsch,1705540185439,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L2_age,3,1705540185439,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705540185440,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705540185440,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,Age,24,1705540185440,CAPsurvey,text input
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L1_level,elementary,1705540185441,CAPsurvey,radio button
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,L2_level,fluent,1705540185441,CAPsurvey,radio button
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705540185441,CAPsurvey,radio button
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705540185441,CAPsurvey,radio button
+1705543165,7ec13dd30ba39a937861ed54f40b306b,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705540185442,CAPsurvey,NULL
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705566486775,CAPsurvey,NULL
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705566486775,CAPsurvey,NULL
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705566486776,CAPsurvey,NULL
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,Native_language,deutsch,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L1_age,ab 8,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L2,Russisch,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L2_age,22,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L3,Japanisch,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L3_age,22,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,Age,22,1705566534724,CAPsurvey,text input
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705566534724,CAPsurvey,radio button
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705566534724,CAPsurvey,radio button
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,L3_level,elementary,1705566534724,CAPsurvey,radio button
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705566534724,CAPsurvey,radio button
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705566534724,CAPsurvey,radio button
+1705570635,9b59f7ba73a44fc04570d90c3067b811,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705566534724,CAPsurvey,NULL
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705590352810,CAPsurvey,NULL
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705590352810,CAPsurvey,NULL
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705590352812,CAPsurvey,NULL
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L2,Niederländisch,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L2_age,19,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L3,Französisch,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L3_age,10,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,Age,28,1705590391252,CAPsurvey,text input
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705590391253,CAPsurvey,radio button
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1705590391253,CAPsurvey,radio button
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,L3_level,elementary,1705590391253,CAPsurvey,radio button
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705590391253,CAPsurvey,radio button
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705590391253,CAPsurvey,radio button
+1705593013,9397f0e2c1a026f4698a0079c4d09a44,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705590391254,CAPsurvey,NULL
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705603639614,CAPsurvey,NULL
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705603639614,CAPsurvey,NULL
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705603639615,CAPsurvey,NULL
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L2,,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,Age,26,1705603669209,CAPsurvey,text input
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,L1_level,intermediate,1705603669209,CAPsurvey,radio button
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705603669210,CAPsurvey,radio button
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705603669210,CAPsurvey,radio button
+1705605237,3941ddebbb752bc5987290829ff08ef1,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705603669210,CAPsurvey,NULL
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705601507586,CAPsurvey,NULL
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705601507586,CAPsurvey,NULL
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705601507586,CAPsurvey,NULL
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L1_age,12,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L2,,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,Age,27,1705601533146,CAPsurvey,text input
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705601533146,CAPsurvey,radio button
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705601533146,CAPsurvey,radio button
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705601533146,CAPsurvey,radio button
+1705606001,f82254b4f55bdbe5bbcf5c5729fae438,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705601533147,CAPsurvey,NULL
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705665300509,CAPsurvey,NULL
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705665300509,CAPsurvey,NULL
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705665300509,CAPsurvey,NULL
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L1_age,12,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L2,Französisch,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L2_age,18,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L3,Spanisch,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L3_age,22,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,Age,23,1705665351958,CAPsurvey,text input
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705665351958,CAPsurvey,radio button
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705665351959,CAPsurvey,radio button
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,L3_level,intermediate,1705665351959,CAPsurvey,radio button
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705665351959,CAPsurvey,radio button
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705665351959,CAPsurvey,radio button
+1705668308,73f7b27ced85efb66402cfb82410af34,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705665351959,CAPsurvey,NULL
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705671964824,CAPsurvey,NULL
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705671964824,CAPsurvey,NULL
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705671964824,CAPsurvey,NULL
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L1_age,10,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L2,Spanisch,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L2_age,16,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,Age,22,1705672008831,CAPsurvey,text input
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705672008831,CAPsurvey,radio button
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705672008831,CAPsurvey,radio button
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705672008832,CAPsurvey,radio button
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705672008832,CAPsurvey,radio button
+1705677537,a1c18537a11d9c5562efecebfeb5024b,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705672008832,CAPsurvey,NULL
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705772316245,CAPsurvey,NULL
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705772316245,CAPsurvey,NULL
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705772316247,CAPsurvey,NULL
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L1_age,10,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L2,,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,Age,27,1705772341150,CAPsurvey,text input
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,L1_level,advanced,1705772341150,CAPsurvey,radio button
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705772341150,CAPsurvey,radio button
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705772341151,CAPsurvey,radio button
+1705775709,62be0a33d0df76b27971d8ac47476400,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705772341154,CAPsurvey,NULL
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705823738232,CAPsurvey,NULL
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705823738232,CAPsurvey,NULL
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705823738232,CAPsurvey,NULL
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch%2C Russisch,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L2,Französisch,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L2_age,13,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,Age,29,1705823769218,CAPsurvey,text input
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705823769218,CAPsurvey,radio button
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705823769218,CAPsurvey,radio button
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705823769218,CAPsurvey,radio button
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705823769218,CAPsurvey,radio button
+1705827029,2f29014214b724e676f63f89529ea6e7,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705823769219,CAPsurvey,NULL
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705827321813,CAPsurvey,NULL
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705827321813,CAPsurvey,NULL
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705827321813,CAPsurvey,NULL
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L1_age,7,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L2,Niederländisch,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L2_age,20,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,Age,21,1705827355934,CAPsurvey,text input
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705827355935,CAPsurvey,radio button
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1705827355935,CAPsurvey,radio button
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705827355935,CAPsurvey,radio button
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705827355935,CAPsurvey,radio button
+1705829229,aa691907296978c0b7b8eb5a80c74322,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705827355935,CAPsurvey,NULL
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705836549737,CAPsurvey,NULL
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705836549737,CAPsurvey,NULL
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705836549737,CAPsurvey,NULL
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L2,Latein,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L2_age,12,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705836578625,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,Age,26,1705836578626,CAPsurvey,text input
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705836578626,CAPsurvey,radio button
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705836578626,CAPsurvey,radio button
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705836578626,CAPsurvey,radio button
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705836578626,CAPsurvey,radio button
+1705839669,e160efa1c10e2ceac12d1bc1cb9af76c,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705836578626,CAPsurvey,NULL
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705847778810,CAPsurvey,NULL
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705847778810,CAPsurvey,NULL
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705847778810,CAPsurvey,NULL
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,Native_language,deutsch,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L1,englisch,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L1_age,6,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L2,,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,Age,24,1705847803406,CAPsurvey,text input
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705847803407,CAPsurvey,radio button
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705847803407,CAPsurvey,radio button
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705847803407,CAPsurvey,radio button
+1705850366,b94b605732b7bae08017c7d6283c4189,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705847803407,CAPsurvey,NULL
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705868824901,CAPsurvey,NULL
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705868824901,CAPsurvey,NULL
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705868824902,CAPsurvey,NULL
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705868871672,CAPsurvey,radio button
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705868871672,CAPsurvey,radio button
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L3_level,intermediate,1705868871672,CAPsurvey,radio button
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1705868871672,CAPsurvey,radio button
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1705868871672,CAPsurvey,radio button
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,Age,24,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L3_age,22,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L3,Dänisch,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L2_age,13,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L2,spanisch,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L1_age,9,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1705868871672,CAPsurvey,text input
+1705872376,9dc7de07fc220301aa13a5d519c86fa2,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705868871673,CAPsurvey,NULL
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705934222967,CAPsurvey,NULL
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705934222967,CAPsurvey,NULL
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705934222967,CAPsurvey,NULL
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,Native_language,deutsch,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L1,englisch,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L1_age,6,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L2,französisch,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L2_age,12,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,Age,26,1705934271537,CAPsurvey,text input
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L1_level,advanced,1705934271537,CAPsurvey,radio button
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1705934271538,CAPsurvey,radio button
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1705934271538,CAPsurvey,radio button
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705934271538,CAPsurvey,radio button
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705934271538,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1705942728568,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1705942728568,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1705942728568,CAPsurvey,NULL
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch%2C Englisch,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L1,Französisch,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L1_age,14 ,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L2,,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L3,,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,Age,19,1705942772319,CAPsurvey,text input
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,L1_level,intermediate,1705942772319,CAPsurvey,radio button
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705942772319,CAPsurvey,radio button
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705942772319,CAPsurvey,radio button
+1705946135,86b2302fdd1b7677bd5941a21b13662c,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705942772320,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706003270098,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706003270098,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706003270099,CAPsurvey,NULL
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L1_age,10,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L2,,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L3,,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,Age,31,1706003291178,CAPsurvey,text input
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1706003291179,CAPsurvey,radio button
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1706003291179,CAPsurvey,radio button
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706003291179,CAPsurvey,radio button
+1706006208,190f9eceff7a5a25f3b38ed9a2ed7ae6,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706003291179,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706004710027,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706004710027,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706004710027,CAPsurvey,NULL
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L2,Spanisch,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L2_age,11,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L3,,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,Age,24,1706004738665,CAPsurvey,text input
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1706004738665,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,L2_level,elementary,1706004738665,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1706004738665,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706004738665,CAPsurvey,radio button
+1706008972,e30badda4a8fc24186faeab3a517e0cb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706004738665,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706013059706,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706013059706,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706013059706,CAPsurvey,NULL
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L1_age,9,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L2,Französisch,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L2_age,13,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L3,Spanisch,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L3_age,15,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,Age,25,1706013109668,CAPsurvey,text input
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1706013109668,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1706013109668,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,L3_level,elementary,1706013109668,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1706013109668,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706013109668,CAPsurvey,radio button
+1706014857,b8e5cfb3ff179e5734137f9c355fcafc,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706013109669,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706014053530,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706014053530,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706014053531,CAPsurvey,NULL
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L2,Spanisch,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L2_age,19,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L3,,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,Age,24,1706014081631,CAPsurvey,text input
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1706014081631,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1706014081632,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1706014081632,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706014081632,CAPsurvey,radio button
+1706018088,d6f31dc3fc4bb0be5de5fa01e95f3ff7,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706014081632,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706019854183,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706019854183,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706019854183,CAPsurvey,NULL
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,Native_language,deutsch,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L1,englisch,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L2,koreanisch,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L2_age,16,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L3,spanisch,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L3_age,19,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,Age,20,1706019897147,CAPsurvey,text input
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L1_level,advanced,1706019897148,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L2_level,intermediate,1706019897148,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,L3_level,elementary,1706019897148,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1706019897148,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706019897148,CAPsurvey,radio button
+1706022128,f485b97d5c38880b6886f63e681ef25e,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706019897148,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706020986803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706020986803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706020986803,CAPsurvey,NULL
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,Native_language,DEUTSCH,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L1,ENGLISCH,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L1_age,15,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L2,SPANISCH,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L2_age,15,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L3,,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,Age,27,1706021020743,CAPsurvey,text input
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L1_level,advanced,1706021020743,CAPsurvey,radio button
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,L2_level,advanced,1706021020743,CAPsurvey,radio button
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1706021020743,CAPsurvey,radio button
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706021020743,CAPsurvey,radio button
+1706023453,910230cc6461d3425afbdf1639edca52,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706021020744,CAPsurvey,NULL
