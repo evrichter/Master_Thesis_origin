@@ -6,7 +6,7 @@ library(lmerTest) #for printing p-values (results are the same like when using l
 library(dplyr)
 library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR_Plaus_single/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR2_Plaus_avg")
 
 GP6 <- read.csv("GP6SPR_processed.csv") #read file after removing outliers
 

@@ -1,12 +1,12 @@
 ### LMER ###
 # load lme4 package
 library(lme4)
-library(lmerTest)
+#library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
-GP6 <- read.csv("GP6_filtered.csv")
+GP6 <- read.csv("GP6SPR_processed.csv")
 
 residuals <- data.frame(
   Region = character(0),
@@ -57,7 +57,7 @@ for (region in regions)
   
   
   # define and run the linear mixed-effects regression model for the precritical region 
-  model_per_region <-  lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+  model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
                                        (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
                                        (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)
   

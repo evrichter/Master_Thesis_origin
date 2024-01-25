@@ -1,13 +1,13 @@
-setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR_Plaus_single/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR2_Plaus_avg/")
 
 # exclude participants with low accuracy on comprehension questions
 excluded_participants <- c("57d66efe06ab60cc9a570c0030b909bbb",      #list1  o1_l1       [double from list 2, changed IP hash to avoid excluding data twice, ignore] (01:45 min)
                            "ec66d23ff6dddfa9f3640492e69bb7f3",       #list1: o1_l1       [acc. 0.4]  # DEFINITELY FIND NEW PERSON                (11 min)
                            #"7d0398318324bcb6ecf76e25dd0fe1bc",       #list1  o1_l1       [acc. 0.78] # FIND NEW PERSON                           (41 min)
                            #"3941ddebbb752bc5987290829ff08ef1",      #list3  o1_l3       [acc. 0.73] # FIND NEW PERSON (but better than 0.78)    (27 min)
-                           #"b94b605732b7bae08017c7d6283c4189",      #list4  o2_l1       [acc. 0.77] # FIND NEW PERSON (but better than 0.78)    (44 min)
+                            "b94b605732b7bae08017c7d6283c4189")      #list4  o2_l1       [acc. 0.77] # FIND NEW PERSON (but better than 0.78)    (44 min)
                            #"910230cc6461d3425afbdf1639edca52",       #list5  o2_l2       [acc. 0.766] # FIND NEW PERSON                          (41 min)
-                           "4de4b012f7febf0237e4be93b4563c51")       #list6  o2_l3       [acc. 0.67]  # DEFINITELY FIND NEW PERSON               (01:35 min)
+                           #"4de4b012f7febf0237e4be93b4563c51",       #list6  o2_l3       [acc. 0.67]  # DEFINITELY FIND NEW PERSON               (01:35 min)
                            #"bffb61be49d79c8cf4d5567e495c8ef4")       #list6  o2_l3       [acc. 0.769] # FIND NEW PERSON                          (30 min)
 
 
