@@ -5,7 +5,11 @@ excluded_participants <- c("57d66efe06ab60cc9a570c0030b909bbb",      #list1  o1_
                            "ec66d23ff6dddfa9f3640492e69bb7f3",       #list1: o1_l1       [acc. 0.4] (11 min)
                            "b94b605732b7bae08017c7d6283c4189")       #list4  o2_l1       [acc. 0.5] (44 min)
                           
-
+                          #"3941ddebbb752bc5987290829ff08ef1",
+                          #"4de4b012f7febf0237e4be93b4563c51",
+                          #"7d0398318324bcb6ecf76e25dd0fe1bc",
+                         # "910230cc6461d3425afbdf1639edca52",
+                          #"bffb61be49d79c8cf4d5567e495c8ef4")
 
 #excluded_participants <- c()
 

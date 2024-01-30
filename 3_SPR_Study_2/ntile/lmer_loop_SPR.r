@@ -5,7 +5,7 @@ library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/ntile/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/ntile/")
 GP6 <- read.csv("GP6SPR_processed.csv")
 
 residuals <- data.frame(
@@ -192,7 +192,7 @@ ggsave("Intercept_Coefficients_Plot.pdf", p, width=4, height=4)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 6)
 p <- p + geom_hline(yintercept=0, linetype=2)
 p <- p + theme_minimal()
 p <- p + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))

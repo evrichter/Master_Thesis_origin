@@ -1,4 +1,4 @@
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/ntile/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/ntile/")
 
 # exclude participants with low accuracy on comprehension questions
 excluded_participants <- c("ffdd30f484d223ac5999ce51deb40e33",
