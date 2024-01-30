@@ -158,7 +158,7 @@ ggsave("Residuals_Plot.pdf", p, width=4, height=4)
 
 # Create a line plot for estimated logRTs
 p <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.4, 5.9)
+                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.4, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p <- p + labs(x="Region", y="logRT", title = "Estimated RTs") 
@@ -169,7 +169,7 @@ ggsave("Estimated_RTs_Plot.pdf", p, width=4, height=4)
 
 # Plot intercept and coefficients added to intercept
 p <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.2, 5.7)
+                                 y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.45, 5.65)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p <- p + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p <- p + labs(x="Region", y="SPR Coefficients", title = "Coefficients") 
@@ -182,7 +182,7 @@ ggsave("Intercept_Coefficients_Plot.pdf", p, width=4, height=4)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                  y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                                  y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 6)
 p <- p + geom_hline(yintercept=0, linetype=2)
 p <- p + theme_minimal()
 p <- p + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))

@@ -57,9 +57,29 @@ for (region in regions)
   
   
   # define and run the linear mixed-effects regression model for the precritical region 
-  model_per_region <- lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
-                                       (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
-                                       (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)
+  if (region == "Pre-critical")
+  {
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+                                (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
+                                (1 + inverted_scaled_Plaus_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
+  
+  if (region == "Critical")
+  {
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+                                (1 + scaled_precrit_RT_per_region | Subject) + 
+                                (1 + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
+  
+  if (region == "Spillover")
+  {
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+                                (1 + scaled_precrit_RT_per_region | Subject) + 
+                                (1 + scaled_precrit_RT_per_region | Item), data = region_subset)}
+  
+  if (region == "Post-spillover")
+  {
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+                                (1  + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
+                                (1  + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
   
   # print the summary of the model
   summary_per_region <- summary(model_per_region)

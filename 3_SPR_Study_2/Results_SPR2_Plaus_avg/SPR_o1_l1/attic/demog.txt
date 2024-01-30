@@ -128,3 +128,18 @@
 1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,gender,male,1705945357323,CAPsurvey,radio button
 1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1705945357323,CAPsurvey,radio button
 1705949368,57d66efe06ab60cc9a570c0030b909bbb,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1705945357324,CAPsurvey,NULL
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,PennController,2,_Trial_,Start,1706249223515,CAPsurvey,NULL
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,PennController,2,_Header_,Start,1706249223515,CAPsurvey,NULL
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,PennController,2,_Header_,End,1706249223515,CAPsurvey,NULL
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,Native_language,Deutsch,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L1,Englisch,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L1_age,8,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L2,,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L2_age,,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L3,,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L3_age,,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,Age,27,1706249251479,CAPsurvey,text input
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,L1_level,fluent,1706249251479,CAPsurvey,radio button
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,gender,female,1706249251479,CAPsurvey,radio button
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,Html,demographics,handedness,righthanded,1706249251479,CAPsurvey,radio button
+1706253259,d036250f2ae1551c0df32a0d0e36ede9,PennController,3,0,demographics,NULL,PennController,2,_Trial_,End,1706249251480,CAPsurvey,NULL

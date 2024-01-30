@@ -3610,3 +3610,519 @@
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,118,0,block3,NULL,PennController,118,_Header_,Start,1705936628075,24,152,1,6,,,,NULL
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,118,0,block3,NULL,PennController,118,_Header_,End,1705936628075,24,152,1,6,,,,NULL
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,118,0,block3,NULL,PennController,118,_Trial_,End,1705936633990,24,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,12,0,block1,NULL,PennController,14,_Header_,End,1706258610469,145,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,12,0,block1,NULL,PennController,14,_Header_,Start,1706258610469,145,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,12,0,block1,NULL,PennController,14,_Trial_,Start,1706258610469,145,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,12,0,block1,NULL,PennController,14,_Trial_,End,1706258654373,145,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,13,0,block1,NULL,PennController,15,_Header_,Start,1706258654376,114,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,13,0,block1,NULL,PennController,15,_Trial_,Start,1706258654376,114,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,13,0,block1,NULL,PennController,15,_Header_,End,1706258654377,114,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,13,0,block1,NULL,PennController,15,_Trial_,End,1706258687786,114,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,PennController,16,_Header_,End,1706258687789,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,PennController,16,_Header_,Start,1706258687789,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,PennController,16,_Trial_,Start,1706258687789,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706258745965,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706258751656,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,14,0,block1,NULL,PennController,16,_Trial_,End,1706258751661,25,153,1,6,D,Hat der Mann die Geschätsfrau verpackt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,PennController,17,_Header_,End,1706258751664,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,PennController,17,_Header_,Start,1706258751664,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,PennController,17,_Trial_,Start,1706258751664,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706258791847,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706258795580,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,15,0,block1,NULL,PennController,17,_Trial_,End,1706258795582,43,152,1,6,D,Hat die Oma das Kaninchen geschlagen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,16,0,block1,NULL,PennController,18,_Header_,End,1706258795585,40,151,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,16,0,block1,NULL,PennController,18,_Header_,Start,1706258795585,40,151,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,16,0,block1,NULL,PennController,18,_Trial_,Start,1706258795585,40,151,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,16,0,block1,NULL,PennController,18,_Trial_,End,1706258831402,40,151,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,17,0,block1,NULL,PennController,19,_Header_,End,1706258831404,12,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,17,0,block1,NULL,PennController,19,_Header_,Start,1706258831404,12,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,17,0,block1,NULL,PennController,19,_Trial_,Start,1706258831404,12,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,17,0,block1,NULL,PennController,19,_Trial_,End,1706258854030,12,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,18,0,block1,NULL,PennController,20,_Header_,Start,1706258854032,144,257,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,18,0,block1,NULL,PennController,20,_Trial_,Start,1706258854032,144,257,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,18,0,block1,NULL,PennController,20,_Header_,End,1706258854033,144,257,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,18,0,block1,NULL,PennController,20,_Trial_,End,1706258890309,144,257,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,PennController,21,_Header_,End,1706258890311,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,PennController,21,_Header_,Start,1706258890311,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,PennController,21,_Trial_,Start,1706258890311,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706258923219,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706258929266,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,19,0,block1,NULL,PennController,21,_Trial_,End,1706258929271,23,153,1,6,K,Konnte der Junge sich für einen Apfel entscheiden?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,20,0,block1,NULL,PennController,22,_Header_,End,1706258929272,20,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,20,0,block1,NULL,PennController,22,_Header_,Start,1706258929272,20,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,20,0,block1,NULL,PennController,22,_Trial_,Start,1706258929272,20,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,20,0,block1,NULL,PennController,22,_Trial_,End,1706258991195,20,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,PennController,23,_Header_,End,1706258991197,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,PennController,23,_Header_,Start,1706258991197,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,PennController,23,_Trial_,Start,1706258991197,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259046203,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706259050383,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,21,0,block1,NULL,PennController,23,_Trial_,End,1706259050386,55,151,1,6,D,War das Thema der Ausstellung Malerei?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,PennController,24,_Header_,End,1706259050388,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,PennController,24,_Header_,Start,1706259050388,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,PennController,24,_Trial_,Start,1706259050388,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259087705,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706259091148,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,22,0,block1,NULL,PennController,24,_Trial_,End,1706259091150,126,256,1,6,K,Ist der Historiker in die Bibliothek gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,23,0,block1,NULL,PennController,25,_Header_,End,1706259091152,54,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,23,0,block1,NULL,PennController,25,_Header_,Start,1706259091152,54,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,23,0,block1,NULL,PennController,25,_Trial_,Start,1706259091152,54,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,23,0,block1,NULL,PennController,25,_Trial_,End,1706259121467,54,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,24,0,block1,NULL,PennController,26,_Header_,End,1706259121469,113,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,24,0,block1,NULL,PennController,26,_Header_,Start,1706259121469,113,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,24,0,block1,NULL,PennController,26,_Trial_,Start,1706259121469,113,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,24,0,block1,NULL,PennController,26,_Trial_,End,1706259147484,113,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,25,0,block1,NULL,PennController,27,_Header_,End,1706259147485,128,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,25,0,block1,NULL,PennController,27,_Header_,Start,1706259147485,128,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,25,0,block1,NULL,PennController,27,_Trial_,Start,1706259147485,128,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,25,0,block1,NULL,PennController,27,_Trial_,End,1706259195175,128,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,PennController,28,_Trial_,Start,1706259195176,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,PennController,28,_Header_,End,1706259195177,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,PennController,28,_Header_,Start,1706259195177,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259227023,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706259230630,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,26,0,block1,NULL,PennController,28,_Trial_,End,1706259230633,127,256,1,6,D,Hat die Schaffnerin den Fahrplan zerrissen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,27,0,block1,NULL,PennController,29,_Header_,End,1706259230636,22,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,27,0,block1,NULL,PennController,29,_Header_,Start,1706259230636,22,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,27,0,block1,NULL,PennController,29,_Trial_,Start,1706259230636,22,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,27,0,block1,NULL,PennController,29,_Trial_,End,1706259259583,22,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,PennController,30,_Header_,Start,1706259259585,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,PennController,30,_Trial_,Start,1706259259585,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,PennController,30,_Header_,End,1706259259586,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259284004,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706259287983,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,28,0,block1,NULL,PennController,30,_Trial_,End,1706259287985,111,255,1,6,K,Hat der Regisseur den Filmstar besänftigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,29,0,block1,NULL,PennController,31,_Header_,Start,1706259287987,2,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,29,0,block1,NULL,PennController,31,_Trial_,Start,1706259287987,2,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,29,0,block1,NULL,PennController,31,_Header_,End,1706259287988,2,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,29,0,block1,NULL,PennController,31,_Trial_,End,1706259333397,2,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,30,0,block1,NULL,PennController,32,_Header_,End,1706259333399,16,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,30,0,block1,NULL,PennController,32,_Header_,Start,1706259333399,16,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,30,0,block1,NULL,PennController,32,_Trial_,Start,1706259333399,16,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,30,0,block1,NULL,PennController,32,_Trial_,End,1706259519049,16,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,31,0,block1,NULL,PennController,33,_Header_,End,1706259519051,14,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,31,0,block1,NULL,PennController,33,_Header_,Start,1706259519051,14,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,31,0,block1,NULL,PennController,33,_Trial_,Start,1706259519051,14,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,31,0,block1,NULL,PennController,33,_Trial_,End,1706259713416,14,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,PennController,34,_Header_,Start,1706259713421,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,PennController,34,_Trial_,Start,1706259713421,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,PennController,34,_Header_,End,1706259713422,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259742251,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706259746764,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,32,0,block1,NULL,PennController,34,_Trial_,End,1706259746769,141,257,1,6,K,Hat die Lehrerin dem Erstklässler zum Geburtstag gratuliert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,PennController,35,_Header_,End,1706259746773,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,PennController,35,_Header_,Start,1706259746773,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,PennController,35,_Trial_,Start,1706259746773,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706259773579,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706259782592,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,33,0,block1,NULL,PennController,35,_Trial_,End,1706259782594,142,257,1,6,D,Ist das Mädchen in einen Anhänger geradelt?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,34,0,block1,NULL,PennController,36,_Header_,End,1706259782597,130,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,34,0,block1,NULL,PennController,36,_Header_,Start,1706259782597,130,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,34,0,block1,NULL,PennController,36,_Trial_,Start,1706259782597,130,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,34,0,block1,NULL,PennController,36,_Trial_,End,1706259811773,130,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,PennController,37,_Header_,End,1706259811775,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,PennController,37,_Header_,Start,1706259811775,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,PennController,37,_Trial_,Start,1706259811775,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260101479,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706260104913,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,35,0,block1,NULL,PennController,37,_Trial_,End,1706260104919,41,152,1,7,D,Hat die Trainerin den Pokal in den Schrank gestellt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,36,0,block1,NULL,PennController,38,_Trial_,Start,1706260104925,115,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,36,0,block1,NULL,PennController,38,_Header_,End,1706260104926,115,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,36,0,block1,NULL,PennController,38,_Header_,Start,1706260104926,115,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,36,0,block1,NULL,PennController,38,_Trial_,End,1706260136095,115,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,PennController,39,_Header_,End,1706260136098,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,PennController,39,_Header_,Start,1706260136098,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,PennController,39,_Trial_,Start,1706260136098,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260167711,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706260170715,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,37,0,block1,NULL,PennController,39,_Trial_,End,1706260170717,15,152,1,6,K,War die Sekretärin erleichtert über die Diktiermaschine?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,PennController,40,_Header_,Start,1706260170719,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,PennController,40,_Trial_,Start,1706260170719,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,PennController,40,_Header_,End,1706260170720,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260201403,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706260204951,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,38,0,block1,NULL,PennController,40,_Trial_,End,1706260204955,27,151,1,9,D,Hat der Lehrer die Tasche aufgegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,39,0,block1,NULL,PennController,41,_Header_,Start,1706260204957,143,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,39,0,block1,NULL,PennController,41,_Trial_,Start,1706260204957,143,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,39,0,block1,NULL,PennController,41,_Header_,End,1706260204958,143,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,39,0,block1,NULL,PennController,41,_Trial_,End,1706260274267,143,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,40,0,block1,NULL,PennController,42,_Header_,Start,1706260274268,8,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,40,0,block1,NULL,PennController,42,_Trial_,Start,1706260274268,8,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,40,0,block1,NULL,PennController,42,_Header_,End,1706260274269,8,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,40,0,block1,NULL,PennController,42,_Trial_,End,1706260296083,8,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,PennController,43,_Header_,End,1706260296085,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,PennController,43,_Header_,Start,1706260296085,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,PennController,43,_Trial_,Start,1706260296085,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260330894,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706260334101,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,41,0,block1,NULL,PennController,43,_Trial_,End,1706260334105,112,255,1,7,D,Hat der Manager die Musikerin aufgefordert%2C weiter zu arbeiten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,PennController,44,_Header_,End,1706260334108,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,PennController,44,_Header_,Start,1706260334108,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,PennController,44,_Trial_,Start,1706260334108,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260360140,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706260365329,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,42,0,block1,NULL,PennController,44,_Trial_,End,1706260365331,17,151,1,6,K,Hat die Tochter den Rasenmäher geparkt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,PennController,45,_Header_,End,1706260365333,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,PennController,45,_Header_,Start,1706260365333,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,PennController,45,_Trial_,Start,1706260365333,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260384623,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,Key,ComprehensionDecide,PressedKey,K,1706260387139,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,43,0,block1,NULL,PennController,45,_Trial_,End,1706260387141,21,151,1,6,K,Hat die Freundin den Segler ermahnt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,44,0,block1,NULL,PennController,46,_Header_,Start,1706260387143,6,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,44,0,block1,NULL,PennController,46,_Trial_,Start,1706260387143,6,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,44,0,block1,NULL,PennController,46,_Header_,End,1706260387144,6,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,44,0,block1,NULL,PennController,46,_Trial_,End,1706260407346,6,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,45,0,block1,NULL,PennController,47,_Header_,End,1706260407348,129,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,45,0,block1,NULL,PennController,47,_Header_,Start,1706260407348,129,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,45,0,block1,NULL,PennController,47,_Trial_,Start,1706260407348,129,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,45,0,block1,NULL,PennController,47,_Trial_,End,1706260448248,129,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,PennController,48,_Header_,End,1706260448249,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,PennController,48,_Header_,Start,1706260448249,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,PennController,48,_Trial_,Start,1706260448249,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260473141,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,Key,ComprehensionDecide,PressedKey,D,1706260479963,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,46,0,block1,NULL,PennController,48,_Trial_,End,1706260479967,19,153,1,6,K,Hat der Mechaniker den Schraubenzieher hinter dem Ohr der Nichte hervorgezogen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,PennController,49,_Header_,End,1706260679823,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,PennController,49,_Header_,Start,1706260679823,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,PennController,49,_Trial_,Start,1706260679823,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260703984,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706260710427,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,48,0,block2,NULL,PennController,49,_Trial_,End,1706260710432,107,255,1,6,D,Hat der Maler den Farbeimer umgeworfen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,PennController,50,_Header_,Start,1706260710434,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,PennController,50,_Trial_,Start,1706260710434,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,PennController,50,_Header_,End,1706260710435,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260739948,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706260743289,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,49,0,block2,NULL,PennController,50,_Trial_,End,1706260743292,121,256,1,6,K,Hat die Studentin ihren Mitbewohner gerufen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,PennController,51,_Header_,End,1706260743295,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,PennController,51,_Header_,Start,1706260743295,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,PennController,51,_Trial_,Start,1706260743295,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260826867,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706260829962,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,50,0,block2,NULL,PennController,51,_Trial_,End,1706260829965,45,153,1,6,D,Hat der Referendar beim Gewinnspiel verloren?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,51,0,block2,NULL,PennController,52,_Header_,Start,1706260829968,50,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,51,0,block2,NULL,PennController,52,_Trial_,Start,1706260829968,50,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,51,0,block2,NULL,PennController,52,_Header_,End,1706260829969,50,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,51,0,block2,NULL,PennController,52,_Trial_,End,1706260855148,50,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,52,0,block2,NULL,PennController,53,_Header_,End,1706260855150,123,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,52,0,block2,NULL,PennController,53,_Header_,Start,1706260855150,123,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,52,0,block2,NULL,PennController,53,_Trial_,Start,1706260855150,123,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,52,0,block2,NULL,PennController,53,_Trial_,End,1706260882734,123,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,PennController,54,_Header_,End,1706260882736,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,PennController,54,_Header_,Start,1706260882736,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,PennController,54,_Trial_,Start,1706260882736,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706260910639,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706260913247,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,53,0,block2,NULL,PennController,54,_Trial_,End,1706260913251,29,152,1,6,K,Hat sich die Praktikantin für das Fernglas bedankt?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,54,0,block2,NULL,PennController,55,_Header_,End,1706260913253,58,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,54,0,block2,NULL,PennController,55,_Header_,Start,1706260913253,58,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,54,0,block2,NULL,PennController,55,_Trial_,Start,1706260913253,58,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,54,0,block2,NULL,PennController,55,_Trial_,End,1706260955807,58,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,PennController,56,_Header_,End,1706260955808,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,PennController,56,_Header_,Start,1706260955808,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,PennController,56,_Trial_,Start,1706260955808,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261005069,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261009531,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,55,0,block2,NULL,PennController,56,_Trial_,End,1706261009535,137,257,1,7,D,Hat die Aufseherin den Populisten bestochen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,56,0,block2,NULL,PennController,57,_Header_,Start,1706261009536,109,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,56,0,block2,NULL,PennController,57,_Trial_,Start,1706261009536,109,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,56,0,block2,NULL,PennController,57,_Header_,End,1706261009537,109,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,56,0,block2,NULL,PennController,57,_Trial_,End,1706261032460,109,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,57,0,block2,NULL,PennController,58,_Header_,End,1706261032461,28,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,57,0,block2,NULL,PennController,58,_Header_,Start,1706261032461,28,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,57,0,block2,NULL,PennController,58,_Trial_,Start,1706261032461,28,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,57,0,block2,NULL,PennController,58,_Trial_,End,1706261061629,28,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,PennController,59,_Header_,Start,1706261061630,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,PennController,59,_Trial_,Start,1706261061630,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,PennController,59,_Header_,End,1706261061631,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261089218,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261093174,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,58,0,block2,NULL,PennController,59,_Trial_,End,1706261093177,37,151,1,6,D,Hatte der Kunde den Diebstahl mitbekommen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,59,0,block2,NULL,PennController,60,_Header_,End,1706261093179,110,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,59,0,block2,NULL,PennController,60,_Header_,Start,1706261093179,110,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,59,0,block2,NULL,PennController,60,_Trial_,Start,1706261093179,110,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,59,0,block2,NULL,PennController,60,_Trial_,End,1706261114122,110,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,60,0,block2,NULL,PennController,61,_Header_,End,1706261114123,138,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,60,0,block2,NULL,PennController,61,_Header_,Start,1706261114123,138,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,60,0,block2,NULL,PennController,61,_Trial_,Start,1706261114123,138,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,60,0,block2,NULL,PennController,61,_Trial_,End,1706261144964,138,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,PennController,62,_Header_,End,1706261144966,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,PennController,62,_Header_,Start,1706261144966,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,PennController,62,_Trial_,Start,1706261144966,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261225310,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261228007,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,61,0,block2,NULL,PennController,62,_Trial_,End,1706261228011,13,152,1,6,K,Hat dem Schneider der Platz am Eingang gefallen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,PennController,63,_Header_,Start,1706261228012,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,PennController,63,_Trial_,Start,1706261228012,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,PennController,63,_Header_,End,1706261228013,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261246090,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261248698,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,62,0,block2,NULL,PennController,63,_Trial_,End,1706261248701,35,151,1,6,K,Hat das Kind den Teddybären gedrückt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,63,0,block2,NULL,PennController,64,_Header_,End,1706261248703,48,153,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,63,0,block2,NULL,PennController,64,_Header_,Start,1706261248703,48,153,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,63,0,block2,NULL,PennController,64,_Trial_,Start,1706261248703,48,153,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,63,0,block2,NULL,PennController,64,_Trial_,End,1706261305976,48,153,1,8,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,PennController,65,_Header_,End,1706261305978,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,PennController,65,_Header_,Start,1706261305978,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,PennController,65,_Trial_,Start,1706261305978,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261327040,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261330282,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,64,0,block2,NULL,PennController,65,_Trial_,End,1706261330283,3,153,1,6,K,Hat der Busfahrer die Streifenkarte gegessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,PennController,66,_Header_,End,1706261330285,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,PennController,66,_Header_,Start,1706261330285,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,PennController,66,_Trial_,Start,1706261330285,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261355634,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261361366,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,65,0,block2,NULL,PennController,66,_Trial_,End,1706261361369,136,257,1,6,K,Wollte das Mädchen Surfen gehen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,66,0,block2,NULL,PennController,67,_Header_,End,1706261361371,44,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,66,0,block2,NULL,PennController,67,_Header_,Start,1706261361371,44,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,66,0,block2,NULL,PennController,67,_Trial_,Start,1706261361371,44,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,66,0,block2,NULL,PennController,67,_Trial_,End,1706261411781,44,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,67,0,block2,NULL,PennController,68,_Header_,Start,1706261411782,140,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,67,0,block2,NULL,PennController,68,_Trial_,Start,1706261411782,140,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,67,0,block2,NULL,PennController,68,_Header_,End,1706261411783,140,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,67,0,block2,NULL,PennController,68,_Trial_,End,1706261445406,140,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,68,0,block2,NULL,PennController,69,_Header_,End,1706261445409,108,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,68,0,block2,NULL,PennController,69,_Header_,Start,1706261445409,108,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,68,0,block2,NULL,PennController,69,_Trial_,Start,1706261445409,108,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,68,0,block2,NULL,PennController,69,_Trial_,End,1706261469639,108,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,PennController,70,_Header_,End,1706261469641,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,PennController,70,_Header_,Start,1706261469641,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,PennController,70,_Trial_,Start,1706261469641,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261490549,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261493033,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,69,0,block2,NULL,PennController,70,_Trial_,End,1706261493037,11,152,1,8,K,Hat der Flyer zusätzliche Informationen enthalten?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,PennController,71,_Header_,End,1706261493039,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,PennController,71,_Header_,Start,1706261493039,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,PennController,71,_Trial_,Start,1706261493039,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261531025,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261535005,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,70,0,block2,NULL,PennController,71,_Trial_,End,1706261535009,122,256,1,8,D,Ist die Fahrschülerin zur Arbeit gegangen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,71,0,block2,NULL,PennController,72,_Header_,End,1706261535012,125,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,71,0,block2,NULL,PennController,72,_Header_,Start,1706261535012,125,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,71,0,block2,NULL,PennController,72,_Trial_,Start,1706261535012,125,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,71,0,block2,NULL,PennController,72,_Trial_,End,1706261560228,125,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,72,0,block2,NULL,PennController,73,_Header_,End,1706261560230,56,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,72,0,block2,NULL,PennController,73,_Header_,Start,1706261560230,56,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,72,0,block2,NULL,PennController,73,_Trial_,Start,1706261560230,56,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,72,0,block2,NULL,PennController,73,_Trial_,End,1706261591109,56,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,73,0,block2,NULL,PennController,74,_Header_,End,1706261591112,46,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,73,0,block2,NULL,PennController,74,_Header_,Start,1706261591112,46,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,73,0,block2,NULL,PennController,74,_Trial_,Start,1706261591112,46,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,73,0,block2,NULL,PennController,74,_Trial_,End,1706261612070,46,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,74,0,block2,NULL,PennController,75,_Header_,Start,1706261612071,60,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,74,0,block2,NULL,PennController,75,_Trial_,Start,1706261612071,60,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,74,0,block2,NULL,PennController,75,_Header_,End,1706261612072,60,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,74,0,block2,NULL,PennController,75,_Trial_,End,1706261642106,60,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,PennController,76,_Header_,Start,1706261642107,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,PennController,76,_Trial_,Start,1706261642107,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,PennController,76,_Header_,End,1706261642108,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261683396,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261687351,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,75,0,block2,NULL,PennController,76,_Trial_,End,1706261687353,49,151,1,6,D,Hat die Betreuerin den Vortrag gehalten?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,PennController,77,_Header_,End,1706261687355,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,PennController,77,_Header_,Start,1706261687355,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,PennController,77,_Trial_,Start,1706261687355,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261722029,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261726646,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,76,0,block2,NULL,PennController,77,_Trial_,End,1706261726650,57,153,1,6,D,Wurde der Verbrecher vom Hund überrascht?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,PennController,78,_Header_,End,1706261726651,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,PennController,78,_Header_,Start,1706261726651,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,PennController,78,_Trial_,Start,1706261726651,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261754320,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,Key,ComprehensionDecide,PressedKey,D,1706261757370,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,77,0,block2,NULL,PennController,78,_Trial_,End,1706261757374,59,152,1,6,D,Hat der Kumpel eine Forelle gereinigt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,78,0,block2,NULL,PennController,79,_Header_,Start,1706261757375,124,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,78,0,block2,NULL,PennController,79,_Trial_,Start,1706261757375,124,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,78,0,block2,NULL,PennController,79,_Header_,End,1706261757376,124,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,78,0,block2,NULL,PennController,79,_Trial_,End,1706261792502,124,256,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,79,0,block2,NULL,PennController,80,_Header_,End,1706261792504,52,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,79,0,block2,NULL,PennController,80,_Header_,Start,1706261792504,52,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,79,0,block2,NULL,PennController,80,_Trial_,Start,1706261792504,52,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,79,0,block2,NULL,PennController,80,_Trial_,End,1706261850352,52,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,80,0,block2,NULL,PennController,81,_Header_,Start,1706261850354,139,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,80,0,block2,NULL,PennController,81,_Trial_,Start,1706261850354,139,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,80,0,block2,NULL,PennController,81,_Header_,End,1706261850355,139,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,80,0,block2,NULL,PennController,81,_Trial_,End,1706261883909,139,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,81,0,block2,NULL,PennController,82,_Header_,End,1706261883911,30,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,81,0,block2,NULL,PennController,82,_Header_,Start,1706261883911,30,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,81,0,block2,NULL,PennController,82,_Trial_,Start,1706261883911,30,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,81,0,block2,NULL,PennController,82,_Trial_,End,1706261940524,30,153,1,7,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,PennController,83,_Header_,End,1706261940526,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,PennController,83,_Header_,Start,1706261940526,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,PennController,83,_Trial_,Start,1706261940526,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,Canvas,ComprehensionQuestion,Print,NA,1706261967746,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,Key,ComprehensionDecide,PressedKey,K,1706261971917,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,82,0,block2,NULL,PennController,83,_Trial_,End,1706261971920,106,255,1,6,K,Hat der Bauleiter den Maurer zu mehr Sorgfalt aufgefordert?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,84,0,block3,NULL,PennController,84,_Header_,End,1706262139955,119,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,84,0,block3,NULL,PennController,84,_Header_,Start,1706262139955,119,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,84,0,block3,NULL,PennController,84,_Trial_,Start,1706262139955,119,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,84,0,block3,NULL,PennController,84,_Trial_,End,1706262167142,119,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,PennController,85,_Header_,End,1706262167143,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,PennController,85,_Header_,Start,1706262167143,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,PennController,85,_Trial_,Start,1706262167143,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262197813,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262201058,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,85,0,block3,NULL,PennController,85,_Trial_,End,1706262201059,131,257,1,6,K,Hat der Professor die Haushaltshilfe in den Feierabend entlassen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,86,0,block3,NULL,PennController,86,_Header_,End,1706262201061,135,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,86,0,block3,NULL,PennController,86,_Header_,Start,1706262201061,135,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,86,0,block3,NULL,PennController,86,_Trial_,Start,1706262201061,135,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,86,0,block3,NULL,PennController,86,_Trial_,End,1706262227356,135,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,87,0,block3,NULL,PennController,87,_Header_,End,1706262227359,26,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,87,0,block3,NULL,PennController,87,_Header_,Start,1706262227359,26,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,87,0,block3,NULL,PennController,87,_Trial_,Start,1706262227359,26,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,87,0,block3,NULL,PennController,87,_Trial_,End,1706262259751,26,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,88,0,block3,NULL,PennController,88,_Header_,End,1706262259753,4,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,88,0,block3,NULL,PennController,88,_Header_,Start,1706262259753,4,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,88,0,block3,NULL,PennController,88,_Trial_,Start,1706262259753,4,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,88,0,block3,NULL,PennController,88,_Trial_,End,1706262282044,4,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,PennController,89,_Header_,End,1706262282046,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,PennController,89,_Header_,Start,1706262282046,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,PennController,89,_Trial_,Start,1706262282046,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262302972,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262305847,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,89,0,block3,NULL,PennController,89,_Trial_,End,1706262305850,7,151,1,6,K,Hat der Metzger die Fleischwurst durchschnitten?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,PennController,90,_Header_,End,1706262305852,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,PennController,90,_Header_,Start,1706262305852,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,PennController,90,_Trial_,Start,1706262305852,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262329406,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262332384,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,90,0,block3,NULL,PennController,90,_Trial_,End,1706262332386,117,256,1,6,D,Wollte das Mädchen seinen Papa besuchen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,PennController,91,_Header_,End,1706262332388,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,PennController,91,_Header_,Start,1706262332388,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,PennController,91,_Trial_,Start,1706262332388,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262355512,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262369344,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,91,0,block3,NULL,PennController,91,_Trial_,End,1706262369345,39,153,1,6,D,Hat die Babysitterin die Tochter gestapelt?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,92,0,block3,NULL,PennController,92,_Header_,End,1706262369347,38,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,92,0,block3,NULL,PennController,92,_Header_,Start,1706262369347,38,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,92,0,block3,NULL,PennController,92,_Trial_,Start,1706262369347,38,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,92,0,block3,NULL,PennController,92,_Trial_,End,1706262391795,38,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,93,0,block3,NULL,PennController,93,_Header_,Start,1706262391796,103,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,93,0,block3,NULL,PennController,93,_Trial_,Start,1706262391796,103,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,93,0,block3,NULL,PennController,93,_Header_,End,1706262391797,103,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,93,0,block3,NULL,PennController,93,_Trial_,End,1706262413568,103,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,94,0,block3,NULL,PennController,94,_Header_,End,1706262413569,36,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,94,0,block3,NULL,PennController,94,_Header_,Start,1706262413569,36,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,94,0,block3,NULL,PennController,94,_Trial_,Start,1706262413569,36,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,94,0,block3,NULL,PennController,94,_Trial_,End,1706262438398,36,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,95,0,block3,NULL,PennController,95,_Header_,End,1706262438399,104,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,95,0,block3,NULL,PennController,95,_Header_,Start,1706262438399,104,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,95,0,block3,NULL,PennController,95,_Trial_,Start,1706262438399,104,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,95,0,block3,NULL,PennController,95,_Trial_,End,1706262457966,104,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,96,0,block3,NULL,PennController,96,_Header_,End,1706262457967,42,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,96,0,block3,NULL,PennController,96,_Header_,Start,1706262457967,42,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,96,0,block3,NULL,PennController,96,_Trial_,Start,1706262457967,42,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,96,0,block3,NULL,PennController,96,_Trial_,End,1706262480574,42,153,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,PennController,97,_Header_,Start,1706262480575,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,PennController,97,_Trial_,Start,1706262480575,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,PennController,97,_Header_,End,1706262480576,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262510567,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262515195,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,97,0,block3,NULL,PennController,97,_Trial_,End,1706262515197,47,152,1,6,D,Wollte der Soldat die Frau an anderen Zivilisten vorbei schmuggeln?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,PennController,98,_Header_,End,1706262515198,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,PennController,98,_Header_,Start,1706262515198,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,PennController,98,_Trial_,Start,1706262515198,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262537445,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262540988,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,98,0,block3,NULL,PennController,98,_Trial_,End,1706262540989,101,255,1,7,K,Ist der Journalist in ein italienisches Restaurant gegangen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,99,0,block3,NULL,PennController,99,_Header_,End,1706262540991,18,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,99,0,block3,NULL,PennController,99,_Header_,Start,1706262540991,18,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,99,0,block3,NULL,PennController,99,_Trial_,Start,1706262540991,18,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,99,0,block3,NULL,PennController,99,_Trial_,End,1706262561135,18,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,100,0,block3,NULL,PennController,100,_Header_,End,1706262561136,32,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,100,0,block3,NULL,PennController,100,_Header_,Start,1706262561136,32,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,100,0,block3,NULL,PennController,100,_Trial_,Start,1706262561136,32,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,100,0,block3,NULL,PennController,100,_Trial_,End,1706262611889,32,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,PennController,101,_Header_,End,1706262611890,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,PennController,101,_Header_,Start,1706262611890,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,PennController,101,_Trial_,Start,1706262611890,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262625183,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262628383,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,101,0,block3,NULL,PennController,101,_Trial_,End,1706262628386,5,152,1,6,K,Hat es nach dem Opa noch einen anderen Kunden gegeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,PennController,102,_Header_,End,1706262628388,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,PennController,102,_Header_,Start,1706262628388,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,PennController,102,_Trial_,Start,1706262628388,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262656212,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262659598,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,102,0,block3,NULL,PennController,102,_Trial_,End,1706262659601,53,152,1,6,D,Hat der Architekt die Rede vergessen?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,PennController,103,_Header_,End,1706262659603,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,PennController,103,_Header_,Start,1706262659603,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,PennController,103,_Trial_,Start,1706262659603,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262689259,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262691922,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,103,0,block3,NULL,PennController,103,_Trial_,End,1706262691924,51,153,1,8,D,War die Erzieherin über den Termin verärgert gewesen?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,PennController,104,_Header_,End,1706262691926,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,PennController,104,_Header_,Start,1706262691926,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,PennController,104,_Trial_,Start,1706262691926,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262712091,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262715274,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,104,0,block3,NULL,PennController,104,_Trial_,End,1706262715277,33,153,1,6,K,War die Besucherin auf der Suche nach einem bestimmten Raum?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,105,0,block3,NULL,PennController,105,_Header_,End,1706262715280,118,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,105,0,block3,NULL,PennController,105,_Header_,Start,1706262715280,118,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,105,0,block3,NULL,PennController,105,_Trial_,Start,1706262715280,118,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,105,0,block3,NULL,PennController,105,_Trial_,End,1706262766536,118,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,PennController,106,_Header_,End,1706262766538,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,PennController,106,_Header_,Start,1706262766538,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,PennController,106,_Trial_,Start,1706262766538,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262788182,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262790291,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,106,0,block3,NULL,PennController,106,_Trial_,End,1706262790294,1,151,1,6,K,War der Koffer am Anfang zu schwer?,paragraph,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,PennController,107,_Header_,End,1706262790296,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,PennController,107,_Header_,Start,1706262790296,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,PennController,107,_Trial_,Start,1706262790296,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262805012,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262807419,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,107,0,block3,NULL,PennController,107,_Trial_,End,1706262807423,9,153,1,6,K,Hat der Kapitän dem Pärchen geholfen?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,PennController,108,_Header_,End,1706262807425,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,PennController,108,_Header_,Start,1706262807425,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,PennController,108,_Trial_,Start,1706262807425,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262825522,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706262830146,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,108,0,block3,NULL,PennController,108,_Trial_,End,1706262830148,132,257,1,6,D,Hat der Biologe nach dem Aufbau des Mikroskops die Arbeit auf den nächsten Tag verschoben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,109,0,block3,NULL,PennController,109,_Header_,Start,1706262830149,10,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,109,0,block3,NULL,PennController,109,_Trial_,Start,1706262830149,10,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,109,0,block3,NULL,PennController,109,_Header_,End,1706262830150,10,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,109,0,block3,NULL,PennController,109,_Trial_,End,1706262870292,10,151,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,110,0,block3,NULL,PennController,110,_Header_,Start,1706262870293,105,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,110,0,block3,NULL,PennController,110,_Trial_,Start,1706262870293,105,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,110,0,block3,NULL,PennController,110,_Header_,End,1706262870294,105,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,110,0,block3,NULL,PennController,110,_Trial_,End,1706262898584,105,255,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,111,0,block3,NULL,PennController,111,_Header_,Start,1706262898586,34,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,111,0,block3,NULL,PennController,111,_Trial_,Start,1706262898586,34,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,111,0,block3,NULL,PennController,111,_Header_,End,1706262898587,34,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,111,0,block3,NULL,PennController,111,_Trial_,End,1706262934631,34,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,112,0,block3,NULL,PennController,112,_Header_,End,1706262934633,133,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,112,0,block3,NULL,PennController,112,_Header_,Start,1706262934633,133,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,112,0,block3,NULL,PennController,112,_Trial_,Start,1706262934633,133,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,112,0,block3,NULL,PennController,112,_Trial_,End,1706262956238,133,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,PennController,113,_Header_,End,1706262956240,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,PennController,113,_Header_,Start,1706262956240,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,PennController,113,_Trial_,Start,1706262956240,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706262984848,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,Key,ComprehensionDecide,PressedKey,K,1706262988141,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,113,0,block3,NULL,PennController,113,_Trial_,End,1706262988144,116,256,1,7,K,Hat der Prinz die Prinzessin befreit?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,114,0,block3,NULL,PennController,114,_Header_,Start,1706262988145,120,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,114,0,block3,NULL,PennController,114,_Trial_,Start,1706262988145,120,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,114,0,block3,NULL,PennController,114,_Header_,End,1706262988146,120,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,114,0,block3,NULL,PennController,114,_Trial_,End,1706263015763,120,256,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,115,0,block3,NULL,PennController,115,_Header_,End,1706263015764,134,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,115,0,block3,NULL,PennController,115,_Header_,Start,1706263015764,134,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,115,0,block3,NULL,PennController,115,_Trial_,Start,1706263015764,134,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,115,0,block3,NULL,PennController,115,_Trial_,End,1706263038024,134,257,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,PennController,116,_Header_,Start,1706263038025,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,PennController,116,_Trial_,Start,1706263038025,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,PennController,116,_Header_,End,1706263038026,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706263077945,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706263080946,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,116,0,block3,NULL,PennController,116,_Trial_,End,1706263080949,102,255,1,6,D,Hat die Frau den Bauer getröstet?,manipulation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,PennController,117,_Header_,End,1706263080951,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,PennController,117,_Header_,Start,1706263080951,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,PennController,117,_Trial_,Start,1706263080951,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,Canvas,ComprehensionQuestion,Print,NA,1706263114581,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,Key,ComprehensionDecide,PressedKey,D,1706263118985,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,Wait success
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,117,0,block3,NULL,PennController,117,_Trial_,End,1706263118986,31,151,1,6,D,Hat der Pfarrer den Ring übergeben?,continuation,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,118,0,block3,NULL,PennController,118,_Header_,End,1706263118988,24,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,118,0,block3,NULL,PennController,118,_Header_,Start,1706263118988,24,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,118,0,block3,NULL,PennController,118,_Trial_,Start,1706263118988,24,152,1,6,,,,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,118,0,block3,NULL,PennController,118,_Trial_,End,1706263152186,24,152,1,6,,,,NULL

@@ -40,3 +40,9 @@
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,2,0,consent2,NULL,Html,consent2,prolific_id,61116f3157613f9e373bcfba,1705934222963,CAPsurvey,text input
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1705934222963,CAPsurvey,checkbox
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,2,0,consent2,NULL,PennController,1,_Trial_,End,1705934222964,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,PennController,1,_Header_,End,1706258352227,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,PennController,1,_Header_,Start,1706258352227,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,PennController,1,_Trial_,Start,1706258352227,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,PennController,1,_Trial_,End,1706258357336,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,Html,consent2,consent_checkbox,checked,1706258357336,CAPsurvey,checkbox
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,2,0,consent2,NULL,Html,consent2,prolific_id,5c39afacf179bd0001c8756a,1706258357336,CAPsurvey,text input

@@ -53,3 +53,11 @@
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,nein,1705936654924,CAPsurvey,text input
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1705936654925,CAPsurvey,radio button
 1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1705936654925,CAPsurvey,radio button
+1705936656,6a4f25b6fa85eb091073bd2046002b5a,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1705936654925,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,End,1706263158056,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,PennController,5,_Header_,Start,1706263158056,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,Start,1706263158056,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1706263189837,CAPsurvey,text input
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Nein,1706263189837,CAPsurvey,text input
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,PennController,5,_Trial_,End,1706263189838,CAPsurvey,NULL
+1706263194,009b1534ae4a0cf35d794b188e20265b,PennController,6,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1706263189838,CAPsurvey,radio button
