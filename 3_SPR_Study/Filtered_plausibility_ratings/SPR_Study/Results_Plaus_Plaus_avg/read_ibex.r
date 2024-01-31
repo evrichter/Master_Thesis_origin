@@ -143,16 +143,15 @@ for (condition in conditions)
 GP6_filtered <- df
 
 #exclude for condition A values >5, for condition B <2 and >6 and for condition C >3
-condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$Plaus_target_avg < 5)
-condition_B <- GP6_filtered$Condition == "B" & (GP6_filtered$Plaus_target_avg < 3 | GP6_filtered$Plaus_target_avg > 6)
-condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$Plaus_target_avg > 3)
+condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$Plaus_target_avg >= 5)
+condition_B <- GP6_filtered$Condition == "B" & (GP6_filtered$Plaus_target_avg >= 3 & GP6_filtered$Plaus_target_avg <= 5)
+condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$Plaus_target_avg <= 3)
 
-# should only remove ratings for values in SPR_Plaus_Rating column for some participants and not
-# the values of other columns for the same rows as well 
-GP6_filtered$Plaus_target_avg[(condition_A | condition_B | condition_C)] <- NA
-#only uncomment this line to print observed RTs where RTs corresponding to removed plausibility ratings are also removed
-#GP6_filtered$ReadingTime[!(condition_A | condition_B | condition_C)] <- NA  
+# remove average ratings/Plaus_target_avg column (set to NA) which are outside the range specified above
+#GP6_filtered$Plaus_target_avg[!(condition_A | condition_B | condition_C)] <- NA
 
+# remove the whole row, i.e. also RTs (dependent variable) when corresponding Plaus_target_avg ratings are outside the range specified above
+GP6_filtered <- GP6_filtered[(condition_A | condition_B | condition_C)]
 fwrite(GP6_filtered, "GP6_filtered.csv")
 
 
@@ -194,7 +193,7 @@ print(averages)
 
 # Create a line plot with average log-transformed reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.8)
+                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.4, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 

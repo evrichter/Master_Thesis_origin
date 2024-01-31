@@ -143,14 +143,17 @@ for (condition in conditions)
 ### FILTER PLAUSIBILITY RATINGS (no diff in observed RTs plot) AND RTs (diff in observed RTs plot)
 GP6_filtered <- df
 
-condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$SPR_Plaus_Rating == 5 | GP6_filtered$SPR_Plaus_Rating == 6 | GP6_filtered$SPR_Plaus_Rating == 7)
-condition_B <- GP6_filtered$Condition == "B" & (GP6_filtered$SPR_Plaus_Rating == 2 | GP6_filtered$SPR_Plaus_Rating == 3 | GP6_filtered$SPR_Plaus_Rating == 4 | GP6_filtered$SPR_Plaus_Rating == 5 | GP6_filtered$SPR_Plaus_Rating == 6)
-condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$SPR_Plaus_Rating == 1 | GP6_filtered$SPR_Plaus_Rating == 2 | GP6_filtered$SPR_Plaus_Rating == 3)
+condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$SPR_Plaus_Rating == 6 | GP6_filtered$SPR_Plaus_Rating == 7)
+condition_B <- GP6_filtered$Condition == "B" & (GP6_filtered$SPR_Plaus_Rating == 3 | GP6_filtered$SPR_Plaus_Rating == 4 | GP6_filtered$SPR_Plaus_Rating == 5)
+condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$SPR_Plaus_Rating == 1 | GP6_filtered$SPR_Plaus_Rating == 2)
 
 # should only set ratings for values in SPR_Plaus_Rating column to NA and not for all columns of the same row
-GP6_filtered$SPR_Plaus_Rating[!(condition_A | condition_B | condition_C)] <- NA
-#only uncomment this line to print observed RTs where RTs corresponding to removed plausibility ratings are also removed
-#GP6_filtered$ReadingTime[!(condition_A | condition_B | condition_C)] <- NA  
+#GP6_filtered$SPR_Plaus_Rating[!(condition_A | condition_B | condition_C)] <- NA
+
+# removes the whole rows (including RTs) where plausibility ratings do not match the condition above (however predictions are the same
+# when only plausibility ratings are set to NA (i.e. unequal number of rows in RT and SPR_Rating_Plaus column) and when the whole row, i.e. RTs and SPR_Plaus_Rating are fully removed (not NA))
+GP6_filtered <- GP6_filtered[(condition_A | condition_B | condition_C)]
+
 
 fwrite(GP6_filtered, "GP6_filtered.csv")
 
