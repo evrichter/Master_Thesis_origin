@@ -1,7 +1,7 @@
 ### LMER ###
 # load lme4 package
 library(lme4)
-library(lmerTest)
+#library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
@@ -58,25 +58,25 @@ for (region in regions)
   # define and run the linear mixed-effects regression model for the precritical region 
   if (region == "Pre-critical")
   {
-    model_per_region <-  lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
   
   if (region == "Critical")
   {
-    model_per_region <-  lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
   
   if (region == "Spillover")
   {
-    model_per_region <-  lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
   
   if (region == "Post-spillover")
   {
-    model_per_region <-  lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
+    model_per_region <-  lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region +
                                 (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + scaled_precrit_RT_per_region | Subject) + 
                                 (1 + inverted_scaled_Plaus_per_region + scaled_precrit_RT_per_region | Item), data = region_subset)}
 
@@ -86,12 +86,12 @@ for (region in regions)
   print(summary_per_region)
   
   # calculate p-values
-  p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
-  new_row_p_value <- data.frame(Region = region, 
-                                p_value_plausibility_target = p_values_per_region[2], 
-                                p_value_surprisal_distractor = p_values_per_region[3],
-                                p_value_precrit = p_values_per_region[4])
-  p_values <- rbind(p_values, new_row_p_value)
+ # p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
+  #new_row_p_value <- data.frame(Region = region, 
+   #                             p_value_plausibility_target = p_values_per_region[2], 
+    #                            p_value_surprisal_distractor = p_values_per_region[3],
+     #                           p_value_precrit = p_values_per_region[4])
+  #p_values <- rbind(p_values, new_row_p_value)
   
   # extract intercept and coefficients added to intercept
   coefficients_per_region <- summary_per_region$coefficients

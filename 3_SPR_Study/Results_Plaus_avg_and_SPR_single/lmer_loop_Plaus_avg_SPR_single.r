@@ -1,7 +1,7 @@
 ### LMER ###
 # load lme4 package
 library(lme4)
-library(lmerTest)
+#library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
@@ -57,22 +57,22 @@ for (region in regions)
   region_subset$logRT_per_region <- log(region_subset$ReadingTime)
   
   
-  # define and run the linear mixed-effects regression model for the precritical region 
-  model_per_region <- lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region_plaus + inverted_scaled_Plaus_per_region_spr + scaled_Surprisaldist_per_region + 
+  # define and run the linear mixed-effects regression model
+  model_per_region <- lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region_plaus + inverted_scaled_Plaus_per_region_spr + scaled_Surprisaldist_per_region + 
                                        (1 + inverted_scaled_Plaus_per_region_plaus + inverted_scaled_Plaus_per_region_spr + scaled_Surprisaldist_per_region | Subject) + 
-                                       (1 + inverted_scaled_Plaus_per_region_plaus + inverted_scaled_Plaus_per_region_spr + scaled_Surprisaldist_per_region | Item), data = region_subset)
-  
+                                       (1 + inverted_scaled_Plaus_per_region_plaus + inverted_scaled_Plaus_per_region_spr + scaled_Surprisaldist_per_region | Item), REML = FALSE, data = region_subset)
+  # use REML = FALSE when comparing a simple to a complex (nested) model
   # print the summary of the model
   summary_per_region <- summary(model_per_region)
   print(summary_per_region)
   
   # calculate p-values
-  p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
-  new_row_p_value <- data.frame(Region = region, 
-                                p_value_plausibility_target_plaus = p_values_per_region[2], 
-                                p_value_plausibility_target_spr = p_values_per_region[3],
-                                p_value_surprisal_distractor = p_values_per_region[4])
-  p_values <- rbind(p_values, new_row_p_value)
+ # p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
+  #new_row_p_value <- data.frame(Region = region, 
+   #                             p_value_plausibility_target_plaus = p_values_per_region[2], 
+    #                            p_value_plausibility_target_spr = p_values_per_region[3],
+    #                           p_value_surprisal_distractor = p_values_per_region[4])
+  #p_values <- rbind(p_values, new_row_p_value)
   
   # extract intercept and coefficients added to intercept
   coefficients_per_region <- summary_per_region$coefficients

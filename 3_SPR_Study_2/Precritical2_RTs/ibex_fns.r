@@ -1,9 +1,9 @@
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/Precritical2_RTs/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Precritical2_RTs/")
 
 # exclude participants with low accuracy on comprehension questions
-excluded_participants <- c("ffdd30f484d223ac5999ce51deb40e33",
-                           "6b1c3b3f4a456ceb42f68dedb8f5b931",
-                           "f2ea935ab3f48bf10da6c309500a7647")
+excluded_participants <- c("57d66efe06ab60cc9a570c0030b909bbb",      #list1  o1_l1       [double from list 2, changed IP hash to avoid excluding data twice] (01:45 min)
+                           "ec66d23ff6dddfa9f3640492e69bb7f3",       #list1: o1_l1       [acc. 0.4] (11 min)
+                           "b94b605732b7bae08017c7d6283c4189")       #list4  o2_l1       [acc. 0.5] (44 min)
 
 #### FUNCTIONS
 get_reacts <- function(
@@ -17,12 +17,17 @@ get_reacts <- function(
     
     colnames(dt) <- c("timeReceipt", "IPhash", "Controller", "IbexItemNum", "IbexElementNum", "Block", "Group", 
                     "PennElType", "PennElName", "Header", "PressedKey", "EventTime", "Item", "CondCode",
-                    "List", "Critical", "CorrectKey", "QuestionText", "QuestionCondition", "Comments", "New1", "New2")
+                    "List", "Critical", "CorrectKey", "QuestionText", "QuestionCondition", "Comments")
     
     dt <- dt[!(IPhash %in% excluded_participants),]
     
     # Compute reaction times, selecting on IP x Item
     reaction_times <- dt[seq(2, nrow(dt), 2),]$EventTime - dt[seq(1, nrow(dt) - 1, 2),]$EventTime
+    
+    # swap order of events for comprehension questions (key and canvas) because they were swapped in list 3 and hence reaction times were negative (it was earlier - later Reaction Times)
+    reaction_times <- abs(reaction_times)
+    #
+    
     dt <- dt[PennElType == "Key",]
     dt$ReactionTime <- reaction_times
 
@@ -39,7 +44,7 @@ get_reacts <- function(
     dt$Block <- as.integer(ifelse(dt$Block == "block1", 1, ifelse(dt$Block == "block2", 2, ifelse(dt$Block == "block3", 3, "UNKNOWN"))))
     
     # Drop unnneeded columns
-    dt <- dt[,c("timeReceipt", "IPhash", "Controller", "Block", "PressedKey", "CorrectKey", "Item", "Condition", "List", "Critical", "QuestionText", "QuestionCondition", "ReactionTime", "Accuracy",  "New1", "New2")]  
+    dt <- dt[,c("timeReceipt", "IPhash", "Controller", "Block", "PressedKey", "CorrectKey", "Item", "Condition", "List", "Critical", "QuestionText", "QuestionCondition", "ReactionTime", "Accuracy")]  
     
     dt
 }

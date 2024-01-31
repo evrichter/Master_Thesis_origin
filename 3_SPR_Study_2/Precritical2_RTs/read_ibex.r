@@ -8,7 +8,7 @@ library(data.table)
 library(gridExtra)
 library(dplyr)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/Precritical2_RTs/")
+setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Precritical2_RTs/")
 source("ibex_fns.r")
 
 
@@ -33,11 +33,11 @@ table(survey$handedness)
 
 # Get REACTION TIMES & READING TIMES
 rc <- get_reacts("task.txt")
-pr <- get_plausibility_rating("task.txt")
+#pr <- get_plausibility_rating("task.txt")
 rd <- get_reads("reading.txt")
 
 df <- merge(rd, rc[,c("ReactionTime", "Accuracy", "IPhash", "Item")], by=c("IPhash", "Item"), all=TRUE)
-df <- merge(df, pr[,c("IPhash", "Item", "Condition", "SPR_Plaus_Rating", "SPR_Plaus_avg")], by=c("IPhash", "Item", "Condition"), all=TRUE)
+#df <- merge(df, pr[,c("IPhash", "Item", "Condition", "SPR_Plaus_Rating", "SPR_Plaus_avg")], by=c("IPhash", "Item", "Condition"), all=TRUE)
 
 # Change IPhashes to subject numbers
 colnames(df)[1] <- "Subject"
@@ -155,14 +155,14 @@ for (condition in conditions)
 
 
 # calculate MEAN PLAUSIBILITY RATINGS per condition [after removing outliers]
-GP6 <- df
+#GP6 <- df
 
-plaus_averages_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = mean)
-plaus_averages_by_condition
-plaus_sd_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = sd)
-plaus_sd_by_condition
-plaus_range_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = range)
-plaus_range_by_condition
+#plaus_averages_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = mean)
+#plaus_averages_by_condition
+#plaus_sd_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = sd)
+#plaus_sd_by_condition
+#plaus_range_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = range)
+#plaus_range_by_condition
 
 #log transform reading times and add them as new column to GP6
 GP6$logRT <- log(GP6$ReadingTime)
@@ -203,7 +203,7 @@ print(averages)
 
 # Create a line plot with average log-transformed reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Main_Verb", "Precrit_3", "Precrit_2", "Precrit", "Critical", "Spillover", "Post-spillover")), 
-                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.4, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
@@ -223,18 +223,18 @@ ggsave("Observed_logRTs_Plot.pdf", p, width=4, height=4)
 
 # CALCULARE CORRELATIONS
 # correlation avg Plaus per item and condition & suprisal from Plaus study
-GP6 <- read.csv("GP6SPR.csv")  #use unprocessed file bc in prestudies no outliers based on RTs were removed yet
-correlation_matrix <- cor(GP6[, c("Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor")])
-correlation_matrix
+#GP6 <- read.csv("GP6SPR.csv")  #use unprocessed file bc in prestudies no outliers based on RTs were removed yet
+#correlation_matrix <- cor(GP6[, c("Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor")])
+#correlation_matrix
 
 # correlation svg Plaus per item and condition & surprisal from SPR study
 # no plausibility distractor column, bc no distractor values were calculated for plausibility in the SPR study
-correlation_matrix <- cor(GP6[, c("SPR_Plaus_Rating", "Surprisal_target", "Surprisal_distractor")])
-correlation_matrix
+#correlation_matrix <- cor(GP6[, c("SPR_Plaus_Rating", "Surprisal_target", "Surprisal_distractor")])
+#correlation_matrix
 
 # calculate correlation coefficient between SPR_Plaus_avg (avg Plausratings from SPR study) and Plaus_target_avg (avg Plausratings from Plaus study)
-correlation <- cor(GP6$SPR_Plaus_avg, GP6$Plaus_target_avg)
-cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
+#correlation <- cor(GP6$SPR_Plaus_avg, GP6$Plaus_target_avg)
+#cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 
 ########## READ PROCESSED DATA
@@ -261,29 +261,29 @@ cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 # #### DATA VISUALISATION
 # Data Viz for avg Plausratings from SPR Study
-library(ggplot2)
+#library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
-dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
+#setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
+#dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
 
 
-means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
-means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
-dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
+#means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
+#means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
+#dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
 
 # density plot
-p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)
-p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
-p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
-ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
-p
+#p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)
+#p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+#p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+#p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+#p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
+#ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
+#p
 
 # barplot
-q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
-ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
-q
+#q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
+#ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
+#q
 
 ###
 # ## Per Condition RTs per region

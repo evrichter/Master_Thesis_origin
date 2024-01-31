@@ -261,29 +261,29 @@ cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 # #### DATA VISUALISATION
 # Data Viz for avg Plausratings from SPR Study
-library(ggplot2)
+#library(ggplot2)
 
-setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
-dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
+#setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
+#dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
 
 
-means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
-means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
-dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
+#means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
+#means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
+#dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
 
 # density plot
-p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)
-p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
-p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
-ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
-p
+#p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1.5)
+#p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+#p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+#p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+#p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
+#ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
+#p
 
 # barplot
-q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
-ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
-q
+#q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
+#ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
+#q
 
 ###
 # ## Per Condition RTs per region
