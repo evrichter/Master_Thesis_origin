@@ -1,181 +1,181 @@
-Condition,Item,Sentence,Verb,Target,Distractor,Last_Mentioned,Cloze,Cloze_distractor,Cloze_C_alternative,Cloze_round,Plaus_target_avg,Plaus_dist_avg,Cloze_C_alternative_Francesca,Surprisal_target,Surprisal_distractor
-A,1,Dann verabschiedete die Dame,verabschiedete,Touristen,Koffer,target,0.6,0,,2,5.8,3.1,,2.503722429,1.063010693
-B,1,Dann begrüßte die Dame,begrüßte,Touristen,Koffer,target,NA,NA,,,4.5,3.4,,1.769414067,5.617175102
-C,1,Dann unterschrieb die Dame,unterschrieb,Touristen,Koffer,target,0,0,0.1333333333,,1.8,4.3,0.133333333,9.249886513,2.278341293
-A,2,Dann kaufte der Lehrer,kaufte,Weltkarte,Verkäuferin,target,1,0,,2,6.7,1.4,,2.540403157,13.38705959
-B,2,Dann unterschrieb der Lehrer,unterschrieb,Weltkarte,Verkäuferin,target,NA,NA,,,2.5,2.2,,5.18264766,9.113685579
-C,2,Dann füllte der Lehrer,füllte,Weltkarte,Verkäuferin,target,0,0,0.2,,1.7,2.6,0.2,5.577688403,11.03621881
-A,3,Dann stempelte der Busfahrer,stempelte,Streifenkarte,Redakteurin,target,1,0,,1,6.1,3.2,,0.352082517,18.18998361
-B,3,Dann zeigte der Busfahrer,zeigte,Streifenkarte,Redakteurin,target,NA,NA,,,2.1,1.7,,0.8614109214,17.00164714
-C,3,Dann aß der Busfahrer,aß,Streifenkarte,Redakteurin,target,0.06666666667,0,0.1333333333,,1.4,1,0.2,0.4531728439,19.07749257
-A,4,Dann nahm der Lehrling,nahm,Hammer,Schreiner,target,0.8,0,,1,6.4,1.7,,0.1730497032,10.1279211
-B,4,Dann bemalte der Lehrling,bemalte,Hammer,Schreiner,target,NA,NA,,,4.1,2.6,,0.2754569054,11.37595844
-C,4,Dann aß der Lehrling,aß,Hammer,Schreiner,target,0.06666666667,0,0.2,,1.2,1.4,0.333333333,0.4900487661,10.0648241
-A,5,Daraufhin verpackte der Konditor,verpackte,Apfelkuchen,Opa,target,1,0,,1,6.2,1.2,,0.5783187672,10.57731247
-B,5,Daraufhin backte der Konditor,backte,Apfelkuchen,Opa,target,NA,NA,,,3.1,1.7,,0.6175215673,10.57731247
-C,5,Daraufhin spülte der Konditor,spülte,Apfelkuchen,Opa,target,0,0,0.2666666667,,2,1.3,0.266666667,0.5280218385,10.83362293
-A,6,Nichtsahnend nahm der Kunde,nahm,Frühlingsrolle,Lieferbotin,target,1,0,,2,5.6,2.7,,1.04623188,7.937069635
-B,6,Nichtsahnend wusch der Kunde,wusch,Frühlingsrolle,Lieferbotin,target,NA,NA,,,1.7,1.6,,1.856425717,8.906346759
-C,6,Nichtsahnend reparierte der Kunde,reparierte,Frühlingsrolle,Lieferbotin,target,0.1333333333,0,0.1333333333,,1.5,1.2,0.266666667,2.405750884,5.936846606
-A,7,Dann durchschnitt der Metzger,durchschnitt,Fleischwurst,Vegetarierin,target,0.9333333333,0,,2,5.5,1.4,,0.5609152988,12.23508824
-B,7,Dann bestellte der Metzger,bestellte,Fleischwurst,Vegetarierin,target,NA,NA,,,4.6,2,,3.501918103,3.488495838
-C,7,Dann mietete der Metzger,mietete,Fleischwurst,Vegetarierin,target,0.06666666667,0,0.1333333333,,1.2,1.1,0.266666667,4.751283973,6.609155957
-A,8,Dann bedrohte der Tierliebhaber,bedrohte,Kutscher,Gaul,distractor,0.8,0,,2,6.8,2.6,,3.99289098,0.557846427
-B,8,Dann bezahlte der Tierliebhaber,bezahlte,Kutscher,Gaul,distractor,NA,NA,,,3.5,2.1,,4.051906586,2.945972919
-C,8,Dann füllte der Tierliebhaber,füllte,Kutscher,Gaul,distractor,0.06666666667,0.1333333333,0.1333333333,,2.5,2.5,0.4,5.181012943,2.861481428
-A,9,Dann bestieg der Kapitän,bestieg,Segelbott,Pärchen,distractor,0.8666666667,0,,2,6.6,2.4,,2.655766811,5.301503154
-B,9,Dann sichtete der Kapitän,sichtete,Segelboot,Pärchen,distractor,NA,NA,,,5.5,4.8,,2.938949816,1.501931571
-C,9,Dann verschloss der Kapitän,verschloss,Segelboot,Pärchen,distractor,0.06666666667,0.06666666667,0.2666666667,,2.4,1.2,0.266666667,1.523858286,2.642583836
-A,10,Daraufhin lobte die Hausfrau,lobte,Handwerker,Wasserhahn,distractor,0.8,0.06666666667,,2,5.2,1.7,,0.2926407754,6.799437565
-B,10,Daraufhin verständigte die Hausfrau,verständigte,Handwerker,Wasserhahn,distractor,NA,NA,,,4.7,1.5,,1.18340838,6.769534409
-C,10,Daraufhin knickte die Hausfrau,knickte,Handwerker,Wasserhahn,distractor,0,0.06666666667,0,,1.5,1.7,0.266666667,9.01718998,1.229346
-A,11,Nach der Führung faltete der Urlauber,faltete,Flyer,Guide,distractor,1,0,,2,6.2,5.4,,0.1460913122,13.45625973
-B,11,Nach der Führung besorgte der Urlauber,besorgte,Flyer,Guide,distractor,NA,NA,,,2.8,2.5,,0.1539989412,9.783524513
-C,11,Nach der Führung kochte der Urlauber,kochte,Flyer,Guide,distractor,0,0,0.1333333333,,1.8,1.9,0.333333333,0.5063359141,8.54805851
-A,12,Daraufhin bedrohte der Paparazzi,bedrohte,Schauspielerin,Kamera,distractor,1,0,,2,6.4,1.9,,1.024572372,4.539141178
-B,12,Daraufhin erkannte der Paparazzi,erkannte,Schauspielerin,Kamera,distractor,NA,NA,,,3.7,2.9,,2.387670517,3.697336197
-C,12,Daraufhin färbte der Paparazzi,färbte,Schauspielerin,Kamera,distractor,0,0,0.2666666667,,3,1.9,0.333333333,8.455472946,3.049592257
-A,13,Daraufhin lobte der Schneider,lobte,Assistentin,Schaufensterpuppe,distractor,0.8,0.06666666667,,2,6.2,5.1,,8.431185722,0.3654086259
-B,13,Daraufhin entdeckte der Schneider,entdeckte,Assistentin,Schaufensterpuppe,distractor,NA,NA,,,4.9,5.6,,11.77056122,1.184232342
-C,13,Daraufhin schnitt der Schneider,schnitt,Assistentin,Schaufensterpuppe,distractor,0,0.1333333333,0.2666666667,,2,3.3,0.466666667,15.71411324,0.5698987387
-A,14,Danach musterte das Mädchen,musterte,Schwimmer,Sprung,target,0.8666666667,0,,2,5.5,2.1,,0.3041093647,6.255618572
-B,14,Danach besuchte das Mädchen,besuchte,Schwimmer,Sprung,target,NA,NA,,,5,2.3,,1.937140107,5.959497452
-C,14,Danach salzte das Mädchen,salzte,Schwimmer,Sprung,target,0,0,0.2,,2,2.3,0.2,1.564540029,3.354177713
-A,15,Dann verabschiedete der Chefarzt,verabschiedete,Sekretärin,Diktiermaschine,distractor,0.5333333333,0,,2,5.1,2.6,,3.000990629,3.283020018
-B,15,Dann fand der Chefarzt,fand,Sekretärin,Diktiermaschine,distractor,NA,NA,,,2.9,2.2,,12.54804325,2.53591329
-C,15,Dann leerte der Chefarzt,leerte,Sekretärin,Diktiermaschine,distractor,0,0.2,0.2666666667,,1.6,2.8,0.333333333,14.06069565,1.011438431
-A,16,Daraufhin verabschiedete die Reporterin,verabschiedete,Mitarbeiter,Bauern,distractor,0.4666666667,0.2666666667,,2,5.6,4.9,,7.377933502,1.166943669
-B,16,Daraufhin suchte die Reporterin,suchte,Mitarbeiter,Bauern,distractor,NA,NA,,,4.8,4.4,,10.05746269,1.821274996
-C,16,Daraufhin ordnete die Reporterin,ordnete,Mitarbeiter,Bauern,distractor,0.06666666667,0,0.1333333333,,3,2.7,0.2,10.6918993,5.007113457
-A,17,Danach parkte die Tochter,parkte,Rasenmäher,Gärtner,target,0.6666666667,0,,2,5.4,2.1,,0.6238627676,8.557954788
-B,17,Danach bemalte die Tochter,bemalte,Rasenmäher,Gärtner,target,NA,NA,,,5,2.2,,0.4505163424,9.57634449
-C,17,Danach halbierte die Tochter,halbierte,Rasenmäher,Gärtner,target,0,0,0.1333333333,,1.8,1.8,0.133333333,0.6214326934,10.3654623
-A,18,Entzückt entlohnte die Dame,entlohnte,Juwelier,Edelstein,distractor,0.8,0.06666666667,,2,5.2,2.8,,0.1814818233,4.375089262
-B,18,Entzückt empfing die Dame,empfing,Juwelier,Edelstein,distractor,NA,NA,,,3.6,5.5,,6.155050851,0.1570525265
-C,18,Entzückt würzte die Dame,würzte,Juwelier,Edelstein,distractor,0,0,0.2666666667,,1.6,1.9,0.333333333,6.852014288,0.1210251342
-A,19,Verblüfft nahm die Nichte,nahm,Schraubenzieher,Mechaniker,target,0.9333333333,0,,2,7,3.2,,1.011316285,8.174465446
-B,19,Verblüfft sah die Nichte,sah,Schraubenzieher,Mechaniker,target,NA,NA,,,6.8,6.4,,1.544470819,6.310023525
-C,19,Verblüfft kochte die Nichte,kochte,Schraubenzieher,Mechaniker,target,0,0,0,,1.4,1.4,0.133333333,1.910692529,10.02328787
-A,20,Daraufhin bestach der Mopedfahrer,bestach,Polizisten,Autofahrer,distractor,0.9333333333,0.06666666667,,2,4.6,3.8,,1.206238031,6.29182148
-B,20,Daraufhin bemerkte der Mopedfahrer,bemerkte,Polizisten,Autofahrer,distractor,NA,NA,,,3.5,2.3,,6.333042622,9.874056816
-C,20,Daraufhin sortierte der Mopedfahrer,sortierte,Polizisten,Autofahrer,distractor,0,0,0.2666666667,,2.5,2.5,0.266666667,12.17400932,12.09826374
-A,21,Daraufhin ermahnte die Freundin,ermahnte,Segler,Strick,distractor,1,0,,2,6.8,2.3,,0.5920653024,9.578245163
-B,21,Daraufhin informierte die Freundin,informierte,Segler,Strick,distractor,NA,NA,,,5.6,1.6,,2.569559885,10.21406746
-C,21,Daraufhin verschraubte die Freundin,verschraubte,Segler,Strick,distractor,0,0.2,0.2,,2.1,4.7,0.333333333,4.984754869,2.623970509
-A,22,Dann versklavten die Piraten,versklavten,Einheimischen,Golschätze,distractor,1,0,,1,5.8,1.3,,1.470148087,7.431092262
-B,22,Dann begleiteten die Piraten,begleiteten,Einheimischen,Golschätze,distractor,NA,0.6666666667,,,2.2,4,,4.903506279,8.471269131
-C,22,Dann wechselten die Piraten,wechselten,Einheimischen,Golschätze,distractor,0,0.06666666667,0.2666666667,,1.4,1.9,0.266666667,15.6228323,11.16522408
-A,23,Sofort suchte der Junge,suchte,Korb,Apfel,distractor,0.6,0.2666666667,,2,6.8,6,,3.436583042,2.722811699
-B,23,Sofort füllte der Junge,füllte,Korb,Apfel,distractor,NA,NA,,,3.3,1.4,,0.2080065906,6.925346375
-C,23,Sofort schlug der Junge,schlug,Korb,Apfel,distractor,0.06666666667,0,0.2,,2.7,2.1,0.266666667,3.444104671,2.174631834
-A,24,Danach beglückwünschte der Juror,beglückwünschte,Sportler,Vater,target,0.8666666667,0.2,,,4.7,6.8,,4.736171246,2.399290323
-B,24,Danach bewertete der Juror,bewertete,Sportler,Vater,target,NA,NA,,2,3.1,2.7,,4.724777222,8.385101318
-C,24,Danach öffnete der Juror,öffnete,Sportler,Vater,target,0,0,0.2666666667,,1.2,1.7,0.266666667,6.499278545,5.709727764
-A,25,Daraufhin umarmte der Mann,umarmte,Geschäftsfrau,Bar,distractor,1,0,,2,6.1,3.7,,2.882454917,5.229444504
-B,25,Daraufhin rief der Mann,rief,Geschäftsfrau,Bar,distractor,NA,NA,,,4.5,2.7,,3.964340761,6.145919323
-C,25,Daraufhin sortierte der Mann,sortierte,Geschäftsfrau,Bar,distractor,0,0,0.2666666667,,1.6,3.6,0.266666667,9.770549178,3.412408829
-A,26,Lachend holte der Rentner,holte,Zelt,Kind,target,0.4666666667,0,,2,6.8,2,,6.582201004,0.6354357004
-B,26,Lachend sah der Rentner,sah,Zelt,Kind,target,NA,NA,,,5.6,6,,6.205218792,1.516484499
-C,26,Lachend aß der Rentner,aß,Zelt,Kind,target,0,0,0.2666666667,,1.5,1.6,0.466666667,6.079293728,1.470865726
-A,27,Zurück in der Kantine kaufte der Lehrer,kaufte,Limonade,Tasche,distractor,1,0,,1,4.7,1.6,,2.838787405,2.533961296
-B,27,Zurück in der Kantine behielt der Lehrer,behielt,Limonade,Tasche,distractor,NA,NA,,,3.9,1.7,,3.558242044,1.625050902
-C,27,Zurück in der Kantine unterrichtete der Lehrer,unterrichtete,Limonade,Tasche,distractor,0,0.06666666667,0.2,,1.1,1.4,0.2,8.169496447,9.7168293
-A,28,Im Krankenhaus tröstete die Mutter,tröstete,Bergsteigerin,Spitzhacke,target,0.9333333333,0,,2,6.3,1.4,,3.554822594,21.67900768
-B,28,Im Krankenhaus verließ die Mutter,verließ,Bergsteigerin,Spitzhacke,target,NA,NA,,,5.3,2,,6.570899278,20.90992704
-C,28,Im Krankenhaus stapelte die Mutter,stapelte,Bergsteigerin,Spitzhacke,target,0,0.06666666667,0.1333333333,,1.5,1.9,0.133333333,11.44472289,16.31585767
-A,29,Dann umarmte die Praktikantin,umarmte,Förster,Hirsch,distractor,1,0,,2,5.6,1.5,,8.942742348,0.6214995384
-B,29,Dann wechselte die Praktikantin,wechselte,Förster,Hirsch,distractor,NA,NA,,,2.3,1.7,,8.328658104,4.437211037
-C,29,Dann sammelte die Praktikantin,sammelte,Förster,Hirsch,distractor,0,0,0.2666666667,,1.6,2.6,0.266666667,12.65558052,0.8615511656
-A,30,Am Ende konsultierte der Richter,konsultierte,Staatsanwalt,Angeklageten,distractor,0.3333333333,0.2,,1,6.7,5.5,,1.925576925,2.263990641
-B,30,Am Ende ersetzte der Richter,ersetzte,Staatsanwalt,Angeklagten,distractor,NA,NA,,,2.4,1.8,,2.575618267,1.526936173
-C,30,Am Ende kopierte der Richter,kopierte,Staatsanwalt,Angeklagten,distractor,0,0,0.1333333333,,1.7,1.4,0.133333333,3.77212429,4.343780994
-A,31,Glücklich küsste die Braut,küsste,Bräutigam,Ring,distractor,1,0,,2,6.1,3.5,,1.410717414,1.401376724
-B,31,Glücklich verließ die Braut,verließ,Bräutigam,Ring,distractor,NA,NA,,,1.8,2.3,,7.271149062,6.226944447
-C,31,Glücklich vereinfachte die Braut,vereinfachte,Bräutigam,Ring,distractor,0,0.1333333333,0.1333333333,,1.9,2,0.266666667,8.921307493,4.992019653
-A,32,Daraufhin faltete das Burgfräulein,faltete,Umhang,Ritter,distractor,0.5333333333,0.06666666667,,2,5.2,1.7,,0.0661130622,10.71413422
-B,32,Daraufhin trug das Burgfräulein,trug,Umhang,Ritter,distractor,NA,NA,,,3.4,2,,0.03423212725,11.43384838
-C,32,Daraufhin entleerte das Burgfräulein,entleerte,Umhang,Ritter,distractor,0,0,0.2,,2.7,2.5,0.2,0.1364987381,9.254758835
-A,33,Daraufhin begleitete die Aufsichtsperson,begleitete,Besucherin,Eintrittskarte,target,1,0,,1,6.9,2.3,,0.356182144,11.6472975
-B,33,Daraufhin grüßte die Aufsichtsperson,grüßte,Besucherin,Eintrittskarte,target,NA,NA,,,4.2,1.8,,0.7668297482,10.66804421
-C,33,Daraufhin erfand die Aufsichtsperson,erfand,Besucherin,Eintrittskarte,target,0,0,0.2666666667,,1.6,1.4,0.333333333,11.31706037,7.981710419
-A,34,Dann grüßte der Händler,grüßte,Sklaven,Gewürzen,target,0.6,0,,1,6.2,1.3,,0.8863021731,11.68587494
-B,34,Dann verabschiedete der Händler,verabschiedete,Sklaven,Gewürzen,target,NA,NA,,,5.4,1.4,,0.531168282,12.08275223
-C,34,Dann versiegelte der Händler,versiegelte,Sklaven,Gewürzen,target,0,0.06666666667,0.2,2,1.5,1.9,0.266666667,6.360876083,5.960035324
-A,35,Dann drückte das Kind,drückte,Teddybär,Ladenbesitzer,target,0.6666666667,0.3333333333,,,6.5,5.9,,0.4483609051,9.105771303
-B,35,Dann fand das Kind,fand,Teddybär,Ladenbesitzer,target,NA,NA,,,3.6,2.9,,0.6812002361,9.641131163
-C,35,Dann bastelte das Kind,bastelte,Teddybär,Ladenbesitzer,target,0.2,0,0.2,,2.5,2.1,0.2,0.4955222607,16.8506465
-A,36,Daraufhin entlohnte die Hundeliebhaberin,entlohnte,Nachbarn,Welpe,target,1,0,,1,6,3.1,,5.053026199,2.967388153
-B,36,Daraufhin erkannte die Hundeliebhaberin,erkannte,Nachbarn,Welpe,target,NA,NA,,,5.6,3.9,,5.744877815,3.520260096
-C,36,Daraufhin sortierte die Hundeliebhaberin,sortierte,Nachbarn,Welpe,target,0,0.1333333333,0.2,,1.9,1.6,0.2,10.94464397,1.254410148
-A,37,Dann bemitleidete der Schuhverkäufer,bemitleidete,Kunden,Dieb,distractor,0.6666666667,0.3333333333,,2,5.4,1.4,,4.201681137,0.2838433683
-B,37,Dann schickte der Schuhverkäufer,schickte,Kunden,Dieb,distractor,NA,NA,,,3.1,2,,6.752553463,0.3018228114
-C,37,Dann hinterlegte der Schuhverkäufer,hinterlegte,Kunden,Dieb,distractor,0,0.06666666667,0.2,,1.7,1.5,0.2,6.652354717,5.605090141
-A,38,Dann ermahnte der Eskimo,ermahnte,Freundin,Robbe,target,0.9333333333,0,,2,4.4,1.8,,3.848152399,0.2456560452
-B,38,Dann versteckte der Eskimo,versteckte,Freundin,Robbe,target,NA,NA,,,2.6,1.8,,9.841895103,0.1996937575
-C,38,Dann verpackte der Eskimo,verpackte,Freundin,Robbe,target,0,0.2,0.2666666667,,1.9,3.2,0.266666667,9.497258186,0.2603636472
-A,39,Dann vergütete die Tänzerin,vergütete,Babysitterin,Tochter,target,0.9333333333,0,,2,7,1.8,,2.303683832,8.625150681
-B,39,Dann testete die Tänzerin,testete,Babysitterin,Tochter,target,NA,NA,,,3.7,1.1,,3.779613033,8.212377548
-C,39,Dann stapelte die Tänzerin,stapelte,Babysitterin,Tochter,target,0,0,0.2666666667,,1.3,1.2,0.266666667,4.952951133,9.747509003
-A,40,Dann verhandelte der Minister mit,verhandelte,Präsidenten,Berater,target,1,0,,,6.3,4.4,,1.249210238,7.295618534
-B,40,Dann investierte der Minister mit,investierte,Präsidenten,Berater,target,NA,NA,,2,3,2.9,,3.674531698,4.200386524
-C,40,Dann schminkte sich der Minister mit,schminkte,Präsidenten,Berater,target,0,0,0.2,,1.1,3,0.2,1.211095572,10.68512917
-A,41,Im Hotel polierte die Trainerin,polierte,Pokal,Athlet,target,1,0,,2,6.3,1.3,,0.1702056676,16.14507103
-B,41,Im Hotel bezahlte die Trainerin,bezahlte,Pokal,Athlet,target,NA,NA,,,2.7,1.9,,1.428843141,10.55680561
-C,41,Im Hotel verspeiste die Trainerin,verspeiste,Pokal,Athlet,target,0,0,0.2666666667,,1.1,1.4,0.266666667,1.315659881,15.39117146
-A,42,Daraufhin nahm der Autor,nahm,Ball,Hund,target,0.9333333333,0,,2,7,1.8,,2.095377684,0.6420156956
-B,42,Daraufhin tauschte der Autor,tauschte,Ball,Hund,target,NA,NA,,,4.3,1.1,,0.3203244805,3.364237785
-C,42,Daraufhin zitierte der Autor,zitierte,Ball,Hund,target,0,0,0.2,,1.9,1.7,0.266666667,6.535190582,0.8912940025
-A,43,Daraufhin fütterte die Oma,fütterte,Kanninchen,Kleinkind,distractor,0.9333333333,0,,1,5.8,3.9,,0.2269374728,3.8815814
-B,43,Daraufhin entdeckte die Oma,entdeckte,Kanninchen,Kleinkind,distractor,NA,NA,,,4.5,5.6,,0.5666106939,4.209134005
-C,43,Daraufhin strickte die Oma,strickte,Kanninchen,Kleinkind,distractor,0.06666666667,0,0.2,,1.3,1.7,0.266666667,0.3900093734,7.263052512
-A,44,Letztendlich suspendierte der Geschäftsführer,suspendierte,Torwart,Coach,target,0.8,0.2,,,6.2,5.2,,2.429476738,5.232656479
-B,44,Letztendlich lobte der Geschäftsführer,lobte,Torwart,Coach,target,NA,NA,,2,3.1,4.5,,1.452531219,5.92540741
-C,44,Letztendlich reparierte der Geschäftsführer,reparierte,Torwart,Coach,target,0,0,0.2,,2.3,1.9,0.2,3.118271351,12.59506702
-A,45,Amüsiert kaufte der Referendar,kaufte,Lose,Schüler,target,1,0,,2,7,1.6,,2.830999135,11.60026646
-B,45,Amüsiert verglich der Referendar,verglich,Lose,Schüler,target,NA,NA,,,5,2.8,,4.965913483,4.214417934
-C,45,Amüsiert betrat der Referendar,betrat,Lose,Schüler,target,0,0,0.2666666667,,2.5,1.8,0.266666667,3.86111182,7.928708076
-A,46,Dann nahm der Doktor,nahm,Spritzen,Zwillinge,distractor,0.6,0.1333333333,,2,6.8,4.9,,1.056379646,7.813704491
-B,46,Dann erhielt der Doktor,erhielt,Spritzen,Zwillinge,distractor,NA,NA,,,5.2,5,,1.470541835,14.87725067
-C,46,Dann bastelte der Doktor,bastelte,Spritzen,Zwillinge,distractor,0,0,0.2,,2.7,1.2,0.266666667,0.4502097517,13.70519257
-A,47,Schnell zückte der Soldat,zückte,Waffe,Zivilistin,target,0.8666666667,0,,2,6.4,1.8,,2.896007538,10.39775804
-B,47,Schnell sicherte der Soldat,sicherte,Waffe,Zivilistin,target,NA,NA,,,4.3,5.3,,4.64687252,1.061689049
-C,47,Schnell durchkämmte der Soldat,durchkämmte,Waffe,Zivilistin,target,0,0,0.2666666667,,2.8,2.6,0.266666667,13.24778366,7.617835432
-A,48,An diesem Abend spielte das Orchester,spielte,Stück,Publikum,target,0.4,0,,1,5.7,2.9,,0.7200106382,10.20152283
-B,48,An diesem Abend erwartete das Orchester,erwartete,Stück,Publikum,target,NA,NA,,,2.8,4.1,,2.96454668,3.013258696
-C,48,An diesem Abend engagierte das Orchester,engagierte,Stück,Publikum,target,0.06666666667,0,0.2666666667,,2.8,3.2,0.266666667,6.108757496,5.461063385
-A,49,Dort begrüßte der Doktorand,begrüßte,Betreuerin,Arbeit,target,0.3333333333,0,,1,6.4,2.8,,0.8302885816,12.80644321
-B,49,Dort wechselte der Doktorand,wechselte,Betreuerin,Arbeit,target,NA,NA,,,3,3.7,,6.568589814,7.32781744
-C,49,Dort reparierte der Doktorand,reparierte,Betreuerin,Arbeit,target,0,0.1333333333,0,,1,2.1,0.133333333,13.60730568,7.6517663
-A,50,Daraufhin segnete der Pfarrer,segnete,Protestantin,Reise,distractor,0.6666666667,0.3333333333,,,6.4,6.4,,5.474379824,1.319716454
-B,50,Daraufhin kontaktierte der Pfarrer,kontaktierte,Protestantin,Reise,distractor,NA,NA,,2,4.3,1.6,,2.057551108,10.89372921
-C,50,Daraufhin las der Pfarrer,las,Protestantin,Reise,distractor,0,0,0.2,,2.4,4,0.466666667,6.194640487,6.40066576
-A,51,In der Praxis erfragte der Therapeut,erfragte,Symptome,Erzieherin,target,0.4666666667,0,,2,6.8,4.5,,2.149302244,9.753817648
-B,51,In der Praxis entwickelte der Therapeut,entwickelte,Symptome,Erzieherin,target,NA,NA,,,1.9,2,,0.8628239036,13.322673
-C,51,In der Praxis tauschte der Therapeut,tauschte,Symptome,Erzieherin,target,0,0,0.2,,2.3,1.7,0.333333333,4.918844223,8.816965237
-A,52,Dann malte die Designerin,malte,Eisbären,Geschichten,target,0.7333333333,0,,2,5.2,3.9,,2.849281549,4.621411324
-B,52,Dann beobachtete die Designerin,beobachtete,Eisbären,Geschichten,target,NA,NA,,,4.2,3.1,,1.444480777,5.771115303
-C,52,Dann leerte die Designerin,leerte,Eisbären,Geschichten,target,0.06666666667,0,0.1333333333,,1.3,1.6,0.2,11.13752174,7.650810719
-A,53,Daraufhin schrieb der Architekt,schrieb,Rede,Turnhalle,target,0.7333333333,0,,2,4.6,2.5,,3.910542488,5.05751133
-B,53,Daraufhin analysierte der Architekt,analysierte,Rede,Turnhalle,target,NA,NA,,,4.6,4.8,,9.779819489,6.826522827
-C,53,Daraufhin rief der Architekt,rief,Rede,Turnhalle,target,0,0,0.2666666667,,3.3,2,0.266666667,9.946516991,7.818226337
-A,54,Dann verabschiedete der Gitarrist,verabschiedete,Agentin,Sängerin,distractor,0.6666666667,0.06666666667,,2,6.4,3.7,,2.217580062,0.8670470715
-B,54,Dann beschäftigte der Gitarrist,beschäftigte,Agentin,Sängerin,distractor,NA,NA,,,2.8,3.7,,1.832262017,1.949004531
-C,54,Dann kaufte der Gitarrist,kaufte,Agentin,Sängerin,distractor,0,0,0.2666666667,,2.2,1.4,0.333333333,11.48500502,5.134884357
-A,55,Danach umarmte der Kurator,umarmte,Galeristin,Skulptur,target,0.8666666667,0.1333333333,,2,6.3,3.1,,10.52608335,0.3017178774
-B,55,Danach buchte der Kurator,buchte,Galeristin,Skulptur,target,NA,NA,,,4.9,4.1,,16.76054574,0.3287438154
-C,55,Danach sammelte der Kurator,sammelte,Galeristin,Skulptur,target,0,0.06666666667,0.2,,2.2,3,0.2,18.71314949,2.059751034
-A,56,Dann betrat die Kommilitonin,betrat,Toilette,Wimperntusche,target,0.9333333333,0,,2,6.8,2,,0.06803230941,7.221991777
-B,56,Dann beschrieb die Kommilitonin,beschrieb,Toilette,Wimperntusche,target,NA,NA,,,2,2.7,,1.9770298,2.489972911
-C,56,Dann las die Kommilitonin,las,Toilette,Wimperntusche,target,0,0,0.1333333333,,2.1,3.6,0.133333333,5.577623844,1.076561906
-A,57,Dann streichelte der Verbrecher,streichelte,Schäferhund,Ermittler,target,1,0,,2,4.5,1.9,,0.6609633882,14.84984398
-B,57,Dann versorgte der Verbrecher,versorgte,Schäferhund,Ermittler,target,NA,NA,,,3.4,1.2,,0.1387842242,8.942687988
-C,57,Dann faltete der Verbrecher,faltete,Schäferhund,Ermittler,target,0,0.06666666667,0.1333333333,,1.3,1.2,0.133333333,2.721726954,13.93777466
-A,58,Daraufhin verteidigte die Anwältin,verteidigte,Beschuldigten,Kläger,distractor,1,0,,,6.5,4.6,,3.843306541,5.000614166
-B,58,Daraufhin prüfte die Anwältin,prüfte,Beschuldigten,Kläger,distractor,NA,NA,,2,6,5.3,,7.841059685,8.771967888
-C,58,Daraufhin schwenkte die Anwältin,schwenkte,Beschuldigten,Kläger,distractor,0,0,0.2,,2.2,1.6,0.2,11.9196949,15.60111809
-A,59,Daraufhin angelte der Kumpel,angelte,Flussbarsch,Jungen,target,0.6666666667,0,,,6.6,2.1,,1.235432811,7.749116898
-B,59,Daraufhin reinigte der Kumpel,reinigte,Flussbarsch,Jungen,target,NA,NA,,1,2.3,2.1,,3.32149376,8.597401619
-C,59,Daraufhin trocknete der Kumpel,trocknete,Flussbarsch,Jungen,target,0,0,0.1333333333,,2.9,3.1,0.2,3.244193708,9.548920631
-A,60,Daraufhin verstellte die Gynäkologin,verstellte,Liege,Schwangere,target,0.7333333333,0,,1,5.9,2.7,,1.058240652,10.77605533
-B,60,Daraufhin suchte die Gynäkologin,suchte,Liege,Schwangere,target,NA,NA,,,2.7,3.2,,8.439344406,5.980378069
-C,60,Daraufhin verordnete die Gynäkologin,verordnete,Liege,Schwangere,target,0,0,0.2666666667,,1.6,1.9,0.266666667,7.454656601,9.354180038
+Condition,Item,Sentence,Verb,Target,Distractor,Last_Mentioned,Cloze,Cloze_distractor,Cloze_C_alternative,Cloze_round,Plaus_target_avg,Plaus_dist_avg,Cloze_C_alternative_Francesca,Surprisal_target,Surprisal_distractor,LeoLM_tar,LeoLM_dist
+A,1,Dann verabschiedete die Dame,verabschiedete,Touristen,Koffer,target,0.6,0,,2,5.8,3.1,,2.503722429,1.063010693,0.653357895091176,4.96250292658806
+B,1,Dann begrüßte die Dame,begrüßte,Touristen,Koffer,target,NA,NA,,,4.5,3.4,,1.769414067,5.617175102,0.679155882447958,5.92910646740347
+C,1,Dann unterschrieb die Dame,unterschrieb,Touristen,Koffer,target,0,0,0.1333333333,,1.8,4.3,0.133333333,9.249886513,2.278341293,12.6564046293497,1.80003632907756
+A,2,Dann kaufte der Lehrer,kaufte,Weltkarte,Verkäuferin,target,1,0,,2,6.7,1.4,,2.540403157,13.38705959,1.06810559481892,15.0991728646914
+B,2,Dann unterschrieb der Lehrer,unterschrieb,Weltkarte,Verkäuferin,target,NA,NA,,,2.5,2.2,,5.18264766,9.113685579,8.10131923786503,12.370315424283
+C,2,Dann füllte der Lehrer,füllte,Weltkarte,Verkäuferin,target,0,0,0.2,,1.7,2.6,0.2,5.577688403,11.03621881,2.51919143034684,6.43313929322176
+A,3,Dann stempelte der Busfahrer,stempelte,Streifenkarte,Redakteurin,target,1,0,,1,6.1,3.2,,0.352082517,18.18998361,0.612491183403108,14.7307306627044
+B,3,Dann zeigte der Busfahrer,zeigte,Streifenkarte,Redakteurin,target,NA,NA,,,2.1,1.7,,0.8614109214,17.00164714,0.422790108128993,13.1461607393576
+C,3,Dann aß der Busfahrer,aß,Streifenkarte,Redakteurin,target,0.06666666667,0,0.1333333333,,1.4,1,0.2,0.4531728439,19.07749257,0.465152751212372,14.9329172676662
+A,4,Dann nahm der Lehrling,nahm,Hammer,Schreiner,target,0.8,0,,1,6.4,1.7,,0.1730497032,10.1279211,0.129743308061734,8.65607416629791
+B,4,Dann bemalte der Lehrling,bemalte,Hammer,Schreiner,target,NA,NA,,,4.1,2.6,,0.2754569054,11.37595844,0.249920684844255,11.2263101637363
+C,4,Dann aß der Lehrling,aß,Hammer,Schreiner,target,0.06666666667,0,0.2,,1.2,1.4,0.333333333,0.4900487661,10.0648241,1.18454853259027,5.38979244232178
+A,5,Daraufhin verpackte der Konditor,verpackte,Apfelkuchen,Opa,target,1,0,,1,6.2,1.2,,0.5783187672,10.57731247,0.372101916815154,10.2977102026343
+B,5,Daraufhin backte der Konditor,backte,Apfelkuchen,Opa,target,NA,NA,,,3.1,1.7,,0.6175215673,10.57731247,1.02830619697488,10.2977102026343
+C,5,Daraufhin spülte der Konditor,spülte,Apfelkuchen,Opa,target,0,0,0.2666666667,,2,1.3,0.266666667,0.5280218385,10.83362293,0.530444890959188,9.18125506490469
+A,6,Nichtsahnend nahm der Kunde,nahm,Frühlingsrolle,Lieferbotin,target,1,0,,2,5.6,2.7,,1.04623188,7.937069635,0.863269892055541,5.63483074915712
+B,6,Nichtsahnend wusch der Kunde,wusch,Frühlingsrolle,Lieferbotin,target,NA,NA,,,1.7,1.6,,1.856425717,8.906346759,0.313168884487823,9.18593013961799
+C,6,Nichtsahnend reparierte der Kunde,reparierte,Frühlingsrolle,Lieferbotin,target,0.1333333333,0,0.1333333333,,1.5,1.2,0.266666667,2.405750884,5.936846606,0.71860598080093,4.85638269677293
+A,7,Dann durchschnitt der Metzger,durchschnitt,Fleischwurst,Vegetarierin,target,0.9333333333,0,,2,5.5,1.4,,0.5609152988,12.23508824,1.48708751166123,13.688895659172
+B,7,Dann bestellte der Metzger,bestellte,Fleischwurst,Vegetarierin,target,NA,NA,,,4.6,2,,3.501918103,3.488495838,2.07492190953053,7.72928296861937
+C,7,Dann mietete der Metzger,mietete,Fleischwurst,Vegetarierin,target,0.06666666667,0,0.1333333333,,1.2,1.1,0.266666667,4.751283973,6.609155957,11.5136190126068,14.5023533558706
+A,8,Dann bedrohte der Tierliebhaber,bedrohte,Kutscher,Gaul,distractor,0.8,0,,2,6.8,2.6,,3.99289098,0.557846427,0.0891706653783331,5.57795354537666
+B,8,Dann bezahlte der Tierliebhaber,bezahlte,Kutscher,Gaul,distractor,NA,NA,,,3.5,2.1,,4.051906586,2.945972919,0.529144102853024,4.20838871679734
+C,8,Dann füllte der Tierliebhaber,füllte,Kutscher,Gaul,distractor,0.06666666667,0.1333333333,0.1333333333,,2.5,2.5,0.4,5.181012943,2.861481428,4.13334035873413,1.62712142989039
+A,9,Dann bestieg der Kapitän,bestieg,Segelbott,Pärchen,distractor,0.8666666667,0,,2,6.6,2.4,,2.655766811,5.301503154,0.869033287279308,4.72538863494992
+B,9,Dann sichtete der Kapitän,sichtete,Segelboot,Pärchen,distractor,NA,NA,,,5.5,4.8,,2.938949816,1.501931571,3.72492447029799,2.02251118715503
+C,9,Dann verschloss der Kapitän,verschloss,Segelboot,Pärchen,distractor,0.06666666667,0.06666666667,0.2666666667,,2.4,1.2,0.266666667,1.523858286,2.642583836,4.45535395666957,4.62987156421877
+A,10,Daraufhin lobte die Hausfrau,lobte,Handwerker,Wasserhahn,distractor,0.8,0.06666666667,,2,5.2,1.7,,0.2926407754,6.799437565,0.245058558182791,8.3640274759382
+B,10,Daraufhin verständigte die Hausfrau,verständigte,Handwerker,Wasserhahn,distractor,NA,NA,,,4.7,1.5,,1.18340838,6.769534409,5.01980413869023,10.6651538256556
+C,10,Daraufhin knickte die Hausfrau,knickte,Handwerker,Wasserhahn,distractor,0,0.06666666667,0,,1.5,1.7,0.266666667,9.01718998,1.229346,3.91283955279505,1.029025091324
+A,11,Nach der Führung faltete der Urlauber,faltete,Flyer,Guide,distractor,1,0,,2,6.2,5.4,,0.1460913122,13.45625973,0.0580229868064635,15.27845287323
+B,11,Nach der Führung besorgte der Urlauber,besorgte,Flyer,Guide,distractor,NA,NA,,,2.8,2.5,,0.1539989412,9.783524513,0.566396293404978,10.5429248809814
+C,11,Nach der Führung kochte der Urlauber,kochte,Flyer,Guide,distractor,0,0,0.1333333333,,1.8,1.9,0.333333333,0.5063359141,8.54805851,1.30246765111588,5.28482675552368
+A,12,Daraufhin bedrohte der Paparazzi,bedrohte,Schauspielerin,Kamera,distractor,1,0,,2,6.4,1.9,,1.024572372,4.539141178,0.0767105820123106,10.3214815667598
+B,12,Daraufhin erkannte der Paparazzi,erkannte,Schauspielerin,Kamera,distractor,NA,NA,,,3.7,2.9,,2.387670517,3.697336197,1.41293197032064,2.64897289995133
+C,12,Daraufhin färbte der Paparazzi,färbte,Schauspielerin,Kamera,distractor,0,0,0.2666666667,,3,1.9,0.333333333,8.455472946,3.049592257,1.14691096800379,2.73900212279113
+A,13,Daraufhin lobte der Schneider,lobte,Assistentin,Schaufensterpuppe,distractor,0.8,0.06666666667,,2,6.2,5.1,,8.431185722,0.3654086259,0.620135156903416,5.15193261185777
+B,13,Daraufhin entdeckte der Schneider,entdeckte,Assistentin,Schaufensterpuppe,distractor,NA,NA,,,4.9,5.6,,11.77056122,1.184232342,6.28470849664882,2.30728591117077
+C,13,Daraufhin schnitt der Schneider,schnitt,Assistentin,Schaufensterpuppe,distractor,0,0.1333333333,0.2666666667,,2,3.3,0.466666667,15.71411324,0.5698987387,6.9431706846226,2.52413766260725
+A,14,Danach musterte das Mädchen,musterte,Schwimmer,Sprung,target,0.8666666667,0,,2,5.5,2.1,,0.3041093647,6.255618572,0.223667802871205,7.93170090019703
+B,14,Danach besuchte das Mädchen,besuchte,Schwimmer,Sprung,target,NA,NA,,,5,2.3,,1.937140107,5.959497452,0.186247855424881,9.17944851517677
+C,14,Danach salzte das Mädchen,salzte,Schwimmer,Sprung,target,0,0,0.2,,2,2.3,0.2,1.564540029,3.354177713,1.28238291013986,3.67121421126649
+A,15,Dann verabschiedete der Chefarzt,verabschiedete,Sekretärin,Diktiermaschine,distractor,0.5333333333,0,,2,5.1,2.6,,3.000990629,3.283020018,0.352932602283545,13.134072651621
+B,15,Dann fand der Chefarzt,fand,Sekretärin,Diktiermaschine,distractor,NA,NA,,,2.9,2.2,,12.54804325,2.53591329,5.76546263624914,2.71327370565268
+C,15,Dann leerte der Chefarzt,leerte,Sekretärin,Diktiermaschine,distractor,0,0.2,0.2666666667,,1.6,2.8,0.333333333,14.06069565,1.011438431,8.17204076051712,6.74514455301687
+A,16,Daraufhin verabschiedete die Reporterin,verabschiedete,Mitarbeiter,Bauern,distractor,0.4666666667,0.2666666667,,2,5.6,4.9,,7.377933502,1.166943669,0.158644034367171,4.08792455823277
+B,16,Daraufhin suchte die Reporterin,suchte,Mitarbeiter,Bauern,distractor,NA,NA,,,4.8,4.4,,10.05746269,1.821274996,5.46782861817337,1.36686585634016
+C,16,Daraufhin ordnete die Reporterin,ordnete,Mitarbeiter,Bauern,distractor,0.06666666667,0,0.1333333333,,3,2.7,0.2,10.6918993,5.007113457,5.21471758536063,7.58990616560914
+A,17,Danach parkte die Tochter,parkte,Rasenmäher,Gärtner,target,0.6666666667,0,,2,5.4,2.1,,0.6238627676,8.557954788,0.164064208503987,11.3859604101162
+B,17,Danach bemalte die Tochter,bemalte,Rasenmäher,Gärtner,target,NA,NA,,,5,2.2,,0.4505163424,9.57634449,0.396192660264205,5.06845314979728
+C,17,Danach halbierte die Tochter,halbierte,Rasenmäher,Gärtner,target,0,0,0.1333333333,,1.8,1.8,0.133333333,0.6214326934,10.3654623,2.55221047188388,4.64674253854173
+A,18,Entzückt entlohnte die Dame,entlohnte,Juwelier,Edelstein,distractor,0.8,0.06666666667,,2,5.2,2.8,,0.1814818233,4.375089262,0.115229661809281,6.83239322435111
+B,18,Entzückt empfing die Dame,empfing,Juwelier,Edelstein,distractor,NA,NA,,,3.6,5.5,,6.155050851,0.1570525265,4.27709886617959,2.34198435023427
+C,18,Entzückt würzte die Dame,würzte,Juwelier,Edelstein,distractor,0,0,0.2666666667,,1.6,1.9,0.333333333,6.852014288,0.1210251342,2.27728620509151,0.880861699522939
+A,19,Verblüfft nahm die Nichte,nahm,Schraubenzieher,Mechaniker,target,0.9333333333,0,,2,7,3.2,,1.011316285,8.174465446,0.268791053473251,6.04374250187539
+B,19,Verblüfft sah die Nichte,sah,Schraubenzieher,Mechaniker,target,NA,NA,,,6.8,6.4,,1.544470819,6.310023525,1.84297137170506,1.20026985884761
+C,19,Verblüfft kochte die Nichte,kochte,Schraubenzieher,Mechaniker,target,0,0,0,,1.4,1.4,0.133333333,1.910692529,10.02328787,2.77792340421001,1.75811258406611
+A,20,Daraufhin bestach der Mopedfahrer,bestach,Polizisten,Autofahrer,distractor,0.9333333333,0.06666666667,,2,4.6,3.8,,1.206238031,6.29182148,0.0171748814173043,10.7493652712437
+B,20,Daraufhin bemerkte der Mopedfahrer,bemerkte,Polizisten,Autofahrer,distractor,NA,NA,,,3.5,2.3,,6.333042622,9.874056816,2.75495027191937,6.36342528951354
+C,20,Daraufhin sortierte der Mopedfahrer,sortierte,Polizisten,Autofahrer,distractor,0,0,0.2666666667,,2.5,2.5,0.266666667,12.17400932,12.09826374,3.06392833031714,4.63097800198011
+A,21,Daraufhin ermahnte die Freundin,ermahnte,Segler,Strick,distractor,1,0,,2,6.8,2.3,,0.5920653024,9.578245163,0.0674614221788943,14.2698405534029
+B,21,Daraufhin informierte die Freundin,informierte,Segler,Strick,distractor,NA,NA,,,5.6,1.6,,2.569559885,10.21406746,1.33199651539326,9.15084075927734
+C,21,Daraufhin verschraubte die Freundin,verschraubte,Segler,Strick,distractor,0,0.2,0.2,,2.1,4.7,0.333333333,4.984754869,2.623970509,2.13718677684665,1.63767049694434
+A,22,Dann versklavten die Piraten,versklavten,Einheimischen,Golschätze,distractor,1,0,,1,5.8,1.3,,1.470148087,7.431092262,0.48931881855242,14.6802419424057
+B,22,Dann begleiteten die Piraten,begleiteten,Einheimischen,Golschätze,distractor,NA,0.6666666667,,,2.2,4,,4.903506279,8.471269131,0.656911912374198,6.64068008959293
+C,22,Dann wechselten die Piraten,wechselten,Einheimischen,Golschätze,distractor,0,0.06666666667,0.2666666667,,1.4,1.9,0.266666667,15.6228323,11.16522408,10.495489468798,9.77123467810452
+A,23,Sofort suchte der Junge,suchte,Korb,Apfel,distractor,0.6,0.2666666667,,2,6.8,6,,3.436583042,2.722811699,5.37286891043186,5.32953850179911
+B,23,Sofort füllte der Junge,füllte,Korb,Apfel,distractor,NA,NA,,,3.3,1.4,,0.2080065906,6.925346375,1.65437990427017,3.41615324653685
+C,23,Sofort schlug der Junge,schlug,Korb,Apfel,distractor,0.06666666667,0,0.2,,2.7,2.1,0.266666667,3.444104671,2.174631834,6.40360033512116,6.25802695378661
+A,24,Danach beglückwünschte der Juror,beglückwünschte,Sportler,Vater,target,0.8666666667,0.2,,,4.7,6.8,,4.736171246,2.399290323,1.3525625030743,0.971894264221191
+B,24,Danach bewertete der Juror,bewertete,Sportler,Vater,target,NA,NA,,2,3.1,2.7,,4.724777222,8.385101318,2.06247917702422,1.07763540744782
+C,24,Danach öffnete der Juror,öffnete,Sportler,Vater,target,0,0,0.2666666667,,1.2,1.7,0.266666667,6.499278545,5.709727764,3.87465369701385,4.23075532913208
+A,25,Daraufhin umarmte der Mann,umarmte,Geschäftsfrau,Bar,distractor,1,0,,2,6.1,3.7,,2.882454917,5.229444504,1.30627578045824,7.70594120025635
+B,25,Daraufhin rief der Mann,rief,Geschäftsfrau,Bar,distractor,NA,NA,,,4.5,2.7,,3.964340761,6.145919323,5.08553480153205,4.14221382141113
+C,25,Daraufhin sortierte der Mann,sortierte,Geschäftsfrau,Bar,distractor,0,0,0.2666666667,,1.6,3.6,0.266666667,9.770549178,3.412408829,17.9050448795315,3.86204504966736
+A,26,Lachend holte der Rentner,holte,Zelt,Kind,target,0.4666666667,0,,2,6.8,2,,6.582201004,0.6354357004,2.16912801936269,10.4979944229126
+B,26,Lachend sah der Rentner,sah,Zelt,Kind,target,NA,NA,,,5.6,6,,6.205218792,1.516484499,8.2243407566566,0.348253220319748
+C,26,Lachend aß der Rentner,aß,Zelt,Kind,target,0,0,0.2666666667,,1.5,1.6,0.466666667,6.079293728,1.470865726,3.08551757887471,0.630019843578339
+A,27,Zurück in der Kantine kaufte der Lehrer,kaufte,Limonade,Tasche,distractor,1,0,,1,4.7,1.6,,2.838787405,2.533961296,0.243394018965773,9.13923990004696
+B,27,Zurück in der Kantine behielt der Lehrer,behielt,Limonade,Tasche,distractor,NA,NA,,,3.9,1.7,,3.558242044,1.625050902,5.41213835496455,3.22476993256714
+C,27,Zurück in der Kantine unterrichtete der Lehrer,unterrichtete,Limonade,Tasche,distractor,0,0.06666666667,0.2,,1.1,1.4,0.2,8.169496447,9.7168293,9.56862454116344,11.2578285746276
+A,28,Im Krankenhaus tröstete die Mutter,tröstete,Bergsteigerin,Spitzhacke,target,0.9333333333,0,,2,6.3,1.4,,3.554822594,21.67900768,1.71410247962922,23.9909060448408
+B,28,Im Krankenhaus verließ die Mutter,verließ,Bergsteigerin,Spitzhacke,target,NA,NA,,,5.3,2,,6.570899278,20.90992704,0.93270787934307,19.4273914413061
+C,28,Im Krankenhaus stapelte die Mutter,stapelte,Bergsteigerin,Spitzhacke,target,0,0.06666666667,0.1333333333,,1.5,1.9,0.133333333,11.44472289,16.31585767,6.69531248509884,9.97362550348043
+A,29,Dann umarmte die Praktikantin,umarmte,Förster,Hirsch,distractor,1,0,,2,5.6,1.5,,8.942742348,0.6214995384,0.0138743774150498,9.84962798515335
+B,29,Dann wechselte die Praktikantin,wechselte,Förster,Hirsch,distractor,NA,NA,,,2.3,1.7,,8.328658104,4.437211037,16.7684807870537,11.8897339273244
+C,29,Dann sammelte die Praktikantin,sammelte,Förster,Hirsch,distractor,0,0,0.2666666667,,1.6,2.6,0.266666667,12.65558052,0.8615511656,8.36452082172036,3.5683347415179
+A,30,Am Ende konsultierte der Richter,konsultierte,Staatsanwalt,Angeklageten,distractor,0.3333333333,0.2,,1,6.7,5.5,,1.925576925,2.263990641,0.127949659479782,5.23065981350919
+B,30,Am Ende ersetzte der Richter,ersetzte,Staatsanwalt,Angeklagten,distractor,NA,NA,,,2.4,1.8,,2.575618267,1.526936173,0.817372472258285,2.67509952795172
+C,30,Am Ende kopierte der Richter,kopierte,Staatsanwalt,Angeklagten,distractor,0,0,0.1333333333,,1.7,1.4,0.133333333,3.77212429,4.343780994,6.81140001467429,3.22971099981532
+A,31,Glücklich küsste die Braut,küsste,Bräutigam,Ring,distractor,1,0,,2,6.1,3.5,,1.410717414,1.401376724,0.278695767749014,3.77475833892822
+B,31,Glücklich verließ die Braut,verließ,Bräutigam,Ring,distractor,NA,NA,,,1.8,2.3,,7.271149062,6.226944447,8.94465021707583,6.93809413909912
+C,31,Glücklich vereinfachte die Braut,vereinfachte,Bräutigam,Ring,distractor,0,0.1333333333,0.1333333333,,1.9,2,0.266666667,8.921307493,4.992019653,5.18305907515605,0.961410343647003
+A,32,Daraufhin faltete das Burgfräulein,faltete,Umhang,Ritter,distractor,0.5333333333,0.06666666667,,2,5.2,1.7,,0.0661130622,10.71413422,0.129182228120044,11.2272510528564
+B,32,Daraufhin trug das Burgfräulein,trug,Umhang,Ritter,distractor,NA,NA,,,3.4,2,,0.03423212725,11.43384838,0.157802799803903,5.18128108978272
+C,32,Daraufhin entleerte das Burgfräulein,entleerte,Umhang,Ritter,distractor,0,0,0.2,,2.7,2.5,0.2,0.1364987381,9.254758835,1.60697619942948,6.13884449005127
+A,33,Daraufhin begleitete die Aufsichtsperson,begleitete,Besucherin,Eintrittskarte,target,1,0,,1,6.9,2.3,,0.356182144,11.6472975,0.0717728724084736,15.8490557987243
+B,33,Daraufhin grüßte die Aufsichtsperson,grüßte,Besucherin,Eintrittskarte,target,NA,NA,,,4.2,1.8,,0.7668297482,10.66804421,0.450368269594037,8.98096905648708
+C,33,Daraufhin erfand die Aufsichtsperson,erfand,Besucherin,Eintrittskarte,target,0,0,0.2666666667,,1.6,1.4,0.333333333,11.31706037,7.981710419,11.3460682071745,8.19230489805341
+A,34,Dann grüßte der Händler,grüßte,Sklaven,Gewürzen,target,0.6,0,,1,6.2,1.3,,0.8863021731,11.68587494,0.377093639690429,17.4163899216801
+B,34,Dann verabschiedete der Händler,verabschiedete,Sklaven,Gewürzen,target,NA,NA,,,5.4,1.4,,0.531168282,12.08275223,1.97107290942222,9.49173979274929
+C,34,Dann versiegelte der Händler,versiegelte,Sklaven,Gewürzen,target,0,0.06666666667,0.2,2,1.5,1.9,0.266666667,6.360876083,5.960035324,5.92674001818523,1.17622822662815
+A,35,Dann drückte das Kind,drückte,Teddybär,Ladenbesitzer,target,0.6666666667,0.3333333333,,,6.5,5.9,,0.4483609051,9.105771303,1.12809375510551,2.22038436576258
+B,35,Dann fand das Kind,fand,Teddybär,Ladenbesitzer,target,NA,NA,,,3.6,2.9,,0.6812002361,9.641131163,2.77393130678684,3.32314360816963
+C,35,Dann bastelte das Kind,bastelte,Teddybär,Ladenbesitzer,target,0.2,0,0.2,,2.5,2.1,0.2,0.4955222607,16.8506465,1.07591436547227,3.36070684390143
+A,36,Daraufhin entlohnte die Hundeliebhaberin,entlohnte,Nachbarn,Welpe,target,1,0,,1,6,3.1,,5.053026199,2.967388153,0.0699071128037758,11.3696260899305
+B,36,Daraufhin erkannte die Hundeliebhaberin,erkannte,Nachbarn,Welpe,target,NA,NA,,,5.6,3.9,,5.744877815,3.520260096,4.35091863945127,1.33707380644046
+C,36,Daraufhin sortierte die Hundeliebhaberin,sortierte,Nachbarn,Welpe,target,0,0.1333333333,0.2,,1.9,1.6,0.2,10.94464397,1.254410148,5.88933392614126,1.68976808735169
+A,37,Dann bemitleidete der Schuhverkäufer,bemitleidete,Kunden,Dieb,distractor,0.6666666667,0.3333333333,,2,5.4,1.4,,4.201681137,0.2838433683,0.921417353674769,4.93436037376523
+B,37,Dann schickte der Schuhverkäufer,schickte,Kunden,Dieb,distractor,NA,NA,,,3.1,2,,6.752553463,0.3018228114,0.750762348994613,1.65521564520895
+C,37,Dann hinterlegte der Schuhverkäufer,hinterlegte,Kunden,Dieb,distractor,0,0.06666666667,0.2,,1.7,1.5,0.2,6.652354717,5.605090141,6.92288148403168,5.5332772731781
+A,38,Dann ermahnte der Eskimo,ermahnte,Freundin,Robbe,target,0.9333333333,0,,2,4.4,1.8,,3.848152399,0.2456560452,0.0837722920114175,7.02743858657777
+B,38,Dann versteckte der Eskimo,versteckte,Freundin,Robbe,target,NA,NA,,,2.6,1.8,,9.841895103,0.1996937575,0.276804597466253,4.15764396963641
+C,38,Dann verpackte der Eskimo,verpackte,Freundin,Robbe,target,0,0.2,0.2666666667,,1.9,3.2,0.266666667,9.497258186,0.2603636472,1.16617262898944,1.51419208478183
+A,39,Dann vergütete die Tänzerin,vergütete,Babysitterin,Tochter,target,0.9333333333,0,,2,7,1.8,,2.303683832,8.625150681,0.134013562637847,10.6535243988037
+B,39,Dann testete die Tänzerin,testete,Babysitterin,Tochter,target,NA,NA,,,3.7,1.1,,3.779613033,8.212377548,3.86046095495112,11.5183610916138
+C,39,Dann stapelte die Tänzerin,stapelte,Babysitterin,Tochter,target,0,0,0.2666666667,,1.3,1.2,0.266666667,4.952951133,9.747509003,8.27812475711107,15.4860877990723
+A,40,Dann verhandelte der Minister mit,verhandelte,Präsidenten,Berater,target,1,0,,,6.3,4.4,,1.249210238,7.295618534,0.18897003447637,5.98592133657075
+B,40,Dann investierte der Minister mit,investierte,Präsidenten,Berater,target,NA,NA,,2,3,2.9,,3.674531698,4.200386524,3.22644578898326,2.09401730308309
+C,40,Dann schminkte sich der Minister mit,schminkte,Präsidenten,Berater,target,0,0,0.2,,1.1,3,0.2,1.211095572,10.68512917,5.00213725864887,7.01296347007155
+A,41,Im Hotel polierte die Trainerin,polierte,Pokal,Athlet,target,1,0,,2,6.3,1.3,,0.1702056676,16.14507103,0.136393423890695,15.1310453414917
+B,41,Im Hotel bezahlte die Trainerin,bezahlte,Pokal,Athlet,target,NA,NA,,,2.7,1.9,,1.428843141,10.55680561,1.21395263704471,2.62143111228943
+C,41,Im Hotel verspeiste die Trainerin,verspeiste,Pokal,Athlet,target,0,0,0.2666666667,,1.1,1.4,0.266666667,1.315659881,15.39117146,2.59233165439218,10.739990234375
+A,42,Daraufhin nahm der Autor,nahm,Ball,Hund,target,0.9333333333,0,,2,7,1.8,,2.095377684,0.6420156956,0.13249671459198,3.8176303897053
+B,42,Daraufhin tauschte der Autor,tauschte,Ball,Hund,target,NA,NA,,,4.3,1.1,,0.3203244805,3.364237785,0.205542385578156,5.04707322642207
+C,42,Daraufhin zitierte der Autor,zitierte,Ball,Hund,target,0,0,0.2,,1.9,1.7,0.266666667,6.535190582,0.8912940025,4.19769525527954,0.472764476435259
+A,43,Daraufhin fütterte die Oma,fütterte,Kanninchen,Kleinkind,distractor,0.9333333333,0,,1,5.8,3.9,,0.2269374728,3.8815814,0.377441841439577,2.7569004537072
+B,43,Daraufhin entdeckte die Oma,entdeckte,Kanninchen,Kleinkind,distractor,NA,NA,,,4.5,5.6,,0.5666106939,4.209134005,2.04971314955037,5.9436475855764
+C,43,Daraufhin strickte die Oma,strickte,Kanninchen,Kleinkind,distractor,0.06666666667,0,0.2,,1.3,1.7,0.266666667,0.3900093734,7.263052512,1.36354100730387,1.57905619766098
+A,44,Letztendlich suspendierte der Geschäftsführer,suspendierte,Torwart,Coach,target,0.8,0.2,,,6.2,5.2,,2.429476738,5.232656479,0.360410280525684,4.31947986339219
+B,44,Letztendlich lobte der Geschäftsführer,lobte,Torwart,Coach,target,NA,NA,,2,3.1,4.5,,1.452531219,5.92540741,1.54344682022929,1.11972432892071
+C,44,Letztendlich reparierte der Geschäftsführer,reparierte,Torwart,Coach,target,0,0,0.2,,2.3,1.9,0.2,3.118271351,12.59506702,0.682489298284054,9.24569825828075
+A,45,Amüsiert kaufte der Referendar,kaufte,Lose,Schüler,target,1,0,,2,7,1.6,,2.830999135,11.60026646,0.910933329840191,7.78048616577871
+B,45,Amüsiert verglich der Referendar,verglich,Lose,Schüler,target,NA,NA,,,5,2.8,,4.965913483,4.214417934,3.38812125334516,3.90454498573672
+C,45,Amüsiert betrat der Referendar,betrat,Lose,Schüler,target,0,0,0.2666666667,,2.5,1.8,0.266666667,3.86111182,7.928708076,9.2602618932724,6.48984882119112
+A,46,Dann nahm der Doktor,nahm,Spritzen,Zwillinge,distractor,0.6,0.1333333333,,2,6.8,4.9,,1.056379646,7.813704491,2.80877125263214,3.40848175436258
+B,46,Dann erhielt der Doktor,erhielt,Spritzen,Zwillinge,distractor,NA,NA,,,5.2,5,,1.470541835,14.87725067,3.0101872086525,7.99853225331754
+C,46,Dann bastelte der Doktor,bastelte,Spritzen,Zwillinge,distractor,0,0,0.2,,2.7,1.2,0.266666667,0.4502097517,13.70519257,1.05261645466089,6.3468487598002
+A,47,Schnell zückte der Soldat,zückte,Waffe,Zivilistin,target,0.8666666667,0,,2,6.4,1.8,,2.896007538,10.39775804,0.0915148475032765,13.2752572975587
+B,47,Schnell sicherte der Soldat,sicherte,Waffe,Zivilistin,target,NA,NA,,,4.3,5.3,,4.64687252,1.061689049,2.69067319243914,1.11002802883741
+C,47,Schnell durchkämmte der Soldat,durchkämmte,Waffe,Zivilistin,target,0,0,0.2666666667,,2.8,2.6,0.266666667,13.24778366,7.617835432,7.58581343386322,7.68051830609329
+A,48,An diesem Abend spielte das Orchester,spielte,Stück,Publikum,target,0.4,0,,1,5.7,2.9,,0.7200106382,10.20152283,0.513057694857707,13.6495966614457
+B,48,An diesem Abend erwartete das Orchester,erwartete,Stück,Publikum,target,NA,NA,,,2.8,4.1,,2.96454668,3.013258696,6.98083290085197,2.49313560652081
+C,48,An diesem Abend engagierte das Orchester,engagierte,Stück,Publikum,target,0.06666666667,0,0.2666666667,,2.8,3.2,0.266666667,6.108757496,5.461063385,4.27421552792657,1.3962904807413
+A,49,Dort begrüßte der Doktorand,begrüßte,Betreuerin,Arbeit,target,0.3333333333,0,,1,6.4,2.8,,0.8302885816,12.80644321,3.47081784414331,13.3954048156738
+B,49,Dort wechselte der Doktorand,wechselte,Betreuerin,Arbeit,target,NA,NA,,,3,3.7,,6.568589814,7.32781744,12.7300680261105,8.17492961883545
+C,49,Dort reparierte der Doktorand,reparierte,Betreuerin,Arbeit,target,0,0.1333333333,0,,1,2.1,0.133333333,13.60730568,7.6517663,10.8848050894449,6.18139934539795
+A,50,Daraufhin segnete der Pfarrer,segnete,Protestantin,Reise,distractor,0.6666666667,0.3333333333,,,6.4,6.4,,5.474379824,1.319716454,0.936386458575726,1.88565464317799
+B,50,Daraufhin kontaktierte der Pfarrer,kontaktierte,Protestantin,Reise,distractor,NA,NA,,2,4.3,1.6,,2.057551108,10.89372921,8.54608936980367,4.78117178380489
+C,50,Daraufhin las der Pfarrer,las,Protestantin,Reise,distractor,0,0,0.2,,2.4,4,0.466666667,6.194640487,6.40066576,2.82240939303301,6.76226735115051
+A,51,In der Praxis erfragte der Therapeut,erfragte,Symptome,Erzieherin,target,0.4666666667,0,,2,6.8,4.5,,2.149302244,9.753817648,1.87027165433392,7.86935382336378
+B,51,In der Praxis entwickelte der Therapeut,entwickelte,Symptome,Erzieherin,target,NA,NA,,,1.9,2,,0.8628239036,13.322673,5.09613064210862,5.68391906953184
+C,51,In der Praxis tauschte der Therapeut,tauschte,Symptome,Erzieherin,target,0,0,0.2,,2.3,1.7,0.333333333,4.918844223,8.816965237,10.6290491956752,8.04804373043589
+A,52,Dann malte die Designerin,malte,Eisbären,Geschichten,target,0.7333333333,0,,2,5.2,3.9,,2.849281549,4.621411324,0.809892789751757,6.30509263393469
+B,52,Dann beobachtete die Designerin,beobachtete,Eisbären,Geschichten,target,NA,NA,,,4.2,3.1,,1.444480777,5.771115303,1.66056505753659,8.4309817571193
+C,52,Dann leerte die Designerin,leerte,Eisbären,Geschichten,target,0.06666666667,0,0.1333333333,,1.3,1.6,0.2,11.13752174,7.650810719,7.47868847846985,9.22351494431496
+A,53,Daraufhin schrieb der Architekt,schrieb,Rede,Turnhalle,target,0.7333333333,0,,2,4.6,2.5,,3.910542488,5.05751133,0.85580874508014,3.76613148860633
+B,53,Daraufhin analysierte der Architekt,analysierte,Rede,Turnhalle,target,NA,NA,,,4.6,4.8,,9.779819489,6.826522827,5.14930585026741,3.71884427964687
+C,53,Daraufhin rief der Architekt,rief,Rede,Turnhalle,target,0,0,0.2666666667,,3.3,2,0.266666667,9.946516991,7.818226337,12.3233752250671,8.92704576253891
+A,54,Dann verabschiedete der Gitarrist,verabschiedete,Agentin,Sängerin,distractor,0.6666666667,0.06666666667,,2,6.4,3.7,,2.217580062,0.8670470715,0.125696423463523,8.77590985689312
+B,54,Dann beschäftigte der Gitarrist,beschäftigte,Agentin,Sängerin,distractor,NA,NA,,,2.8,3.7,,1.832262017,1.949004531,1.93099416932091,1.38253680570051
+C,54,Dann kaufte der Gitarrist,kaufte,Agentin,Sängerin,distractor,0,0,0.2666666667,,2.2,1.4,0.333333333,11.48500502,5.134884357,4.55712048197165,1.98098465090152
+A,55,Danach umarmte der Kurator,umarmte,Galeristin,Skulptur,target,0.8666666667,0.1333333333,,2,6.3,3.1,,10.52608335,0.3017178774,0.0668316600786056,9.63297655573115
+B,55,Danach buchte der Kurator,buchte,Galeristin,Skulptur,target,NA,NA,,,4.9,4.1,,16.76054574,0.3287438154,5.1893598009483,1.13691067462787
+C,55,Danach sammelte der Kurator,sammelte,Galeristin,Skulptur,target,0,0.06666666667,0.2,,2.2,3,0.2,18.71314949,2.059751034,14.1301935201918,7.31075192801654
+A,56,Dann betrat die Kommilitonin,betrat,Toilette,Wimperntusche,target,0.9333333333,0,,2,6.8,2,,0.06803230941,7.221991777,0.730965643073432,19.3852605521679
+B,56,Dann beschrieb die Kommilitonin,beschrieb,Toilette,Wimperntusche,target,NA,NA,,,2,2.7,,1.9770298,2.489972911,3.74483946611872,3.15921156550758
+C,56,Dann las die Kommilitonin,las,Toilette,Wimperntusche,target,0,0,0.1333333333,,2.1,3.6,0.133333333,5.577623844,1.076561906,8.79196608951315,3.92205635190476
+A,57,Dann streichelte der Verbrecher,streichelte,Schäferhund,Ermittler,target,1,0,,2,4.5,1.9,,0.6609633882,14.84984398,1.2538512359024,10.7976973529439
+B,57,Dann versorgte der Verbrecher,versorgte,Schäferhund,Ermittler,target,NA,NA,,,3.4,1.2,,0.1387842242,8.942687988,1.94729507973534,2.16058801743202
+C,57,Dann faltete der Verbrecher,faltete,Schäferhund,Ermittler,target,0,0.06666666667,0.1333333333,,1.3,1.2,0.133333333,2.721726954,13.93777466,4.41687389969593,1.62720659305342
+A,58,Daraufhin verteidigte die Anwältin,verteidigte,Beschuldigten,Kläger,distractor,1,0,,,6.5,4.6,,3.843306541,5.000614166,0.260500809410587,5.26507586927619
+B,58,Daraufhin prüfte die Anwältin,prüfte,Beschuldigten,Kläger,distractor,NA,NA,,2,6,5.3,,7.841059685,8.771967888,1.45904496056028,2.41200945992023
+C,58,Daraufhin schwenkte die Anwältin,schwenkte,Beschuldigten,Kläger,distractor,0,0,0.2,,2.2,1.6,0.2,11.9196949,15.60111809,4.1751584095764,3.56099800020456
+A,59,Daraufhin angelte der Kumpel,angelte,Flussbarsch,Jungen,target,0.6666666667,0,,,6.6,2.1,,1.235432811,7.749116898,3.37343128572684,3.9641890572093
+B,59,Daraufhin reinigte der Kumpel,reinigte,Flussbarsch,Jungen,target,NA,NA,,1,2.3,2.1,,3.32149376,8.597401619,5.70555172662716,11.7388136386871
+C,59,Daraufhin trocknete der Kumpel,trocknete,Flussbarsch,Jungen,target,0,0,0.1333333333,,2.9,3.1,0.2,3.244193708,9.548920631,5.0532938024262,3.4200807211455
+A,60,Daraufhin verstellte die Gynäkologin,verstellte,Liege,Schwangere,target,0.7333333333,0,,1,5.9,2.7,,1.058240652,10.77605533,0.413669950794429,12.5115546286106
+B,60,Daraufhin suchte die Gynäkologin,suchte,Liege,Schwangere,target,NA,NA,,,2.7,3.2,,8.439344406,5.980378069,6.54141104221344,3.2125778067857
+C,60,Daraufhin verordnete die Gynäkologin,verordnete,Liege,Schwangere,target,0,0,0.2666666667,,1.6,1.9,0.266666667,7.454656601,9.354180038,7.9956371691078,2.95987043168861

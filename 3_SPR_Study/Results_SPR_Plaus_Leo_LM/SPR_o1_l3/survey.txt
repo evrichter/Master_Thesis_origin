@@ -1,0 +1,55 @@
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691100827498,CAPsurvey,NULL
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691100827498,CAPsurvey,NULL
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691100827498,CAPsurvey,NULL
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Aufmerksam lesen und hin und wieder kleinere Pausen,1691100869175,CAPsurvey,text input
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Wie gut man sich Dinge merken kann,1691100869175,CAPsurvey,text input
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691100869175,CAPsurvey,radio button
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691100869175,CAPsurvey,radio button
+1691100870,6cfbf8513c770bdd577b8113e2a74e06,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691100869175,CAPsurvey,NULL
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691102059790,CAPsurvey,NULL
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691102059790,CAPsurvey,NULL
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691102059790,CAPsurvey,NULL
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Text aufmerksam lesen,1691102118914,CAPsurvey,text input
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Ob Unstimmigkeiten im initialen Text die Plausabilitaet veraendern%2C oder ob diese nicht beachtet werden,1691102118914,CAPsurvey,text input
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691102118915,CAPsurvey,radio button
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691102118915,CAPsurvey,radio button
+1691102121,0127cfbaff31a92cffcf108ea3f226b6,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691102118915,CAPsurvey,NULL
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691102792645,CAPsurvey,NULL
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691102792645,CAPsurvey,NULL
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691102792645,CAPsurvey,NULL
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich habe den Text und anschließend die Wörter gelesen. Meine Einschätzung ob die Geschichte plausibel habe ich daran festgelegt%2C ob die Sätze im Kontext Sinn ergeben.,1691102878717,CAPsurvey,text input
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1691102878717,CAPsurvey,text input
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691102878718,CAPsurvey,radio button
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691102878718,CAPsurvey,radio button
+1691102879,b092f72f2a15bac1847d3da380c6c418,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691102878718,CAPsurvey,NULL
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691104695623,CAPsurvey,NULL
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691104695623,CAPsurvey,NULL
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691104695623,CAPsurvey,NULL
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich hatte keine bestimmte Strategie. Ich habe einfach die Geschichten aufmerksam gelesen.,1691104741738,CAPsurvey,text input
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Vielleicht%2C ob komische Verben in ansonsten plausiblen Geschichten überhaupt auffallen?,1691104741738,CAPsurvey,text input
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,medium,1691104741739,CAPsurvey,radio button
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691104741739,CAPsurvey,radio button
+1691104745,448da95163ef172c1555f67d07821478,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691104741739,CAPsurvey,NULL
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691108447062,CAPsurvey,NULL
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691108447062,CAPsurvey,NULL
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691108447062,CAPsurvey,NULL
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691108660350,CAPsurvey,NULL
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,very easy,1691108660350,CAPsurvey,radio button
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691108660350,CAPsurvey,radio button
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Über manche Sätze bin ich beim laut Lesen gestolpert%2C sodass ich sie zweimal lesen musste. Das Subjekt hat sich plötzlich geändert und der Sinnzusammenhang war nicht mehr gegeben. Z.B. dass plötzlich das Geld mit dem Opa reden möchte oder dass der Hase einen Witz erzählt etc.,1691108660350,CAPsurvey,text input
+1691108664,9c0be3c8e08ca00f2a38173b0a6b9f4e,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Ich hatte keine Strategie. Ich habe die Texte für mich laut vorgelesen und ggf. die Fragen nach bestem Gewissen beantwortet.,1691108660350,CAPsurvey,text input
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691141008686,CAPsurvey,NULL
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691141008686,CAPsurvey,NULL
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691141008686,CAPsurvey,NULL
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Text lesen. Letzten Satz lesen. Satz bewerten.,1691141036233,CAPsurvey,text input
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,Nein,1691141036233,CAPsurvey,text input
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691141036233,CAPsurvey,radio button
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691141036233,CAPsurvey,radio button
+1691141037,27c9419f8c5e7509d8f65fa7a83d5242,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,End,1691141036233,CAPsurvey,NULL
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,PennController,6,_Trial_,Start,1691162254266,CAPsurvey,NULL
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,Start,1691162254266,CAPsurvey,NULL
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,PennController,6,_Header_,End,1691162254266,CAPsurvey,NULL
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Strategy,Keine Strategie,1691162280026,CAPsurvey,text input
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Guesses,,1691162280026,CAPsurvey,text input
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Experiment_length,very long,1691162280026,CAPsurvey,radio button
+1691162281,584034db9eec6889f3eb4a7dc53d2373,PennController,7,0,postexp_survey,NULL,Html,postexp_survey,Task_difficulty,medium,1691162280026,CAPsurvey,radio button
