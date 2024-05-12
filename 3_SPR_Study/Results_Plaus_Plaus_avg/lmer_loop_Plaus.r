@@ -5,6 +5,7 @@ library(lmerTest)
 library(dplyr)
 library(ggplot2)
 
+
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_Plaus_Plaus_avg/")
 GP6 <- read.csv("GP6SPR_processed.csv")
 

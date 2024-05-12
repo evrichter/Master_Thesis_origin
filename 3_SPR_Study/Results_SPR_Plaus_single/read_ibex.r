@@ -59,7 +59,7 @@ df$Subject <- as.character(df$Subject)
 
 # merge df with assoc plausibility and surprisal values in pretests
 pretests <- fread("GradedP6_FollowUpStudy_Pretests.csv")
-df <- merge(df, pretests[,c("Item", "Condition", "Verb", "Target", "Distractor", "Last_Mentioned", "Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor")], by=c("Item", "Condition"))
+df <- merge(df, pretests[,c("Item", "Condition", "Verb", "Target", "Distractor", "Last_Mentioned", "Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor", "LeoLM_tar", "LeoLM_dist")], by=c("Item", "Condition"))
 
 # add precritRT as predictor
 df$precritRT <- rep(df[Region=="Pre-critical",]$ReadingTime, each=5)
@@ -185,7 +185,7 @@ print(averages)
 
 # Create a line plot with average log-transformed reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.4, 5.7)
+                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
@@ -231,13 +231,16 @@ cat("Correlation between SPR_Plaus_avg and Plaus_target_avg:", correlation)
 
 
 
-# #### DATA VISUALISATION
+# #### DATA VISUALISATION: COMBINED PLOT
 # Data Viz for avg Plausratings from SPR Study
 library(ggplot2)
 
+
+
+# Single Ratings Plot
+
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
 dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
-
 
 means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
 means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
@@ -248,10 +251,81 @@ p <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition))
 p <- p + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
 p <- p + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p <- p + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" )
+p <- p + labs(title = "Plausibility (SPR)", y="Density", x="Plausibility" ) + theme(plot.title = element_text(hjust = 0.5))
 p <- p + theme(legend.position = "bottom")
 ggsave("DensityPlot_Plausibility_SPR.pdf", p, device=cairo_pdf, width=4, height=4)
 p
+###################################################################################################
+
+# COMBINED PLOT
+# Single Ratings
+
+setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_single/")
+dt <- fread("GP6SPR_processed.csv") #plots plausratings after removing outliers
+
+means <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=mean)
+means$Plaus_SE <- aggregate(SPR_Plaus_avg ~ Condition, dt, FUN=se)$SPR_Plaus_avg
+dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("SPR_Plaus_avg")]
+
+# density plot
+p1 <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + xlim(1,7) + ylim(0, 1)
+p1 <- p1 + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+p1 <- p1 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p1 <- p1 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p1 <- p1 + labs(title = "Online Target Plausibility", y="Density", x="Rating" ) + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+#p1 <- p1 + theme(legend.position = "bottom")
+#ggsave("DensityPlot_Plausibility_SPR.pdf", p1, device=cairo_pdf, width=4, height=4)
+p1
+
+# Average Pretest Ratings
+
+setwd("~/Downloads/Master_Thesis/1_Plausibility_Rating_Study/")
+dt <- fread("plausresults.csv")
+
+
+# density plot target
+means <- aggregate(Rating ~ Condition, dt, FUN=mean)
+means$Plaus_SE <- aggregate(Rating ~ Condition, dt, FUN=se)$Rating
+dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("Rating")]
+
+p2 <- ggplot(dt_items_abc, aes(x=Rating, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + ylim(0, 1)
+p2 <- p2 + geom_vline(data=means, aes(xintercept=Rating, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+p2 <- p2 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p2 <- p2 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p2 <- p2 + labs(title = "Pretest Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+#ggsave("DensityPlot_Plausibility_Target.pdf", p2, device=cairo_pdf, width=4, height=4)
+p2
+
+# plot1 with legend
+combined_plot <- grid.arrange(p1, p2, ncol = 2)
+
+means <- aggregate(Rating ~ Condition, dt, FUN=mean)
+means$Plaus_SE <- aggregate(Rating ~ Condition, dt, FUN=se)$Rating
+dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("Rating")]
+
+plot1_legend <- ggplot(dt_items_abc, aes(x=Rating, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + ylim(0, 1)
+plot1_legend <- plot1_legend + geom_vline(data=means, aes(xintercept=Rating, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
+plot1_legend <- plot1_legend + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+plot1_legend <- plot1_legend + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+plot1_legend <- plot1_legend + labs(title = "Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "bottom") 
+
+# function to extract legend from plot 
+get_only_legend <- function(plot) { 
+  plot_table <- ggplot_gtable(ggplot_build(plot)) 
+  legend_plot <- which(sapply(plot_table$grobs, function(x) x$name) == "guide-box") 
+  legend <- plot_table$grobs[[legend_plot]] 
+  return(legend) 
+} 
+
+# extract legend from plot1 using above function 
+legend <- get_only_legend(plot1_legend) 
+combined_plot_with_legend <- grid.arrange(combined_plot, legend, nrow = 2, heights = c(95, 5))
+combined_plot_with_legend
+
+# Save the combined plot
+ggsave("Combined_Plot2.pdf", combined_plot_with_legend, device = "pdf")
+
+#############################
 
 # barplot
 q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))

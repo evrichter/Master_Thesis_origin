@@ -7,7 +7,7 @@ setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_Leo_LM/")
 
 dt <- fread("GP6SPR_processed.csv")
 
-vars <- dt[, c("Plaus_target_avg", "Plaus_dist_avg", "LeoLM_tar", "LeoLM_dist", "SPR_Plaus_Rating", "SPR_Plaus_avg")]
+vars <- dt[, c("Plaus_target_avg", "SPR_Plaus_Rating", "Surprisal_target", "LeoLM_tar", "Surprisal_distractor", "LeoLM_dist")]
 
 # Correlation Matrix (Pearson Correlation) #exclude single ratings SPR_Plaus_Rating from SPR study in correlation calculations?
 correlation_matrix_pearson <- cor(vars)

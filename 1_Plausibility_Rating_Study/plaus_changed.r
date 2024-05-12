@@ -85,7 +85,7 @@ for (l in c(1:6)) {
 
 # Probes
 correct_probes <- data.table(Item=seq(61,72), Correct=c(1, 7, 7, 1, 1, 7, 1, 1, 7, 1, 7, 7))
-probes <- merge(probes, correct_probes, on=Item)
+probes <- merge(probes, correct_probes, by="Item")
 probes$Accurate <- probes$Rating == probes$Correct
 probes$AccSum <- probes$Rating == probes$Correct
 aggregate(Accurate ~ ID, probes, mean) # accurate proportion per ID
@@ -195,26 +195,26 @@ ggsave("BarPlot_Plausibility_Distractor.pdf", q2, device=cairo_pdf, width=4, hei
 q2
 
 
-### SURPRISAL ###
+### GPT-2 SURPRISAL ###
 
 setwd("~/Downloads/Master_Thesis/2_Surprisal_Values")
 dt <- fread("FollowUp_GPT2_surprisals_edited.csv")
 dt <- dt[!(Surprisal_Target %in% NA & Surprisal_Distractor %in% NA),] 
 
-# density plot target
+# density plot target (GPT-2)
 means <- aggregate(Surprisal_Target ~ Condition, dt, FUN=mean)
 means$Plaus_SE <- aggregate(Surprisal_Target ~ Condition, dt, FUN=se)$Surprisal_Target
 dt_items_abc2 <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("Surprisal_Target")]
 
-p3 <- ggplot(dt_items_abc2, aes(x=Surprisal_Target, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + coord_cartesian(xlim = c(1, 22)) + ylim(0, 0.5)
-p3 <- p3 + geom_vline(data=means, aes(xintercept=Surprisal_Target, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(0, 22, by = 2))
+p3 <- ggplot(dt_items_abc2, aes(x=Surprisal_Target, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + ylim(0, 0.5)
+p3 <- p3 + geom_vline(data=means, aes(xintercept=Surprisal_Target, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(0, 20, by = 2))
 p3 <- p3 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p3 <- p3 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p3 <- p3 + labs(title = "Target Surprisal", y="Density", x= "Surprisal") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+p3 <- p3 + labs(title = "Target Surprisal (GPT-2)", y="Density", x= "Surprisal") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
 ggsave("DensityPlot_Surprisal_Target.pdf", p3, device=cairo_pdf, width=4, height=4)
 p3
 
-# density plot distractor
+# density plot distractor (GPT-2)
 means <- aggregate(Surprisal_Distractor ~ Condition, dt, FUN=mean)
 means$Plaus_distractor_SE <- aggregate(Surprisal_Distractor ~ Condition, dt, FUN=se)$Surprisal_Distractor
 dt_items_d <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("Surprisal_Distractor")]
@@ -223,12 +223,43 @@ p4 <- ggplot(dt_items_d, aes(x=Surprisal_Distractor, color=Condition, fill=Condi
 p4 <- p4 + geom_vline(data=means, aes(xintercept=Surprisal_Distractor, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(0, 22, by = 2))
 p4 <- p4 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p4 <- p4 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p4 <- p4 + labs(title = "Distractor Surprisal", y = "Density", x="Surprisal") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+p4 <- p4 + labs(title = "Distractor Surprisal (GPT-2)", y = "Density", x="Surprisal") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
 ggsave("DensityPlot_Surprisal_Distractor.pdf", p4, device=cairo_pdf, width=4, height=4)
 p4
 
+
+### LeoLM SURPRISAL ###
+
+# density plot target (LeoLM)
+means <- aggregate(LeoLM_tar ~ Condition, dt, FUN=mean)
+means$Plaus_SE <- aggregate(LeoLM_tar ~ Condition, dt, FUN=se)$LeoLM_tar
+dt_items_abc <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("LeoLM_tar")]
+
+p5 <- ggplot(dt_items_abc, aes(x=LeoLM_tar, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + ylim(0, 0.5)
+p5 <- p5 + geom_vline(data=means, aes(xintercept=LeoLM_tar, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(0, 20, by = 2))
+p5 <- p5 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p5 <- p5 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p5 <- p5 + labs(title = "Target Surprisal (LeoLM)", y="Density", x= "Surprisal") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+ggsave("DensityPlot_LeoLM_tar.pdf", p1, device=cairo_pdf, width=4, height=4)
+p5
+
+# density plot distractor (LeoLM)
+means <- aggregate(LeoLM_dist ~ Condition, dt, FUN=mean)
+means$Plaus_distractor_SE <- aggregate(LeoLM_dist ~ Condition, dt, FUN=se)$LeoLM_dist
+dt_items_d <- dt[, lapply(.SD, mean), by=list(Item, Condition), .SDcols=c("LeoLM_dist")]
+
+# density plot
+p6 <- ggplot(dt_items_d, aes(x=LeoLM_dist, color=Condition, fill=Condition)) + geom_density(alpha=0.4) + theme_minimal() + ylim(0, 0.5)
+p6 <- p6 + geom_vline(data=means, aes(xintercept=LeoLM_dist, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(0, 24, by = 2))
+p6 <- p6 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
+p6 <- p6 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue")) + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+p6 <- p6 + labs(title = "Distractor Surprisal (LeoLM)", y = "Density", x="Surprisal")
+ggsave("DensityPlot_LeoLM_dist.pdf", p1, device=cairo_pdf, width=4, height=4)
+p6
+
+
 ### COMBINED PLOT ### 
-combined_plot <- grid.arrange(p1, p3, p2, p4, ncol = 2)  # Replace p1, p2, p3, and p4 with your ggplot objects
+combined_plot <- grid.arrange(p1, p2, p3, p4, p5, p6, ncol = 2)  # Replace p1, p2, p3, and p4 with your ggplot objects
 setwd("~/Downloads/Master_Thesis/1_Plausibility_Rating_Study/")
 dt <- fread("plausresults.csv")
 
@@ -253,7 +284,7 @@ get_only_legend <- function(plot) {
 
 # extract legend from plot1 using above function 
 legend <- get_only_legend(plot1_legend) 
-combined_plot_with_legend <- grid.arrange(combined_plot, legend, nrow = 2, heights = c(10, 1))
+combined_plot_with_legend <- grid.arrange(combined_plot, legend, nrow = 2, heights = c(30, 1))
 combined_plot_with_legend
 
 # Save the combined plot
