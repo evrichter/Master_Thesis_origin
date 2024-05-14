@@ -60,7 +60,7 @@ df$Subject <- as.character(df$Subject)
 
 # merge df with assoc plausibility and surprisal values in pretests
 pretests <- fread("GradedP6_FollowUpStudy_Pretests.csv")
-df <- merge(df, pretests[,c("Item", "Condition", "Verb", "Target", "Distractor", "Last_Mentioned", "Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor")], by=c("Item", "Condition"))
+df <- merge(df, pretests[,c("Item", "Condition", "Verb", "Target", "Distractor", "Last_Mentioned", "Plaus_target_avg", "Plaus_dist_avg", "Surprisal_target", "Surprisal_distractor", "LeoLM_tar", "LeoLM_dist")], by=c("Item", "Condition"))
 
 # add precritRT as predictor
 df$precritRT <- rep(df[Region=="Pre-critical",]$ReadingTime, each=5)
@@ -189,7 +189,7 @@ p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critica
                      y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.48, 5.7)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
-p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
+p <- p + theme(legend.position="bottom", legend.text=element_text(size=6), legend.title=element_text(size=6), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p <- p + labs(x="Region", y="logRT", title = "Observed RTs") 
 #p <- p + scale_y_continuous(breaks = c(seq(5.40, 5.70, by = 0.05)))
 p 

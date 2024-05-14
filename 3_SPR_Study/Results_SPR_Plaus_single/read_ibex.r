@@ -185,10 +185,10 @@ print(averages)
 
 # Create a line plot with average log-transformed reading times
 p <- ggplot(averages, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+                     y = MeanReadingTime, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p <- p + theme_minimal() + geom_errorbar(aes(ymin= MeanReadingTime-SE, ymax=MeanReadingTime+SE), width=.1, size=0.5) 
 p <- p + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
-p <- p + theme(legend.position="bottom", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
+p <- p + theme(legend.position="bottom", legend.text=element_text(size=6), legend.title=element_text(size=6), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p <- p + labs(x="Region", y="logRT", title = "Observed RTs") 
 p 
 ggsave("Observed_RTs_Plot.pdf", p, width=4, height=4)
@@ -272,7 +272,7 @@ p1 <- ggplot(dt_items_abc, aes(x=SPR_Plaus_avg, color=Condition, fill=Condition)
 p1 <- p1 + geom_vline(data=means, aes(xintercept=SPR_Plaus_avg, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
 p1 <- p1 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p1 <- p1 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p1 <- p1 + labs(title = "Online Target Plausibility", y="Density", x="Rating" ) + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+p1 <- p1 + labs(title = "Single (Online) Target Plausibility", y="Density", x="Rating" ) + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
 #p1 <- p1 + theme(legend.position = "bottom")
 #ggsave("DensityPlot_Plausibility_SPR.pdf", p1, device=cairo_pdf, width=4, height=4)
 p1
@@ -292,8 +292,8 @@ p2 <- ggplot(dt_items_abc, aes(x=Rating, color=Condition, fill=Condition)) + geo
 p2 <- p2 + geom_vline(data=means, aes(xintercept=Rating, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
 p2 <- p2 + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 p2 <- p2 + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-p2 <- p2 + labs(title = "Pretest Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
-#ggsave("DensityPlot_Plausibility_Target.pdf", p2, device=cairo_pdf, width=4, height=4)
+p2 <- p2 + labs(title = "Average (Offline) Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "none") + theme(plot.title = element_text(hjust = 0.5))
+#ggsave("DensityPlot_Plausibility_Target.pdf", p2, device=cairo_pdf, width=4, height=4)http://127.0.0.1:28651/graphics/ab26476f-62f5-4ce8-8cec-4a8ccd3adae4.png
 p2
 
 # plot1 with legend
@@ -307,7 +307,7 @@ plot1_legend <- ggplot(dt_items_abc, aes(x=Rating, color=Condition, fill=Conditi
 plot1_legend <- plot1_legend + geom_vline(data=means, aes(xintercept=Rating, color=Condition), linetype="dashed") + scale_x_continuous(breaks=seq(1,7))
 plot1_legend <- plot1_legend + scale_color_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
 plot1_legend <- plot1_legend + scale_fill_manual(labels=c("A", "B", "C"), values=c("black", "red", "blue"))
-plot1_legend <- plot1_legend + labs(title = "Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "bottom") 
+plot1_legend <- plot1_legend + labs(title = "Target Plausibility", y="Density", x= "Rating") + theme(legend.position = "bottom") + theme(legend.margin = margin(t = 0, r = 0, b = 0.3, l = 0, unit = "cm"))
 
 # function to extract legend from plot 
 get_only_legend <- function(plot) { 
@@ -328,9 +328,9 @@ ggsave("Combined_Plot2.pdf", combined_plot_with_legend, device = "pdf")
 #############################
 
 # barplot
-q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
-ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
-q
+#q <- ggplot(means, aes(x=Condition, y=SPR_Plaus_avg)) + geom_bar(stat="identity") + labs(title = "Average Plausibility Ratings per Condition (SPR)", y = "Plausibility",  x = "Condition") + geom_errorbar(aes(ymin=SPR_Plaus_avg-Plaus_SE, ymax=SPR_Plaus_avg+Plaus_SE), width=.4, position=position_dodge(.9)) + theme_minimal() + coord_cartesian(ylim = c(1, 7)) + scale_y_continuous(breaks = c(1:7))
+#ggsave("BarPlot_Plausibility_SPR.pdf", q, device=cairo_pdf, width=4, height=4)
+#q
 
 ###
 # ## Per Condition RTs per region
