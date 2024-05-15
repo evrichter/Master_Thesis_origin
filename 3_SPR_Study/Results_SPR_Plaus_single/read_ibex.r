@@ -155,12 +155,13 @@ for (condition in conditions)
 
 # calculate MEAN PLAUSIBILITY RATINGS per condition [after removing outliers]
 GP6 <- df
+GP6$rounded_SPR_Plaus_avg <- round(GP6$SPR_Plaus_avg, 1)
 
-plaus_averages_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = mean)
+plaus_averages_by_condition <- aggregate(rounded_SPR_Plaus_avg ~ Condition, GP6, FUN = mean)
 plaus_averages_by_condition
-plaus_sd_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = sd)
+plaus_sd_by_condition <- aggregate(rounded_SPR_Plaus_avg ~ Condition, GP6, FUN = sd)
 plaus_sd_by_condition
-plaus_range_by_condition <- aggregate(SPR_Plaus_avg ~ Condition, GP6, FUN = range)
+plaus_range_by_condition <- aggregate(rounded_SPR_Plaus_avg ~ Condition, GP6, FUN = range)
 plaus_range_by_condition
 
 #log transform reading times and add them as new column to GP6

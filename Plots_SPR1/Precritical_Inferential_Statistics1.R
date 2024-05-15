@@ -686,7 +686,7 @@ p4 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Cr
                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 30)
 p4 <- p4 + geom_hline(yintercept=0, linetype=2)
 p4 <- p4 + theme_minimal()
-p4 <- p4 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
+p4 <- p4 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal", "PrecritRT"), values=c("#FF00FF", "#00FFFF", "#FF0000"))
 p4 <- p4 + labs(x="Region", y="Z-values", title = "Average Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p4 <- p4 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 9)) + theme(plot.title = element_text(size=8)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p4 

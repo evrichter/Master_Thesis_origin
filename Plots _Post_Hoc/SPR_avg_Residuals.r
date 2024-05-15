@@ -905,7 +905,7 @@ combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, nrow
 combined_plot_with_legend <- grid.text(caption, x = 0.463, y = 0.98, just = "center", gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
-setwd("~/Downloads/Master_Thesis/Plots_SPR1/")
+setwd("~/Downloads/Master_Thesis/Plots_Post_Hoc/")
 # Save the combined plot
-ggsave("Combined_Plot_Resdiuals.pdf", combined_plot_with_legend, device = "pdf")
+ggsave("Combined_Plot.pdf", combined_plot_with_legend, device = "pdf")
 

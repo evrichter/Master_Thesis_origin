@@ -1033,7 +1033,7 @@ p6
 p_legend <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
                                          y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 6)
 p_legend <- p_legend + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
-p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#FF0000", "#00FFFF"))
+p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#FF0000", "#00FFFF"))
 p_legend <- p_legend + labs(x="Region", y="SPR1 Coefficients", title = "Coefficients") 
 p_legend <- p_legend + theme(legend.position="bottom", legend.text=element_text(size=10), legend.title=element_text(size=10), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) 
 p_legend 

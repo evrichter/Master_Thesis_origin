@@ -4,6 +4,8 @@ library(lme4)
 library(lmerTest)
 library(dplyr)
 library(ggplot2)
+library(gridExtra)
+library(grid)
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study_2/Results_SPR2_Plaus_avg/")
 GP6 <- read.csv("GP6SPR_processed.csv")
@@ -179,7 +181,7 @@ p2 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Cr
                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 35)
 p2 <- p2 + geom_hline(yintercept=0, linetype=2)
 p2 <- p2 + theme_minimal()
-p2 <- p2 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
+p2 <- p2 + scale_color_manual(name="Coefficients", labels=c("Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p2 <- p2 + labs(x="Region", y="Z-values", title = "Inferential Statistics") 
 p2 <- p2 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p2 
@@ -191,9 +193,18 @@ p_legend <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical
                                      y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 35)
 p_legend <- p_legend + geom_hline(yintercept=0, linetype=2)
 p_legend <- p_legend + theme_minimal()
-p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
+p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#FF0000", "#00FFFF"))
 p_legend <- p_legend + labs(x="Region", y="Z-values", title = "Average Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p_legend <- p_legend + theme(legend.position="bottom", legend.text=element_text(size=10), legend.title=element_text(size=10), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=8)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p_legend 
+
+# plot intercept and coefficients added to intercept
+p_legend <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
+                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 6)
+p_legend <- p_legend + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
+p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#FF0000", "#00FFFF"))
+p_legend <- p_legend + labs(x="Region", y="SPR2 Coefficients", title = "Coefficients") 
+p_legend <- p_legend + theme(legend.position="bottom", legend.text=element_text(size=10), legend.title=element_text(size=10), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p_legend 
 
 # plot1 with legend
