@@ -146,7 +146,7 @@ for (region in regions)
 
 # Plot intercept and coefficients added to intercept
 p1 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p1 <- p1 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p1 <- p1 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p1 <- p1 + labs(x="Region", y="SPR1 Coefficients", title = "Single Online Plausibility + GPT-2 Surprisal") 
@@ -291,7 +291,7 @@ for (region in regions)
 }
 
 p2 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p2 <- p2 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p2 <- p2 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p2 <- p2 + labs(x="Region", y="SPR1 Coefficients", title = "Single Online Plausibility + LeoLM Surprisal") 
@@ -429,7 +429,7 @@ for (region in regions)
 
 # plot intercept and coefficients added to intercept
 p3 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p3 <- p3 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p3 <- p3 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p3 <- p3 + labs(x="Region", y="SPR1 Coefficients", title = "Average Online Plausibility + GPT-2 Surprisal") 
@@ -575,7 +575,7 @@ for (region in regions)
 
 # Plot intercept and coefficients added to intercept
 p4 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
+                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.7)
 p4 <- p4 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p4 <- p4 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p4 <- p4 + labs(x="Region", y="SPR1 Coefficients", title = "Average Online Plausibility + LeoLM Surprisal") 
@@ -713,7 +713,7 @@ for (region in regions)
 
 # plot intercept and coefficients added to intercept
 p5 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p5 <- p5 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p5 <- p5 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Average Offline Plausibility", "GPT-2 Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p5 <- p5 + labs(x="Region", y="SPR1 Coefficients", title = "Average Offline Plausibility + GPT-2 Surprisal") 
@@ -858,7 +858,7 @@ for (region in regions)
 
 # Plot intercept and coefficients added to intercept
 p6 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                   y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p6 <- p6 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p6 <- p6 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00FFFF"))
 p6 <- p6 + labs(x="Region", y="SPR1 Coefficients", title = "Average Offline Plausibility + LeoLM Surprisal") 
@@ -896,7 +896,7 @@ empty_row <- grid.rect(gp = gpar(fill = "white", col = "white"))
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
 combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, nrow = 3, heights = c(0.2,9,0.8))
-combined_plot_with_legend <- grid.text(caption, x = 0.18, y = 0.98, gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.text(caption, x = 0.175, y = 0.98, gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_SPR1/")

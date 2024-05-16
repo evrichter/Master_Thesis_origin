@@ -148,7 +148,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p1 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p1 <- p1 + geom_hline(yintercept=0, linetype=2)
 p1 <- p1 + theme_minimal()
 p1 <- p1 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -295,7 +295,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p2 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p2 <- p2 + geom_hline(yintercept=0, linetype=2)
 p2 <- p2 + theme_minimal()
 p2 <- p2 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -436,7 +436,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p3 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p3 <- p3 + geom_hline(yintercept=0, linetype=2)
 p3 <- p3 + theme_minimal()
 p3 <- p3 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -584,7 +584,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p4 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p4 <- p4 + geom_hline(yintercept=0, linetype=2)
 p4 <- p4 + theme_minimal()
 p4 <- p4 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -724,7 +724,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p5 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p5 <- p5 + geom_hline(yintercept=0, linetype=2)
 p5 <- p5 + theme_minimal()
 p5 <- p5 + scale_color_manual(name="Coefficients", labels=c("Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -873,7 +873,7 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p6 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p6 <- p6 + geom_hline(yintercept=0, linetype=2)
 p6 <- p6 + theme_minimal()
 p6 <- p6 + scale_color_manual(name="Coefficients", labels=c("Target Plausibility", "Distractor Surprisal"), values=c("#FF00FF", "#00FFFF"))
@@ -913,7 +913,7 @@ empty_row <- grid.rect(gp = gpar(fill = "white", col = "white"))
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
 combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, nrow = 3, heights = c(0.2,9,0.8))
-combined_plot_with_legend <- grid.text(caption, x = 0.228, y = 0.98, just = "center", gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.text(caption, x = 0.225, y = 0.98, just = "center", gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_SPR1/")

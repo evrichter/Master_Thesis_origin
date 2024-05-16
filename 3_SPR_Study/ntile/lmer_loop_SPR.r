@@ -40,8 +40,8 @@ regions <- c("Pre-critical", "Critical", "Spillover", "Post-spillover")
 conditions <- c("A", "B", "C")
 ntile_groups <- c(1, 2, 3)
 
-GP6$Ntile_Group <- ntile(GP6$Plaus_target_avg, 3)
-#df<- GP6[, c("Condition", "Plaus_target_avg", "Ntile_Group")]
+GP6$Ntile_Group <- ntile(GP6$SPR_Plaus_Rating, 3)
+#df<- GP6[, c("Condition", "SPR_Plaus_Rating", "Ntile_Group")]
 
 GP6$logRT <- log(GP6$ReadingTime)
 

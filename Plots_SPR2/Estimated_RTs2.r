@@ -145,11 +145,11 @@ for (region in regions)
 
 # Create a line plot for estimated logRTs
 p1 <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p1 <- p1 + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
 p1 <- p1 + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p1 <- p1 + labs(x="Region", y="logRT", title = "Average Plausibility + GPT-2 Surprisal") 
-p1 <- p1 + theme(legend.position="none", legend.text=element_text(size=8), legend.title=element_text(size=8), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 1, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p1 <- p1 + theme(legend.position="none", legend.text=element_text(size=8), legend.title=element_text(size=8), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 8)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 1, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p1 
 
 
@@ -291,16 +291,16 @@ for (region in regions)
 
 # Create a line plot for estimated logRTs
 p2 <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p2 <- p2 + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
 p2 <- p2 + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p2 <- p2 + labs(x="Region", y="logRT", title = "Average Plausibility + LeoLM Surprisal") 
-p2 <- p2 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 1, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p2 <- p2 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 8)) + theme(plot.title = element_text(size=11)) + theme(plot.margin = margin(t = 1, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p2 
 
 # Create a line plot for estimated logRTs
 p_legend <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                        y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.50, 5.65)
+                                        y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.50, 5.65)
 p_legend <- p_legend + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
 p_legend <- p_legend + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p_legend <- p_legend + labs(x="Region", y="logRT", title = "Estimated RTs")
@@ -324,7 +324,7 @@ get_only_legend <- function(plot) {
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
 combined_plot_with_legend <- grid.arrange(combined_plot, legend, nrow = 2, heights = c(9,1))
-combined_plot_with_legend <- grid.text(caption, x = 0.190, y = 0.97, gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.text(caption, x = 0.19, y = 0.97, gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_SPR2/")

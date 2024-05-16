@@ -1,7 +1,7 @@
 ### LMER ###
 # load lme4 package
 library(lme4)
-#library(lmerTest)
+library(lmerTest)
 library(dplyr)
 library(ggplot2)
 library(gridExtra)
@@ -149,7 +149,7 @@ for (region in regions)
 # plot residuals
 # Create a line plot 
 p1 <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                           y = Residual, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
+                           y = Residual, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
 p1 <- p1 + theme_minimal() + geom_errorbar(aes(ymin=Residual-SE_Residual, ymax=Residual+SE_Residual), width=.1, size=0.3) 
 p1 <- p1 + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p1 <- p1 + labs(x="Region", y="logRT", title = "Residuals") 
@@ -159,7 +159,7 @@ p1
 # plot estimated logRTs
 # Create a line plot 
 p2 <- ggplot(logRT_estimated, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                 y = Estimated_logRT, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p2 <- p2 + theme_minimal() + geom_errorbar(aes(ymin=Estimated_logRT-SE_Estimated, ymax=Estimated_logRT+SE_Estimated), width=.1, size=0.3) 
 p2 <- p2 + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p2 <- p2 + labs(x="Region", y="logRT", title = "Estimated RTs") 
@@ -168,7 +168,7 @@ p2
 
 # plot intercept and coefficients added to intercept
 p3 <- ggplot(SPR_coefficients, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
+                                  y = Estimate_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (5.5, 5.65)
 p3 <- p3 + theme_minimal() + geom_errorbar(aes(ymin=Estimate_value-Estimate_error, ymax=Estimate_value+Estimate_error), width=.1, size=0.3) 
 p3 <- p3 + scale_color_manual(name="Coefficients", labels=c("Intercept", "Target Plausibility (Average)", "Target Plausibility (Single)", "Distractor Surprisal"), values=c("#000000", "#FF00FF", "#00CC33", "#00FFFF"))
 p3 <- p3 + labs(x="Region", y="SPR Coefficients", title = "Coefficients") 
@@ -179,7 +179,7 @@ p3
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p4 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 5)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 5)
 p4 <- p4 + geom_hline(yintercept=0, linetype=2)
 p4 <- p4 + theme_minimal()
 p4 <- p4 + scale_color_manual(name="Coefficients", labels=c( "Plausibility (Average)", "Plausibility (Single)", "GPT-2 Surprisal"), values=c("#FF00FF", "#00CC33", "#00FFFF"))
@@ -190,7 +190,7 @@ p4
 
 #################################################################
 p_legend1 <- ggplot(residuals, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                            y = Residual, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
+                            y = Residual, color = Condition, group = Condition)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (0.10, -0.10)
 p_legend1 <- p_legend1 + theme_minimal() + geom_errorbar(aes(ymin=Residual-SE_Residual, ymax=Residual+SE_Residual), width=.1, size=0.3) 
 p_legend1 <- p_legend1 + scale_color_manual(name="Condition", labels=c("A: Plausible", "B: Medium Plausible", "C: Implausible"), values=c("#000000", "#FF0000", "#0000FF"))
 p_legend1 <- p_legend1 + labs(x="Region", y="logRT", title = "Residuals: Avg + Single PlausT + SurprisalD") 
@@ -225,8 +225,8 @@ get_only_legend <- function(plot) {
 # extract legend from plot1 using above function 
 legend1 <- get_only_legend(p_legend1)
 legend2 <- get_only_legend(p_legend2) 
-combined_plot_with_legend <- grid.arrange(empty_row, combined_plot1, empty_row, legend1, combined_plot2, empty_row, legend2, nrow = 7, heights = c(0.2,4.5,0.1,0.4,4.5,0.1,0.4))
-combined_plot_with_legend <- grid.text(caption, x = 0.45, y = 0.98, gp = gpar(fontsize = 13))
+combined_plot_with_legend <- grid.arrange(empty_row, combined_plot1, empty_row, legend1, combined_plot2, empty_row, legend2, nrow = 7, heights = c(0.2,4.5,0.20, 0.3,4.5,0.20,0.3))
+combined_plot_with_legend <- grid.text(caption, x = 0.463, y = 0.98, gp = gpar(fontsize = 13))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_Post_Hoc/")
