@@ -124,6 +124,7 @@ GP6 <- df
 GP6 <- GP6[!(ReactionTime %in% c(NA)),] #remove rows containing NA for reaction time and accuracy
 
 conditions <- c("A", "B", "C") 
+
 for (condition in conditions) 
 {
   GP6_per_condition <- GP6[(Condition %in% c(condition)),] #subset condition
@@ -167,6 +168,9 @@ plaus_range_by_condition
 #log transform reading times and add them as new column to GP6
 GP6$logRT <- log(GP6$ReadingTime)
 ### Calculate average reading times per region and per condition ###
+
+# uncomment and use this to see averages for not log transformed reading times
+#GP6$logRT <- GP6$ReadingTime
 
 regions <- c("Pre-critical", "Critical", "Spillover", "Post-spillover") 
 conditions <- c("A", "B", "C") 
@@ -298,7 +302,7 @@ p2 <- p2 + labs(title = "Average (Offline) Target Plausibility", y="Density", x=
 p2
 
 # plot1 with legend
-combined_plot <- grid.arrange(p1, p2, ncol = 2)
+combined_plot <- grid.arrange(p2, p1, ncol = 2)
 
 means <- aggregate(Rating ~ Condition, dt, FUN=mean)
 means$Plaus_SE <- aggregate(Rating ~ Condition, dt, FUN=se)$Rating

@@ -53,7 +53,7 @@ for (region in regions)
 
   # standardise predictors (target plausibility (per-trial) and distractor surprisal (pre-test))
   region_subset$scaled_Plaus_per_region <- scale(region_subset$SPR_Plaus_Rating)
-  region_subset$scaled_Surprisaldist_per_region <- scale(region_subset$Surprisal_distractor)
+  region_subset$scaled_Surprisaldist_per_region <- scale(region_subset$LeoLM_dist)
   
   # invert predictor target plausibility
   region_subset$inverted_scaled_Plaus_per_region <- (region_subset$scaled_Plaus_per_region) * (-1)

@@ -143,9 +143,9 @@ for (condition in conditions)
 ### FILTER PLAUSIBILITY RATINGS (no diff in observed RTs plot) AND RTs (diff in observed RTs plot)
 GP6_filtered <- df
 
-condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$SPR_Plaus_Rating == 6 | GP6_filtered$SPR_Plaus_Rating == 7)
+condition_A <- GP6_filtered$Condition == "A" & (GP6_filtered$SPR_Plaus_Rating == 5 | GP6_filtered$SPR_Plaus_Rating == 6 | GP6_filtered$SPR_Plaus_Rating == 7)
 condition_B <- GP6_filtered$Condition == "B" & (GP6_filtered$SPR_Plaus_Rating == 3 | GP6_filtered$SPR_Plaus_Rating == 4 | GP6_filtered$SPR_Plaus_Rating == 5)
-condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$SPR_Plaus_Rating == 1 | GP6_filtered$SPR_Plaus_Rating == 2)
+condition_C <- GP6_filtered$Condition == "C" & (GP6_filtered$SPR_Plaus_Rating == 1 | GP6_filtered$SPR_Plaus_Rating == 2 | GP6_filtered$SPR_Plaus_Rating == 3)
 
 # should only set ratings for values in SPR_Plaus_Rating column to NA and not for all columns of the same row
 #GP6_filtered$SPR_Plaus_Rating[!(condition_A | condition_B | condition_C)] <- NA

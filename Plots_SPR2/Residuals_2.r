@@ -320,7 +320,7 @@ get_only_legend <- function(plot) {
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
 combined_plot_with_legend <- grid.arrange(combined_plot, legend, nrow = 2, heights = c(9,1))
-combined_plot_with_legend <- grid.text(caption, x = 0.44, y = 0.97, just = "center", gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.text(caption, x = 0.43, y = 0.97, just = "center", gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_SPR2/")

@@ -5,6 +5,7 @@ library(lme4)
 library(lmerTest) #for printing p-values (results are the same like when using lme4, but causes error message that model failed to converge)
 library(dplyr)
 library(ggplot2)
+library(car)
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_Leo_LM/")
 
@@ -52,7 +53,7 @@ for (region in regions)
   region_subset <- subset(GP6, Region == region)
 
   # standardise predictors (target plausibility (per-trial) and distractor surprisal (pre-test))
-  region_subset$scaled_Plaus_per_region <- scale(region_subset$Plaus_target_avg)
+  region_subset$scaled_Plaus_per_region <- scale(region_subset$SPR_Plaus_Rating)
   region_subset$scaled_Surprisaldist_per_region <- scale(region_subset$LeoLM_dist)
   
   # invert predictor target plausibility
@@ -66,6 +67,10 @@ for (region in regions)
   model_per_region <- lmerTest::lmer(logRT_per_region ~ inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region + 
                               (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Subject) + 
                               (1 + inverted_scaled_Plaus_per_region + scaled_Surprisaldist_per_region | Item), data = region_subset)
+  # Calculate VIF
+  vif_values <- vif(model_per_region)
+  # Print VIF values
+  print(vif_values)
   
   # print summary of the model
   summary_per_region <- summary(model_per_region)

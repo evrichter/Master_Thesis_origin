@@ -170,12 +170,18 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p1 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 30)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 30)
 p1 <- p1 + geom_hline(yintercept=0, linetype=2)
 p1 <- p1 + theme_minimal()
 p1 <- p1 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p1 <- p1 + labs(x="Region", y="Z-values", title = "Single Online Plausibility + GPT-2 Surprisal + Pre-critical RT") 
 p1 <- p1 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p1 <- p1 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p1 <- p1 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p1 <- p1 + geom_point(data = Effect_sizes, aes(1, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p1 <- p1 + geom_point(data = Effect_sizes, aes(2, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p1 <- p1 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p1 <- p1 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
 p1 
 
 
@@ -341,12 +347,19 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p2 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 30)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 30)
 p2 <- p2 + geom_hline(yintercept=0, linetype=2)
 p2 <- p2 + theme_minimal()
 p2 <- p2 + scale_color_manual(name="Coefficients", labels=c("Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p2 <- p2 + labs(x="Region", y="Z-values", title = "Single Online Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p2 <- p2 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p2 <- p2 + geom_point(data = Effect_sizes, aes(3, -7, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(1, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(2, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#00FFFF")
+p2 <- p2 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#00FFFF")
 p2 
 
 
@@ -512,13 +525,20 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p3 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 27)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 27)
 p3 <- p3 + geom_hline(yintercept=0, linetype=2)
 p3 <- p3 + theme_minimal()
 p3 <- p3 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p3 <- p3 + labs(x="Region", y="Z-values", title = "Average Online Plausibility + GPT-2 Surprisal + Pre-critical RT") 
 p3 <- p3 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
-p3 
+p3 <- p3 + geom_point(data = Effect_sizes, aes(1, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(2, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(2, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p3 <- p3 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p3
 
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_Leo_LM/")
@@ -684,12 +704,19 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p4 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 27)
+                              y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 27)
 p4 <- p4 + geom_hline(yintercept=0, linetype=2)
 p4 <- p4 + theme_minimal()
 p4 <- p4 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p4 <- p4 + labs(x="Region", y="Z-values", title = "Average Online Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p4 <- p4 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p4 <- p4 + geom_point(data = Effect_sizes, aes(1, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(2, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#00FFFF")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#00FFFF")
+p4 <- p4 + geom_point(data = Effect_sizes, aes(3, -7, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
 p4 
 
 
@@ -856,12 +883,19 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p5 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 30)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 30)
 p5 <- p5 + geom_hline(yintercept=0, linetype=2)
 p5 <- p5 + theme_minimal()
 p5 <- p5 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p5 <- p5 + labs(x="Region", y="Z-values", title = "Average Offline Plausibility + GPT-2 Surprisal + Pre-critical RT") 
 p5 <- p5 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p5 <- p5 + geom_point(data = Effect_sizes, aes(2, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(1, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(2, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p5 <- p5 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
 p5 
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_SPR_Plaus_Leo_LM/")
@@ -1026,25 +1060,50 @@ for (region in regions)
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 p6 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-5, 30)
+                               y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.8) + geom_line(linewidth=0.5) + ylim (-12, 30)
 p6 <- p6 + geom_hline(yintercept=0, linetype=2)
 p6 <- p6 + theme_minimal()
 p6 <- p6 + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "PrecritRT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p6 <- p6 + labs(x="Region", y="Z-values", title = "Average Offline Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p6 <- p6 + theme(legend.position="none", legend.text=element_text(size=7), legend.title=element_text(size=7), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14), axis.text.x = element_text(size = 7)) + theme(plot.title = element_text(size=7)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p6 <- p6 + geom_point(data = Effect_sizes, aes(2, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(3, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(4, -9.5, group = Estimate), size = 2, shape = 19, color = "#FF00FF")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(1, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(2, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(3, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p6 <- p6 + geom_point(data = Effect_sizes, aes(4, -12, group = Estimate), size = 2, shape = 19, color = "#FF0000")
+p6 
 p6 
 
 Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
 
 
 p_legend <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
-                                     y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-5, 30)
+                                     y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) + geom_line(linewidth=0.5) + ylim (-12, 30)
 p_legend <- p_legend + geom_hline(yintercept=0, linetype=2)
 p_legend <- p_legend + theme_minimal()
-p_legend <- p_legend + scale_color_manual(name="Coefficients", labels=c( "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
+p_legend <- p_legend + scale_color_manual(name="Z-values", labels=c( "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
 p_legend <- p_legend + labs(x="Region", y="Z-values", title = "Average Offline Plausibility + LeoLM Surprisal + Pre-critical RT") 
 p_legend <- p_legend + theme(legend.position="bottom", legend.text=element_text(size=10), legend.title=element_text(size=10), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=8)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
 p_legend 
+
+
+Effect_sizes <- subset(SPR_coefficients, Estimate != 'Intercept')
+
+
+p_legend2 <- ggplot(Effect_sizes, aes(x = factor(Region, levels = c("Pre-critical", "Critical", "Spillover", "Post-spillover")), 
+                                     y = Z_value, color = Estimate, group = Estimate)) + geom_point(shape = 4, size = 3.5, stroke = 0.4) 
+p_legend2 <- p_legend2 + geom_hline(yintercept=0, linetype=2)
+p_legend2 <- p_legend2 + theme_minimal()
+p_legend2 <- p_legend2 + scale_color_manual(name="Z-values", labels=c( "Target Plausibility", "Pre-critical RT", "Distractor Surprisal"), values=c("#FF00FF", "#FF0000", "#00FFFF"))
+p_legend2 <- p_legend2 + labs(x="Region", y="Z-values", title = "Average Offline Plausibility + LeoLM Surprisal + Pre-critical RT") 
+p_legend2 <- p_legend2 + theme(legend.position="bottom", legend.text=element_text(size=10), legend.title=element_text(size=10), axis.title.x = element_text(size = 14), axis.title.y = element_text(size = 14)) + theme(plot.title = element_text(size=8)) + theme(plot.margin = margin(t = 0.5, r = 0.2, b = 0, l = 0.2, unit = "cm"))
+p_legend2 <- p_legend2 + scale_color_manual(name="P-values", 
+                                            labels=c("Significant", "Not significant",""), 
+                                            values=c("black", "white", "white")) +
+  guides(color = guide_legend(override.aes = list(shape = c(20, 20, 20))))
+p_legend2 
 
 # plot1 with legend
 combined_plot <- grid.arrange(p1, p2, p3, p4, p5, p6, ncol = 2)
@@ -1062,8 +1121,8 @@ empty_row <- grid.rect(gp = gpar(fill = "white", col = "white"))
 
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
-combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, nrow = 3, heights = c(0.2,9,0.8))
-combined_plot_with_legend <- grid.text(caption, x = 0.215, y = 0.98, just = "center", gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, legend2, nrow = 4, heights = c(0.2, 9,0.3, 0.3))
+combined_plot_with_legend <- grid.text(caption, x = 0.205, y = 0.98, just = "center", gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_SPR1/")

@@ -6,6 +6,7 @@ library(dplyr)
 library(ggplot2)
 library(gridExtra)
 library(grid)
+library(car)
 
 setwd("~/Downloads/Master_Thesis/3_SPR_Study/Results_Plaus_avg_and_SPR_single/")
 GP6 <- read.csv("GP6SPR_processed.csv")
@@ -67,6 +68,11 @@ for (region in regions)
   # print the summary of the model
   summary_per_region <- summary(model_per_region)
   print(summary_per_region)
+  
+  vif_values <- vif(model_per_region)
+  
+  # Print VIF values
+  print(vif_values)
   
   # calculate p-values
   # p_values_per_region <- summary_per_region$coefficients[, "Pr(>|t|)"]
@@ -209,7 +215,7 @@ p_legend2
 
 # plot1 with legend
 combined_plot1 <- grid.arrange(p2, p1, ncol = 2)
-combined_plot2 <- grid.arrange(p3, p4, ncol = 2)
+#combined_plot2 <- grid.arrange(p3, p4, ncol = 2)
 caption <- "Average Plausibility + Single Plausibility + GPT-2 Surprisal"
 
 empty_row <- grid.rect(gp = gpar(fill = "white", col = "white"))
@@ -223,10 +229,15 @@ get_only_legend <- function(plot) {
 } 
 
 # extract legend from plot1 using above function 
-legend1 <- get_only_legend(p_legend1)
-legend2 <- get_only_legend(p_legend2) 
-combined_plot_with_legend <- grid.arrange(empty_row, combined_plot1, empty_row, legend1, combined_plot2, empty_row, legend2, nrow = 7, heights = c(0.2,4.5,0.20, 0.3,4.5,0.20,0.3))
-combined_plot_with_legend <- grid.text(caption, x = 0.463, y = 0.98, gp = gpar(fontsize = 13))
+#legend1 <- get_only_legend(p_legend1)
+#legend2 <- get_only_legend(p_legend2) 
+#combined_plot_with_legend <- grid.arrange(empty_row, combined_plot1, empty_row, legend1, nrow = 5, heights = c(0.2,4.5,0.20, 0.3,4.5,0.20,0.3))
+#combined_plot_with_legend <- grid.text(caption, x = 0.463, y = 0.98, gp = gpar(fontsize = 13))
+#combined_plot_with_legend
+
+legend <- get_only_legend(p_legend1) 
+combined_plot_with_legend <- grid.arrange(empty_row, combined_plot1, legend, nrow = 3, heights = c(0.2,9,0.8))
+combined_plot_with_legend <- grid.text(caption, x = 0.478, y = 0.97, gp = gpar(fontsize = 13))
 combined_plot_with_legend
 
 setwd("~/Downloads/Master_Thesis/Plots_Post_Hoc/")
