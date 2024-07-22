@@ -1066,7 +1066,7 @@ empty_row <- grid.rect(gp = gpar(fill = "white", col = "white"))
 # extract legend from plot1 using above function 
 legend <- get_only_legend(p_legend) 
 combined_plot_with_legend <- grid.arrange(empty_row, combined_plot, legend, nrow = 3, heights = c(0.1,9,0.9))
-combined_plot_with_legend <- grid.text(caption, x = 0.385, y = 0.99, gp = gpar(fontsize = 15))
+combined_plot_with_legend <- grid.text(caption, x = 0.377, y = 0.985, gp = gpar(fontsize = 15))
 combined_plot_with_legend
 
 
