@@ -15,4 +15,4 @@ The thesis investigates how plausibility and expectancy (operationalized as surp
 ## Summary
 Plausibility ratings and surprisal values were used as pre-tests to assess sentence plausibility and expectancy.  
 Two self-paced reading studies served as the main experiments, comparing offline vs. online plausibility ratings as predictors of reading times.  
-The work contributes to understanding how different levels of plausibility and varying degrees of granularity, can account for variability in human sentence processing.
+The work contributes to understanding how different levels of plausibility and varying degrees of granularity can account for variability in human sentence processing.
